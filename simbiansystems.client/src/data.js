@@ -1,6 +1,6 @@
 import server from "./assets/images/server.jpg";
 import storage from "./assets/images/storage.jpg";
-import dekstop from "./assets/images/dekstop.png";
+import dekstop from "./assets/images/dekstop.jpg";
 import laptop from "./assets/images/laptop.png";
 import printer from "./assets/images/printer.png";
 import bccp from "./assets/images/bccp.png"

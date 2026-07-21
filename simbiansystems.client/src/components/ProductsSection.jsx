@@ -59,17 +59,16 @@ export default function ProductsSection({ onTriggerQuoteForCategory }) {
                         >
                             {/* Product Image Panel */}
                             <div className="relative h-48 overflow-hidden bg-primary/5">
-                                <img
-                                    src={category.image}
-                                    alt={category.name}
-                                    className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-500"
-                                    referrerPolicy="no-referrer"
-                                />
-                                <div className="absolute top-4 left-4 bg-primary/90 backdrop-blur-md text-white p-2.5 rounded-lg shadow-md z-10">
-                                    <ProductIcon name={category.iconName} className="w-5 h-5 text-accent" />
+                                <div className="w-full h-48 bg-slate-50 relative flex items-center justify-center overflow-hidden">
+                                    <img
+                                        src={category.image}
+                                        alt={category.name}
+                                        className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                                        referrerPolicy="no-referrer"
+                                    />
                                 </div>
-                                <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded text-[10px] font-sans font-semibold text-primary uppercase tracking-wider shadow">
-                                    {PRODUCT_SECTION_TEXT.tierBadge}
+                                <div className="absolute top-4 left-4 bg-primary/20 text-white p-2.5 rounded-lg shadow-md z-10">
+                                    <ProductIcon name={category.iconName} className="w-5 h-5 text-accent" />
                                 </div>
                             </div>
 
