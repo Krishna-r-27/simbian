@@ -1,9 +1,8 @@
-// Navbar.jsx
 import React, { useState, useEffect, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion"; // Adjusted to standard package export fallback if needed
+import { motion, AnimatePresence } from "framer-motion";
 import {
     Monitor, Laptop, Server, HardDrive, Network, Printer, Zap, Shield,
-    ChevronDown, Menu, X, ArrowRight, ArrowUpRight, Mail, Phone
+    ChevronDown, Menu, X, Mail, Phone
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import {
@@ -11,8 +10,7 @@ import {
     CONTACT_RIBBON,
     ACCESSIBILITY_LABELS,
     BUTTON_TEXT,
-    MAIN_NAV_ITEMS,
-    MEGA_MENU_HEADER
+    MAIN_NAV_ITEMS
 } from "../data/navbarData.js";
 import logo from "../assets/images/simbian-logo.png";
 
@@ -26,7 +24,7 @@ export function CategoryIcon({ name, className = "w-5 h-5" }) {
         case "Printer": return <Printer className={className} />;
         case "Zap": return <Zap className={className} />;
         case "Shield": return <Shield className={className} />;
-        case "default": return <Monitor className={className} />;
+        default: return <Monitor className={className} />;
     }
 }
 
@@ -100,8 +98,8 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                     </div>
                 )}
 
-                {/* Main Navigation Row Container: Added 'relative' here to anchor the mega menu correctly */}
-                <div className="max-w-7xl mx-auto px-6 flex items-center justify-between relative transition-all duration-300 py-4">
+                {/* Main Navigation Row Container */}
+                <div className="max-w-7xl mx-auto px-6 flex items-center justify-between transition-all duration-300 py-4">
                     {/* Logo Home Button */}
                     <button
                         onClick={() => handleLinkClick(MAIN_NAV_ITEMS[0].id)}
@@ -126,7 +124,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                     return (
                                         <div
                                             key={item.id}
-                                            className="py-2" // Removed 'relative' from here so mega menu centers to the parent navbar row instead
+                                            className="relative py-2"
                                             onMouseEnter={() => setActiveDropdown(item.id)}
                                             onMouseLeave={() => setActiveDropdown(null)}
                                         >
@@ -148,47 +146,21 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                         animate={{ opacity: 1, y: 0 }}
                                                         exit={{ opacity: 0, y: 10 }}
                                                         transition={{ duration: 0.15, ease: "easeOut" }}
-                                                        className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-[920px] bg-white rounded-xl shadow-2xl border border-border-light p-6 z-50 grid grid-cols-3 gap-6"
+                                                        className="absolute left-0 top-full mt-2 w-72 bg-white rounded-xl shadow-2xl border border-border-light p-3 z-50 flex flex-col space-y-1 font-normal"
                                                     >
-                                                        <div className="col-span-3 pb-3 mb-1 border-b border-border-light flex items-center justify-between">
-                                                            <div>
-                                                                <h4 className="font-display font-bold text-base text-primary">{MEGA_MENU_HEADER.title}</h4>
-                                                                <p className="text-xs text-gray-500 font-sans">{MEGA_MENU_HEADER.subtitle}</p>
-                                                            </div>
-                                                            <button
-                                                                onClick={() => handleLinkClick(item.id)}
-                                                                className="text-xs font-semibold text-[#2F8F83] flex items-center space-x-1 hover:underline cursor-pointer"
-                                                            >
-                                                                <span>{BUTTON_TEXT.viewAllProducts}</span>
-                                                                <ArrowRight className="w-3.5 h-3.5" />
-                                                            </button>
-                                                        </div>
-
                                                         {MEGA_MENU_CATEGORIES.map((cat, i) => (
-                                                            <div key={i} className="space-y-3">
-                                                                <div className="flex items-center space-x-2 text-primary">
-                                                                    <CategoryIcon name={cat.icon} className="w-4 h-4 text-[#2F8F83]" />
-                                                                    <span className="font-display font-bold text-sm tracking-tight">{cat.title}</span>
+                                                            <button
+                                                                key={i}
+                                                                onClick={() => handleLinkClick("/products")}
+                                                                className="flex items-center space-x-3 p-2.5 rounded-lg hover:bg-slate-50 transition-colors text-left cursor-pointer group w-full"
+                                                            >
+                                                                <div className="p-1.5 rounded-md bg-slate-100 group-hover:bg-[#2F8F83]/10 text-[#2F8F83] transition-colors">
+                                                                    <CategoryIcon name={cat.icon} className="w-4 h-4" />
                                                                 </div>
-                                                                <ul className="space-y-1.5 pl-6 border-l border-border-light/60">
-                                                                    {cat.items.map((subItem, j) => (
-                                                                        <li key={j}>
-                                                                            <button
-                                                                                onClick={() => handleLinkClick("/products")}
-                                                                                className="group block text-left w-full cursor-pointer"
-                                                                            >
-                                                                                <span className="block font-sans text-xs font-semibold text-primary group-hover:text-[#2F8F83] transition-colors flex items-center justify-between">
-                                                                                    {subItem.name}
-                                                                                    <ArrowUpRight className="w-2.5 h-2.5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                                                </span>
-                                                                                <span className="block text-[10px] text-gray-400 font-sans leading-tight mt-0.5 group-hover:text-gray-500">
-                                                                                    {subItem.desc}
-                                                                                </span>
-                                                                            </button>
-                                                                        </li>
-                                                                    ))}
-                                                                </ul>
-                                                            </div>
+                                                                <span className="font-display font-semibold text-sm text-primary group-hover:text-[#2F8F83] transition-colors">
+                                                                    {cat.title}
+                                                                </span>
+                                                            </button>
                                                         ))}
                                                     </motion.div>
                                                 )}
@@ -291,23 +263,13 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                     {mobileProductsOpen && (
                                                         <div className="mt-2 pl-4 border-l border-border-light space-y-2">
                                                             {MEGA_MENU_CATEGORIES.map((cat, idx) => (
-                                                                <div key={idx} className="py-1">
-                                                                    <span className="block font-display font-bold text-xs text-secondary mb-1 uppercase tracking-wider">
-                                                                        {cat.title}
-                                                                    </span>
-                                                                    <ul className="space-y-1">
-                                                                        {cat.items.map((subItem, subIdx) => (
-                                                                            <li key={subIdx}>
-                                                                                <button
-                                                                                    onClick={() => handleLinkClick("/products")}
-                                                                                    className="block w-full text-left font-sans text-xs text-gray-500 hover:text-accent py-0.5 cursor-pointer"
-                                                                                >
-                                                                                    {subItem.name}
-                                                                                </button>
-                                                                            </li>
-                                                                        ))}
-                                                                    </ul>
-                                                                </div>
+                                                                <button
+                                                                    key={idx}
+                                                                    onClick={() => handleLinkClick("/products")}
+                                                                    className="block w-full text-left font-sans text-xs text-gray-600 hover:text-accent py-1 cursor-pointer"
+                                                                >
+                                                                    {cat.title}
+                                                                </button>
                                                             ))}
                                                         </div>
                                                     )}
