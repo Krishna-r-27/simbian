@@ -35,30 +35,43 @@ export const MEGA_MENU_HEADER = {
 
 export const MEGA_MENU_CATEGORIES = [
     {
-        title: "Computing & Workspace",
+        icon: "Monitor",
+        title: "Desktop Computers",
+        items: [{ name: "Desktop Computers" }]
+    },
+    {
         icon: "Laptop",
-        items: [
-            { name: "Laptops & Desktops", desc: "Commercial workstations & ultrabooks", href: "#products-computing" },
-            { name: "Monitors & Displays", desc: "4K, ultra-wide, and ergonomic setups", href: "#products-displays" },
-            { name: "Workstation Accessories", desc: "Docking stations, keyboards & mice", href: "#products-accessories" }
-        ]
+        title: "Business Laptops",
+        items: [{ name: "Business Laptops" }]
     },
     {
-        title: "Enterprise Infrastructure",
         icon: "Server",
-        items: [
-            { name: "Rack & Tower Servers", desc: "High-performance data center processing", href: "#products-servers" },
-            { name: "NAS & SAN Storage", desc: "Scalable enterprise backup arrays", href: "#products-storage" },
-            { name: "Network Switches", desc: "Managed L2/L3 structural switches", href: "#products-networking" }
-        ]
+        title: "Enterprise Servers",
+        items: [{ name: "Enterprise Servers" }]
     },
     {
-        title: "Power & Security",
+        icon: "HardDrive",
+        title: "Storage Solutions",
+        items: [{ name: "Storage Solutions" }]
+    },
+    {
+        icon: "Network",
+        title: "Networking Equipment",
+        items: [{ name: "Networking Equipment" }]
+    },
+    {
+        icon: "Printer",
+        title: "Printers & Scanners",
+        items: [{ name: "Printers & Scanners" }]
+    },
+    {
+        icon: "Zap",
+        title: "UPS & Power Backup",
+        items: [{ name: "UPS & Power Backup" }]
+    },
+    {
         icon: "Shield",
-        items: [
-            { name: "Smart UPS Systems", desc: "Uninterrupted backup power & regulation", href: "#products-ups" },
-            { name: "Firewalls & Gateways", desc: "Next-gen threat protection hardware", href: "#products-security" },
-            { name: "Surveillance Systems", desc: "IP cameras & network video recorders", href: "#products-surveillance" }
-        ]
+        title: "Security & Surveillance",
+        items: [{ name: "Security & Surveillance" }]
     }
 ];
