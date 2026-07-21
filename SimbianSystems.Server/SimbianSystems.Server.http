@@ -1,0 +1,6 @@
+@SimbianSystems.Server_HostAddress = http://localhost:5198
+
+GET {{SimbianSystems.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

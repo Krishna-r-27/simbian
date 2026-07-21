@@ -1,0 +1,348 @@
+// Navbar.jsx
+import React, { useState, useEffect, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion"; // Adjusted to standard package export fallback if needed
+import {
+    Monitor, Laptop, Server, HardDrive, Network, Printer, Zap, Shield,
+    ChevronDown, Menu, X, ArrowRight, ArrowUpRight, Mail, Phone
+} from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import {
+    MEGA_MENU_CATEGORIES,
+    CONTACT_RIBBON,
+    ACCESSIBILITY_LABELS,
+    BUTTON_TEXT,
+    MAIN_NAV_ITEMS,
+    MEGA_MENU_HEADER
+} from "../data/navbarData.js";
+import logo from "../assets/images/simbian-logo.png";
+
+export function CategoryIcon({ name, className = "w-5 h-5" }) {
+    switch (name) {
+        case "Monitor": return <Monitor className={className} />;
+        case "Laptop": return <Laptop className={className} />;
+        case "Server": return <Server className={className} />;
+        case "HardDrive": return <HardDrive className={className} />;
+        case "Network": return <Network className={className} />;
+        case "Printer": return <Printer className={className} />;
+        case "Zap": return <Zap className={className} />;
+        case "Shield": return <Shield className={className} />;
+        case "default": return <Monitor className={className} />;
+    }
+}
+
+export default function Navbar({ onRequestQuote, onNavigate, activeSection = "hero" }) {
+    const [scrolled, setScrolled] = useState(false);
+    const [activeDropdown, setActiveDropdown] = useState(null);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
+
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        let ticking = false;
+
+        const handleScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const isScrolled = window.scrollY > 20;
+                    setScrolled((prev) => (prev !== isScrolled ? isScrolled : prev));
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        setScrolled(window.scrollY > 20);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    const handleLinkClick = useCallback((path) => {
+        setMobileMenuOpen(false);
+        setActiveDropdown(null);
+        navigate(path);
+    }, [navigate]);
+
+    return (
+        <>
+            <header
+                id="main-navbar"
+                className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
+                    ? "bg-white/95 backdrop-blur-md shadow-md border-b border-border-light"
+                    : "bg-white/90 backdrop-blur-sm border-b border-border-light/20"
+                    }`}
+            >
+                {/* Contact Ribbon */}
+                {!scrolled && (
+                    <div className="hidden lg:block bg-neutral-bg text-primary py-2.5 text-xs font-sans border-b border-border-light/50">
+                        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+                            <div className="flex items-center space-x-1.5">
+                                <Phone className="w-3.5 h-3.5 text-primary" />
+                                {CONTACT_RIBBON.phones.map((phone, index) => (
+                                    <React.Fragment key={phone.value}>
+                                        <a href={`tel:${phone.value}`} className="hover:text-accent text-sm transition-colors">
+                                            {phone.display}
+                                        </a>
+                                        {index < CONTACT_RIBBON.phones.length - 1 && (
+                                            <span className="text-primary/20 mx-3 font-normal font-sans">|</span>
+                                        )}
+                                    </React.Fragment>
+                                ))}
+                            </div>
+                            <div className="flex items-center space-x-1.5">
+                                <Mail className="w-3.5 h-3.5 text-primary" />
+                                <a href={`mailto:${CONTACT_RIBBON.email.value}`} className="font-medium text-primary text-sm hover:text-accent transition-colors">
+                                    {CONTACT_RIBBON.email.display}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Main Navigation Row Container: Added 'relative' here to anchor the mega menu correctly */}
+                <div className="max-w-7xl mx-auto px-6 flex items-center justify-between relative transition-all duration-300 py-4">
+                    {/* Logo Home Button */}
+                    <button
+                        onClick={() => handleLinkClick(MAIN_NAV_ITEMS[0].id)}
+                        className="flex items-center space-x-2 group focus:outline-hidden cursor-pointer"
+                        id="nav-logo-link"
+                        aria-label={ACCESSIBILITY_LABELS.logoHome}
+                    >
+                        <img
+                            src={logo}
+                            alt={ACCESSIBILITY_LABELS.brandName}
+                            className="w-42 h-12 object-contain flex-shrink-0 drop-shadow-xs transition-transform group-hover:scale-105 duration-300"
+                        />
+                    </button>
+
+                    {/* Desktop Layout Wrapper */}
+                    <div className="hidden lg:flex items-center space-x-10">
+                        <nav className="flex items-center space-x-8" id="desktop-nav">
+                            {MAIN_NAV_ITEMS.map((item) => {
+                                const isActive = activeSection === item.id;
+
+                                if (item.hasDropdown) {
+                                    return (
+                                        <div
+                                            key={item.id}
+                                            className="py-2" // Removed 'relative' from here so mega menu centers to the parent navbar row instead
+                                            onMouseEnter={() => setActiveDropdown(item.id)}
+                                            onMouseLeave={() => setActiveDropdown(null)}
+                                        >
+                                            <button
+                                                onClick={() => handleLinkClick(item.id)}
+                                                className={`flex items-center space-x-1 font-display font-semibold text-lg tracking-tight transition-colors cursor-pointer ${isActive ? "text-[#2F8F83]" : "text-primary hover:text-[#2F8F83]"
+                                                    }`}
+                                                aria-expanded={activeDropdown === item.id}
+                                                aria-haspopup="true"
+                                            >
+                                                <span>{item.label}</span>
+                                                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.id ? "rotate-180" : ""}`} />
+                                            </button>
+
+                                            <AnimatePresence>
+                                                {activeDropdown === item.id && (
+                                                    <motion.div
+                                                        initial={{ opacity: 0, y: 15 }}
+                                                        animate={{ opacity: 1, y: 0 }}
+                                                        exit={{ opacity: 0, y: 10 }}
+                                                        transition={{ duration: 0.15, ease: "easeOut" }}
+                                                        className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-[920px] bg-white rounded-xl shadow-2xl border border-border-light p-6 z-50 grid grid-cols-3 gap-6"
+                                                    >
+                                                        <div className="col-span-3 pb-3 mb-1 border-b border-border-light flex items-center justify-between">
+                                                            <div>
+                                                                <h4 className="font-display font-bold text-base text-primary">{MEGA_MENU_HEADER.title}</h4>
+                                                                <p className="text-xs text-gray-500 font-sans">{MEGA_MENU_HEADER.subtitle}</p>
+                                                            </div>
+                                                            <button
+                                                                onClick={() => handleLinkClick(item.id)}
+                                                                className="text-xs font-semibold text-[#2F8F83] flex items-center space-x-1 hover:underline cursor-pointer"
+                                                            >
+                                                                <span>{BUTTON_TEXT.viewAllProducts}</span>
+                                                                <ArrowRight className="w-3.5 h-3.5" />
+                                                            </button>
+                                                        </div>
+
+                                                        {MEGA_MENU_CATEGORIES.map((cat, i) => (
+                                                            <div key={i} className="space-y-3">
+                                                                <div className="flex items-center space-x-2 text-primary">
+                                                                    <CategoryIcon name={cat.icon} className="w-4 h-4 text-[#2F8F83]" />
+                                                                    <span className="font-display font-bold text-sm tracking-tight">{cat.title}</span>
+                                                                </div>
+                                                                <ul className="space-y-1.5 pl-6 border-l border-border-light/60">
+                                                                    {cat.items.map((subItem, j) => (
+                                                                        <li key={j}>
+                                                                            <button
+                                                                                onClick={() => handleLinkClick("/products")}
+                                                                                className="group block text-left w-full cursor-pointer"
+                                                                            >
+                                                                                <span className="block font-sans text-xs font-semibold text-primary group-hover:text-[#2F8F83] transition-colors flex items-center justify-between">
+                                                                                    {subItem.name}
+                                                                                    <ArrowUpRight className="w-2.5 h-2.5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                                                </span>
+                                                                                <span className="block text-[10px] text-gray-400 font-sans leading-tight mt-0.5 group-hover:text-gray-500">
+                                                                                    {subItem.desc}
+                                                                                </span>
+                                                                            </button>
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            </div>
+                                                        ))}
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </div>
+                                    );
+                                }
+
+                                return (
+                                    <div key={item.id} className="relative py-2">
+                                        <button
+                                            onClick={() => handleLinkClick(item.id)}
+                                            className={`font-display font-semibold text-lg tracking-tight transition-colors cursor-pointer ${isActive ? "text-[#2F8F83]" : "text-primary hover:text-[#2F8F83]"
+                                                }`}
+                                        >
+                                            {item.label}
+                                        </button>
+                                        {isActive && (
+                                            <motion.div
+                                                layoutId="activeUnderline"
+                                                className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#2F8F83]"
+                                                transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                                            />
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </nav>
+
+                        {/* CTA Trigger */}
+                        <div className="flex items-center">
+                            <button
+                                onClick={onRequestQuote}
+                                className="px-8 py-2.5 bg-primary hover:bg-accent text-white font-display font-bold text-sm rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg cursor-pointer"
+                            >
+                                {BUTTON_TEXT.requestQuote}
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Toggle Control */}
+                    <button
+                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                        className="lg:hidden p-2 text-primary hover:text-accent transition-colors cursor-pointer"
+                        aria-label={ACCESSIBILITY_LABELS.toggleMenu}
+                        aria-expanded={mobileMenuOpen}
+                    >
+                        {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                    </button>
+                </div>
+            </header>
+
+            {/* Mobile View Panel Drawer */}
+            <AnimatePresence>
+                {mobileMenuOpen && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 bg-primary/40 backdrop-blur-sm z-40 lg:hidden"
+                        onClick={() => setMobileMenuOpen(false)}
+                    >
+                        <motion.div
+                            initial={{ x: "100%" }}
+                            animate={{ x: 0 }}
+                            exit={{ x: "100%" }}
+                            transition={{ type: "spring", bounce: 0, duration: 0.35 }}
+                            className="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white shadow-2xl p-6 flex flex-col justify-between overflow-y-auto"
+                            onClick={(e) => e.stopPropagation()}
+                        >
+                            <div className="space-y-6">
+                                <div className="flex items-center justify-between pb-4 border-b border-border-light">
+                                    <div className="flex items-center space-x-2">
+                                        <div className="w-8 h-8 rounded bg-primary flex items-center justify-center">
+                                            <span className="text-white font-display font-extrabold text-sm">
+                                                {ACCESSIBILITY_LABELS.brandAbbr}
+                                            </span>
+                                        </div>
+                                        <span className="font-display font-bold text-base text-primary">
+                                            {ACCESSIBILITY_LABELS.brandName}
+                                        </span>
+                                    </div>
+                                    <button onClick={() => setMobileMenuOpen(false)} className="text-gray-400 hover:text-primary cursor-pointer">
+                                        <X className="w-5 h-5" />
+                                    </button>
+                                </div>
+
+                                <nav className="space-y-4">
+                                    {MAIN_NAV_ITEMS.map((item) => {
+                                        if (item.hasDropdown) {
+                                            return (
+                                                <div key={item.id}>
+                                                    <button
+                                                        onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                                                        className="w-full flex items-center justify-between font-sans font-bold text-base text-primary hover:text-accent py-1 text-left cursor-pointer"
+                                                    >
+                                                        <span>{item.label}</span>
+                                                        <ChevronDown className={`w-4 h-4 transition-transform ${mobileProductsOpen ? "rotate-180" : ""}`} />
+                                                    </button>
+                                                    {mobileProductsOpen && (
+                                                        <div className="mt-2 pl-4 border-l border-border-light space-y-2">
+                                                            {MEGA_MENU_CATEGORIES.map((cat, idx) => (
+                                                                <div key={idx} className="py-1">
+                                                                    <span className="block font-display font-bold text-xs text-secondary mb-1 uppercase tracking-wider">
+                                                                        {cat.title}
+                                                                    </span>
+                                                                    <ul className="space-y-1">
+                                                                        {cat.items.map((subItem, subIdx) => (
+                                                                            <li key={subIdx}>
+                                                                                <button
+                                                                                    onClick={() => handleLinkClick("/products")}
+                                                                                    className="block w-full text-left font-sans text-xs text-gray-500 hover:text-accent py-0.5 cursor-pointer"
+                                                                                >
+                                                                                    {subItem.name}
+                                                                                </button>
+                                                                            </li>
+                                                                        ))}
+                                                                    </ul>
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            );
+                                        }
+
+                                        return (
+                                            <button
+                                                key={item.id}
+                                                onClick={() => handleLinkClick(item.id)}
+                                                className="block w-full text-left font-sans font-bold text-base text-primary hover:text-accent py-1 cursor-pointer"
+                                            >
+                                                {item.label}
+                                            </button>
+                                        );
+                                    })}
+                                </nav>
+                            </div>
+
+                            <div className="pt-6 border-t border-border-light mt-8">
+                                <button
+                                    onClick={() => {
+                                        setMobileMenuOpen(false);
+                                        onRequestQuote();
+                                    }}
+                                    className="w-full py-3 bg-primary hover:bg-accent text-white font-sans font-semibold text-sm rounded-lg text-center shadow-lg cursor-pointer"
+                                >
+                                    {BUTTON_TEXT.requestQuote}
+                                </button>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </>
+    );
+}

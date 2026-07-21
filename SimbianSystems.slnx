@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="simbiansystems.client/simbiansystems.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="SimbianSystems.Server/SimbianSystems.Server.csproj" />
+</Solution>

@@ -1,0 +1,62 @@
+#Remote Hire
+
+# ==========================================
+# Visual Studio / .NET Specific
+# ==========================================
+.vs/
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.sln.docsettings.user
+*.userosscache
+*.slnx.user
+
+# Visual Studio extra cache (auto-generated)
+.vs/**/CopilotIndices/
+.vs/**/ProjectEvaluation/
+.vs/**/*.slnx
+
+# ==========================================
+# Node / React (Client) Specific
+# ==========================================
+node_modules/
+simbiansystems.client/node_modules/
+simbiansystems.client/dist/
+simbiansystems.client/dist-ssr/
+simbiansystems.client/coverage/
+.vite/
+*.tsbuildinfo
+
+# ==========================================
+# Environment & Logs
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Local.json
+
+# ==========================================
+# Editor / IDE Specific
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==========================================
+# Build / Publish Outputs
+# ==========================================
+publish/
+out/
