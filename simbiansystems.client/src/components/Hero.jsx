@@ -5,10 +5,8 @@ import {
     Server, Laptop, Monitor, Network, ArrowRight, ShieldCheck,
     Cpu, HardDrive, Settings, Zap
 } from "lucide-react";
-// Import HERO_BUTTONS alongside STATS_DATA and HERO_COPY
 import { STATS_DATA, HERO_COPY, HERO_BUTTONS } from "../data/heroData";
 
-// Lookup map using the "iconName" string values provided in your STATS_DATA array
 const ICON_MAP = {
     Server: Server,
     Laptop: Laptop,
@@ -25,7 +23,7 @@ export default function Hero({ onExploreProducts, onContactSales }) {
     return (
         <section
             id="hero"
-            className="relative min-h-screen lg:pt-0 pt-30 flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
+            className="relative min-h-screen lg:pt-0 pt-24 sm:pt-28 pb-12 flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
         >
             {/* Subtle background technical grid pattern */}
             <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
@@ -41,37 +39,43 @@ export default function Hero({ onExploreProducts, onContactSales }) {
             </div>
 
             {/* Ambient gradient blobs */}
-            <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-secondary/5 rounded-full filter blur-3xl pointer-events-none" />
-            <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] bg-accent/5 rounded-full filter blur-3xl pointer-events-none" />
+            <div className="absolute top-1/4 right-1/4 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-secondary/5 rounded-full filter blur-3xl pointer-events-none" />
+            <div className="absolute bottom-1/4 left-1/4 w-[250px] sm:w-[400px] h-[250px] sm:h-[400px] bg-accent/5 rounded-full filter blur-3xl pointer-events-none" />
 
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center relative z-10 w-full">
-                {/* Left Copy Column */}
-                <motion.div
-                    className="lg:col-span-6 space-y-8"
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, ease: "easeOut" }}
-                    id="hero-content-left"
-                >
-                    <div className="space-y-4">
-                        <h1 className="text-3xl md:text-5xl font-bold leading-[1.2]">
-                            {/* Corrected nested object paths */}
-                            <span className="block lg:whitespace-nowrap">{HERO_COPY.title.line1}</span>
-                            <span className="text-accent font-extrabold block lg:whitespace-nowrap">{HERO_COPY.title.line2}</span>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-24 items-center relative z-10 w-full">
+
+                {/* Left Column Container (Flex column on mobile to control ordering) */}
+                <div className="lg:col-span-6 flex flex-col space-y-6 lg:space-y-8">
+
+                    {/* Title & Description */}
+                    <motion.div
+                        className="space-y-4"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                        id="hero-content-left"
+                    >
+                        <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold leading-[1.2]">
+                            <span className="block sm:lg:whitespace-nowrap">{HERO_COPY.title.line1}</span>
+                            <span className="text-accent font-extrabold block sm:lg:whitespace-nowrap">{HERO_COPY.title.line2}</span>
                         </h1>
-                        <p className="lead-text max-w-xl">
+                        <p className="lead-text max-w-xl text-sm sm:text-base">
                             {HERO_COPY.description}
                         </p>
-                    </div>
+                    </motion.div>
 
-                    {/* Action buttons */}
-                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                    {/* Desktop-only CTAs placement wrapper (Hidden on mobile, visible lg+) */}
+                    <motion.div
+                        className="hidden lg:flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+                    >
                         <button
                             onClick={onExploreProducts}
                             className="px-8 py-4 bg-primary hover:bg-accent text-white font-sans font-bold text-sm rounded-lg shadow-xl shadow-primary/10 hover:shadow-accent/15 transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer group"
                             id="hero-primary-cta"
                         >
-                            {/* Corrected to HERO_BUTTONS object */}
                             <span>{HERO_BUTTONS.primary}</span>
                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </button>
@@ -80,11 +84,10 @@ export default function Hero({ onExploreProducts, onContactSales }) {
                             className="px-8 py-4 border border-primary/20 text-primary hover:bg-primary/5 font-sans font-bold text-sm rounded-lg transition-all text-center cursor-pointer"
                             id="hero-secondary-cta"
                         >
-                            {/* Corrected to HERO_BUTTONS object */}
                             {HERO_BUTTONS.secondary}
                         </button>
-                    </div>
-                </motion.div>
+                    </motion.div>
+                </div>
 
                 {/* Right Column: Modern Stats Grid */}
                 <motion.div
@@ -95,13 +98,12 @@ export default function Hero({ onExploreProducts, onContactSales }) {
                     id="hero-stats-right"
                 >
                     {STATS_DATA.map((stat, index) => {
-                        // Updated to dynamically match stat.iconName directly from data file
                         const IconComponent = ICON_MAP[stat.iconName] || Monitor;
 
                         return (
                             <motion.div
                                 key={stat.id}
-                                className="bg-white border border-border-light hover:border-accent/30 rounded-xl px-4 py-3 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group max-w-xs w-full mx-auto"
+                                className="bg-white border border-border-light hover:border-accent/30 rounded-xl px-4 py-3 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group max-w-xs sm:max-w-none w-full mx-auto"
                                 whileHover={{ y: -3 }}
                                 transition={{ duration: 0.2 }}
                             >
@@ -114,10 +116,10 @@ export default function Hero({ onExploreProducts, onContactSales }) {
                                     </span>
                                 </div>
                                 <div className="space-y-0.5">
-                                    <div className="font-display font-black text-2xl text-primary tracking-tight mt-2">
+                                    <div className="font-display font-black text-xl sm:text-2xl text-primary tracking-tight mt-2">
                                         {stat.value}
                                     </div>
-                                    <h4 className="font-sans font-bold text-sm text-gray-800 tracking-tight leading-snug mt-1">
+                                    <h4 className="font-sans font-bold text-xs sm:text-sm text-gray-800 tracking-tight leading-snug mt-1">
                                         {stat.label}
                                     </h4>
                                 </div>
@@ -125,6 +127,29 @@ export default function Hero({ onExploreProducts, onContactSales }) {
                         );
                     })}
                 </motion.div>
+
+                {/* Mobile-only CTAs placement wrapper (Visible on mobile/tablet below stats, hidden lg+) */}
+                <motion.div
+                    className="flex lg:hidden flex-col sm:flex-row items-stretch sm:items-center gap-3.5 w-full max-w-lg mx-auto pt-2"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
+                >
+                    <button
+                        onClick={onExploreProducts}
+                        className="px-6 py-3.5 bg-primary hover:bg-accent text-white font-sans font-bold text-sm rounded-lg shadow-xl shadow-primary/10 hover:shadow-accent/15 transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer group"
+                    >
+                        <span>{HERO_BUTTONS.primary}</span>
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </button>
+                    <button
+                        onClick={onContactSales}
+                        className="px-6 py-3.5 border border-primary/20 text-primary hover:bg-primary/5 font-sans font-bold text-sm rounded-lg transition-all text-center cursor-pointer"
+                    >
+                        {HERO_BUTTONS.secondary}
+                    </button>
+                </motion.div>
+
             </div>
         </section>
     );

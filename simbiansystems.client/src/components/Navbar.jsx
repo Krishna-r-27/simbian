@@ -62,6 +62,26 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
         navigate(path);
     }, [navigate]);
 
+    // Helper to resolve route paths for sub-category items
+    const handleCategoryClick = useCallback((cat) => {
+        // If the category has explicit items with paths, use them
+        const customPath = cat.items?.[0]?.path;
+
+        if (customPath) {
+            handleLinkClick(customPath);
+        } else if (cat.title === "Desktop Computers") {
+            handleLinkClick("/products/desktops");
+        } else {
+            handleLinkClick("/products");
+        }
+    }, [handleLinkClick]);
+
+    const handleQuoteClick = useCallback(() => {
+        setMobileMenuOpen(false);
+        setActiveDropdown(null);
+        navigate("/contact-us");
+    }, [navigate]);
+
     return (
         <>
             <header
@@ -151,7 +171,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                         {MEGA_MENU_CATEGORIES.map((cat, i) => (
                                                             <button
                                                                 key={i}
-                                                                onClick={() => handleLinkClick("/products")}
+                                                                onClick={() => handleCategoryClick(cat)}
                                                                 className="flex items-center space-x-3 p-2.5 rounded-lg hover:bg-slate-50 transition-colors text-left cursor-pointer group w-full"
                                                             >
                                                                 <div className="p-1.5 rounded-md bg-slate-100 group-hover:bg-[#2F8F83]/10 text-[#2F8F83] transition-colors">
@@ -193,7 +213,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                         {/* CTA Trigger */}
                         <div className="flex items-center">
                             <button
-                                onClick={onRequestQuote}
+                                onClick={handleQuoteClick}
                                 className="px-8 py-2.5 bg-primary hover:bg-accent text-white font-display font-bold text-sm rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg cursor-pointer"
                             >
                                 {BUTTON_TEXT.requestQuote}
@@ -201,7 +221,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                         </div>
                     </div>
 
-                    {/* Toggle Control */}
+                    {/* Mobile Toggle Control */}
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         className="lg:hidden p-2 text-primary hover:text-accent transition-colors cursor-pointer"
@@ -265,7 +285,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                             {MEGA_MENU_CATEGORIES.map((cat, idx) => (
                                                                 <button
                                                                     key={idx}
-                                                                    onClick={() => handleLinkClick("/products")}
+                                                                    onClick={() => handleCategoryClick(cat)}
                                                                     className="block w-full text-left font-sans text-xs text-gray-600 hover:text-accent py-1 cursor-pointer"
                                                                 >
                                                                     {cat.title}
@@ -292,10 +312,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
 
                             <div className="pt-6 border-t border-border-light mt-8">
                                 <button
-                                    onClick={() => {
-                                        setMobileMenuOpen(false);
-                                        onRequestQuote();
-                                    }}
+                                    onClick={handleQuoteClick}
                                     className="w-full py-3 bg-primary hover:bg-accent text-white font-sans font-semibold text-sm rounded-lg text-center shadow-lg cursor-pointer"
                                 >
                                     {BUTTON_TEXT.requestQuote}
