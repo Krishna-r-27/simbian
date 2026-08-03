@@ -43,7 +43,7 @@ export default function ContactSection() {
     return (
         <section
             id="contact"
-            className="py-100 bg-white border-b border-border-light relative"
+            className="py-20 lg:py-16 bg-white border-b border-border-light relative"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 

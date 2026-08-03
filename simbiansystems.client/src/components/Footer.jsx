@@ -19,23 +19,45 @@ export default function Footer({ onNavigate }) {
         }
     };
 
+    const renderLink = (link) => {
+        const isPath = Boolean(link.path);
+        const hrefValue = isPath ? link.path : `#${link.targetId || ""}`;
+
+        return (
+            <a
+                href={hrefValue}
+                onClick={(e) => {
+                    if (!isPath && link.targetId && link.targetId !== "#") {
+                        e.preventDefault();
+                        if (onNavigate) {
+                            onNavigate(link.targetId);
+                        }
+                    }
+                }}
+                className="hover:text-accent transition-colors"
+            >
+                {link.name}
+            </a>
+        );
+    };
+
     return (
         <footer
             id="main-footer"
-            className="bg-primary text-white border-t border-white/5 pt-20 pb-8 relative"
+            className="bg-primary text-white border-t border-white/5 pt-16 pb-8 relative"
         >
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-16 border-b border-white/5">
+            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12 border-b border-white/10">
 
-                {/* Column 1: Company Logo & Info */}
-                <div className="lg:col-span-4 space-y-6">
+                {/* Column 1: Logo & Info (Spans 4 columns) */}
+                <div className="lg:col-span-4 space-y-5 pr-2">
                     <div className="inline-flex items-center justify-center rounded-xl bg-white p-3 shadow-md">
                         <img
                             src={logo}
                             alt="Simbian Systems"
-                            className="h-12 lg:h-14 w-auto object-contain"
+                            className="h-10 lg:h-12 w-auto object-contain"
                         />
                     </div>
-                    <p className="font-sans lg:text-sm text-xs text-slate-300 leading-relaxed max-w-sm">
+                    <p className="font-sans text-xs sm:text-sm text-slate-300 leading-relaxed">
                         {FOOTER_DATA.companyDescription}
                     </p>
 
@@ -46,7 +68,7 @@ export default function Footer({ onNavigate }) {
                                 key={social.label}
                                 href={social.url}
                                 aria-label={social.label}
-                                className="w-8 h-8 rounded bg-white/5 hover:bg-accent hover:text-white text-slate-300 flex items-center justify-center transition-colors"
+                                className="w-8 h-8 rounded bg-white/10 hover:bg-accent hover:text-white text-slate-300 flex items-center justify-center transition-colors"
                             >
                                 {renderSocialIcon(social.icon)}
                             </a>
@@ -54,57 +76,53 @@ export default function Footer({ onNavigate }) {
                     </div>
                 </div>
 
-                {/* Columns 2-4: Structured Nav Items */}
-                {FOOTER_DATA.navigationSections.map((section) => (
-                    <div key={section.title} className="lg:col-span-2 space-y-4">
-                        <h4 className="font-display font-extrabold text-xs uppercase tracking-wider text-accent">
-                            {section.title}
-                        </h4>
-                        <ul className="space-y-2.5 font-sans lg:text-sm text-xs text-slate-300">
-                            {section.links.map((link) => {
-                                const isObjectLink = typeof link === "object";
-                                const name = isObjectLink ? link.name : link;
-                                const target = isObjectLink ? link.targetId : section.targetId;
-
-                                return (
-                                    <li key={name}>
-                                        <a
-                                            href={`#${target}`}
-                                            onClick={() => target !== "#" && onNavigate(target)}
-                                            className="hover:text-accent transition-colors"
-                                        >
-                                            {name}
-                                        </a>
-                                    </li>
-                                );
-                            })}
-                        </ul>
-                    </div>
-                ))}
-
-                {/* Column 5: Direct Contact Grid */}
-                <div className="lg:col-span-2 space-y-4">
-                    <h4 className="font-display font-extrabold lg:text-sm text-xs uppercase tracking-wider text-accent">
-                        Direct Contact
+                {/* Column 2: Navigation Section 1 (Quick Links) */}
+                <div className="lg:col-span-2 space-y-4 lg:pl-15">
+                    <h4 className="font-display font-bold text-xs uppercase tracking-widest text-accent/90">
+                        {FOOTER_DATA.navigationSections[0]?.title || "Quick Links"}
                     </h4>
-                    <ul className="space-y-3 font-sans text-xs text-slate-300">
-                        <li className="grid grid-cols-[18px_1fr] gap-3">
-                            <FiMapPin className="w-4 h-4 text-accent mt-1" />
+                    <ul className="space-y-2.5 font-sans text-xs sm:text-sm text-slate-300">
+                        {FOOTER_DATA.navigationSections[0]?.links.map((link) => (
+                            <li key={link.name}>
+                                {renderLink(link)}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
 
-                            <span className="lg:text-sm text-xs">
-                                {FOOTER_DATA.contactInfo.location}
-                            </span>
+                {/* Column 3: Navigation Section 2 (Services / Offerings) */}
+                <div className="lg:col-span-3 space-y-4 lg:pl-10">
+                    <h4 className="font-display font-bold text-xs uppercase tracking-widest text-accent/90">
+                        {FOOTER_DATA.navigationSections[1]?.title || "Our Services"}
+                    </h4>
+                    <ul className="space-y-2.5 font-sans text-xs sm:text-sm text-slate-300">
+                        {FOOTER_DATA.navigationSections[1]?.links.map((link) => (
+                            <li key={link.name}>
+                                {renderLink(link)}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                {/* Column 4: Contact Info (Spans 3 columns) */}
+                <div className="lg:col-span-3 space-y-4 lg:pl-5">
+                    <h4 className="font-display font-bold text-xs uppercase tracking-widest text-accent/90">
+                        Contact Us
+                    </h4>
+                    <ul className="space-y-3.5 font-sans text-xs sm:text-sm text-slate-300">
+                        <li className="grid grid-cols-[18px_1fr] gap-3 items-start">
+                            <FiMapPin className="w-4 h-4 text-accent mt-0.5" />
+                            <span>{FOOTER_DATA.contactInfo.location}</span>
                         </li>
-                        {/* Phone */}
-                        <li className="grid grid-cols-[18px_1fr] gap-3">
-                            <FiPhone className="w-4 h-4 text-accent mt-1" />
 
-                            <div className="space-y-1.5">
+                        <li className="grid grid-cols-[18px_1fr] gap-3 items-start">
+                            <FiPhone className="w-4 h-4 text-accent mt-0.5" />
+                            <div className="space-y-1">
                                 {FOOTER_DATA.contactInfo.phoneNumbers.map((phone) => (
                                     <a
                                         key={phone}
                                         href={`tel:${phone.replace(/\s+/g, "")}`}
-                                        className="block lg:text-sm text-xs font-semibold hover:text-accent transition-colors"
+                                        className="block font-semibold hover:text-accent transition-colors"
                                     >
                                         {phone}
                                     </a>
@@ -112,16 +130,14 @@ export default function Footer({ onNavigate }) {
                             </div>
                         </li>
 
-                        {/* Email */}
-                        <li className="grid grid-cols-[18px_1fr] gap-3">
-                            <FiMail className="w-4 h-4 text-accent mt-1" />
-
-                            <div className="space-y-1.5 min-w-0">
+                        <li className="grid grid-cols-[18px_1fr] gap-3 items-start">
+                            <FiMail className="w-4 h-4 text-accent mt-0.5" />
+                            <div className="space-y-1 min-w-0">
                                 {FOOTER_DATA.contactInfo.emails.map((email) => (
                                     <a
                                         key={email}
                                         href={`mailto:${email}`}
-                                        className="block lg:text-sm text-xs hover:text-accent transition-colors"
+                                        className="block hover:text-accent transition-colors truncate"
                                     >
                                         {email}
                                     </a>
@@ -132,8 +148,8 @@ export default function Footer({ onNavigate }) {
                 </div>
             </div>
 
-            {/* Bottom Processing Bar */}
-            <div className="max-w-7xl mx-auto px-6 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-sans lg:text-sm text-[10px] text-slate-300">
+            {/* Bottom Bar */}
+            <div className="max-w-7xl mx-auto px-6 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-sans text-xs text-slate-400">
                 <div>
                     &copy; {new Date().getFullYear()} {FOOTER_DATA.copyrightText}
                 </div>
@@ -143,9 +159,9 @@ export default function Footer({ onNavigate }) {
                         href={FOOTER_DATA.designerUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-slate-300 transition-colors"
+                        className="text-slate-200 transition-colors"
                     >
-                        Designed by{" "}
+                        Website Designed by{" "}
                         <span className="font-semibold text-white hover:text-accent">
                             {FOOTER_DATA.designerName}
                         </span>
@@ -154,9 +170,8 @@ export default function Footer({ onNavigate }) {
                     <button
                         onClick={scrollToTop}
                         className="flex items-center space-x-1.5 hover:text-white transition-colors cursor-pointer group"
-                        id="scroll-to-top-footer"
                     >
-                        <span className="text-xs">Back to Top</span>
+                        <span>Back to Top</span>
                         <FiArrowUp className="w-3.5 h-3.5 group-hover:-translate-y-0.5 transition-transform" />
                     </button>
                 </div>
