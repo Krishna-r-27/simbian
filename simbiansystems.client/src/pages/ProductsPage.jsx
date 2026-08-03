@@ -232,7 +232,7 @@ export default function ProductsPage() {
                                     >
                                         <div className="p-5">
 
-                                            <div className="relative h-48 rounded-xl flex justify-center items-center p-4">
+                                            <div className="relative h-48 rounded-xl flex justify-center items-center p-4 ">
                                                 {product.brand && (
                                                     <span
                                                         className={`absolute top-2 left-2 z-10 px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide border ${getBrandBadgeClasses(product.brand)}`}
