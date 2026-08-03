@@ -1,0 +1,764 @@
+2026-07-21 14:12:56.371 +05:30 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Ronak\simbiansystems\SimbianSystems.Server\Program.cs:line 109
+2026-07-21 14:34:47.468 +05:30 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Ronak\simbiansystems\SimbianSystems.Server\Program.cs:line 109
+2026-07-21 14:44:55.389 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-07-21 14:44:55.456 +05:30 [INF] HTTP GET /api/dashboard/stats responded 401 in 94.8709 ms
+2026-07-21 14:44:55.582 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 57.1279 ms
+2026-07-21 15:26:04.380 +05:30 [INF] HTTP GET /swagger responded 301 in 62.9940 ms
+2026-07-21 15:26:04.668 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 150.5414 ms
+2026-07-21 15:26:04.922 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 151.3970 ms
+2026-07-21 15:26:04.922 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 151.7729 ms
+2026-07-21 15:26:05.007 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 10.9243 ms
+2026-07-21 15:26:05.021 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 250.1588 ms
+2026-07-21 15:26:05.314 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 39.0973 ms
+2026-07-21 15:26:05.495 +05:30 [INF] HTTP GET /swagger/favicon-16x16.png responded 200 in 0.2805 ms
+2026-07-21 15:26:05.607 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 311.0921 ms
+2026-07-21 15:26:53.459 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 957.8390 ms
+2026-07-21 15:26:53.748 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 228.7794 ms
+2026-07-21 15:27:22.471 +05:30 [INF] HTTP GET /api/products responded 200 in 131.8947 ms
+2026-07-21 15:27:24.450 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 39.3973 ms
+2026-07-21 15:27:24.457 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 38.1670 ms
+2026-07-21 15:27:24.458 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 47.4045 ms
+2026-07-21 15:27:24.458 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 39.0849 ms
+2026-07-21 15:27:24.540 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 49.7731 ms
+2026-07-21 15:27:24.540 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 52.7838 ms
+2026-07-21 15:27:40.041 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.8612 ms
+2026-07-21 15:27:40.041 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 9.5873 ms
+2026-07-21 15:27:40.078 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 11.8472 ms
+2026-07-21 15:28:04.424 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 10.7306 ms
+2026-07-21 15:28:04.424 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 10.5562 ms
+2026-07-21 15:28:04.452 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.8620 ms
+2026-07-21 15:28:06.560 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.5589 ms
+2026-07-21 15:28:06.560 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.2498 ms
+2026-07-21 15:28:06.593 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 6.6960 ms
+2026-07-21 15:28:12.562 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 10.0123 ms
+2026-07-21 15:28:12.562 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 9.7374 ms
+2026-07-21 15:28:12.593 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 6.5765 ms
+2026-07-21 15:28:28.803 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.9034 ms
+2026-07-21 15:28:28.803 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.8307 ms
+2026-07-21 15:28:28.834 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.9735 ms
+2026-07-21 15:28:31.848 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.5721 ms
+2026-07-21 15:28:31.848 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.2057 ms
+2026-07-21 15:28:31.873 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.4275 ms
+2026-07-21 15:28:34.242 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.6693 ms
+2026-07-21 15:28:34.242 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.3439 ms
+2026-07-21 15:28:34.269 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.4830 ms
+2026-07-21 15:28:51.315 +05:30 [INF] HTTP POST /api/specs/definitions responded 200 in 88.7187 ms
+2026-07-21 15:28:51.340 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 6.0140 ms
+2026-07-21 15:28:51.365 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 6.9826 ms
+2026-07-21 15:28:54.212 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 9.9908 ms
+2026-07-21 15:28:54.212 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.3096 ms
+2026-07-21 15:28:54.238 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.6671 ms
+2026-07-21 15:28:56.590 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.9648 ms
+2026-07-21 15:28:56.590 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.5645 ms
+2026-07-21 15:28:56.615 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.2688 ms
+2026-07-21 15:28:58.399 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 5.5556 ms
+2026-07-21 15:28:58.404 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 9.6854 ms
+2026-07-21 15:28:58.430 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.9911 ms
+2026-07-21 15:29:00.935 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.4502 ms
+2026-07-21 15:29:00.935 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 9.8743 ms
+2026-07-21 15:29:00.964 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 5.7857 ms
+2026-07-21 15:29:02.827 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 7.3926 ms
+2026-07-21 15:29:02.827 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.3977 ms
+2026-07-21 15:29:02.855 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 7.4717 ms
+2026-07-21 15:29:10.576 +05:30 [INF] HTTP DELETE /api/specs/definitions/55 responded 200 in 52.6199 ms
+2026-07-21 15:29:10.606 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 8.3405 ms
+2026-07-21 15:29:10.640 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 7.7399 ms
+2026-07-21 15:29:22.836 +05:30 [INF] HTTP GET /api/product-quotes responded 200 in 52.3324 ms
+2026-07-21 15:29:28.173 +05:30 [INF] HTTP GET /api/products responded 200 in 10.5996 ms
+2026-07-21 15:29:33.130 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.6362 ms
+2026-07-21 15:29:33.133 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 11.1028 ms
+2026-07-21 15:29:36.147 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.4468 ms
+2026-07-21 15:33:38.920 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5915.3364 ms
+2026-07-21 15:33:39.033 +05:30 [INF] HTTP GET //index.html responded 404 in 0.4714 ms
+2026-07-21 15:34:06.169 +05:30 [INF] HTTP GET //index.html responded 404 in 0.1588 ms
+2026-07-21 15:39:06.907 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 48.4809 ms
+2026-07-21 15:39:06.960 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 5.7875 ms
+2026-07-21 15:40:29.947 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.2441 ms
+2026-07-21 15:40:29.971 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.5668 ms
+2026-07-21 15:40:51.548 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 68.4278 ms
+2026-07-21 15:40:51.557 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 46.9147 ms
+2026-07-21 15:42:00.882 +05:30 [INF] HTTP GET /swagger responded 301 in 41.5378 ms
+2026-07-21 15:42:01.147 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 142.4935 ms
+2026-07-21 15:42:02.315 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 319.8770 ms
+2026-07-21 15:42:15.864 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 415.3184 ms
+2026-07-21 15:42:26.635 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 131.3228 ms
+2026-07-21 15:42:28.713 +05:30 [INF] HTTP GET /api/products responded 200 in 218.9180 ms
+2026-07-21 15:42:30.227 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 38.0595 ms
+2026-07-21 15:42:30.227 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 21.9420 ms
+2026-07-21 15:43:12.813 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 26.8443 ms
+2026-07-21 15:43:18.612 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 33.0430 ms
+2026-07-21 15:43:38.227 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 32.6519 ms
+2026-07-21 15:46:30.293 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 33.8405 ms
+2026-07-21 15:47:25.220 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 168.0832 ms
+2026-07-21 15:48:02.660 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 34.8976 ms
+2026-07-21 16:05:39.932 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 61.7303 ms
+2026-07-21 16:05:41.047 +05:30 [INF] HTTP GET /api/products responded 200 in 14.6133 ms
+2026-07-21 16:05:43.192 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.1736 ms
+2026-07-21 16:05:43.213 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.8611 ms
+2026-07-21 16:06:35.404 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 34.5598 ms
+2026-07-21 16:06:35.476 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 50.0888 ms
+2026-07-21 16:06:35.541 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 77.6141 ms
+2026-07-21 16:06:35.557 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 139.6308 ms
+2026-07-21 16:06:35.767 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 146.5612 ms
+2026-07-21 16:06:35.820 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 20.4267 ms
+2026-07-21 16:06:37.269 +05:30 [INF] HTTP GET /api/product-quotes responded 200 in 249.3037 ms
+2026-07-21 16:06:40.332 +05:30 [INF] HTTP GET /api/products responded 200 in 29.4310 ms
+2026-07-21 16:06:42.848 +05:30 [INF] HTTP GET /api/enquiries responded 200 in 86.0551 ms
+2026-07-21 16:06:45.417 +05:30 [INF] HTTP GET /api/products responded 200 in 35.1025 ms
+2026-07-21 16:06:51.527 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 23.1798 ms
+2026-07-21 16:06:51.535 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 29.9396 ms
+2026-07-21 16:07:07.143 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 65.5250 ms
+2026-07-21 16:09:24.492 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 14538.5953 ms
+2026-07-21 16:09:24.673 +05:30 [INF] HTTP GET /uploads/products/03a55218e4fb416ea3bf63103d684338.webp responded 200 in 84.5346 ms
+2026-07-21 16:10:19.951 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1271.0601 ms
+2026-07-21 16:10:20.077 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1397.2681 ms
+2026-07-21 16:10:20.207 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1280.2119 ms
+2026-07-21 16:10:28.432 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 9459.8890 ms
+2026-07-21 16:10:28.633 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 9697.9378 ms
+2026-07-21 16:10:31.734 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 12758.8952 ms
+2026-07-21 16:10:33.358 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 14064.9351 ms
+2026-07-21 16:10:37.112 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 17965.5630 ms
+2026-07-21 16:12:08.077 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 108489.7892 ms
+2026-07-21 16:12:08.580 +05:30 [INF] HTTP GET /uploads/products/69d39974592e463e885ebceed948ac4a.webp responded 200 in 61.5460 ms
+2026-07-21 16:12:08.581 +05:30 [INF] HTTP GET /uploads/products/beef2e6353da47c5bf5fe70c859d7a4d.webp responded 200 in 68.6071 ms
+2026-07-21 16:12:08.632 +05:30 [INF] HTTP GET /uploads/products/1ea87f9007a141099c043d457de01195.webp responded 200 in 19.0615 ms
+2026-07-21 16:12:08.614 +05:30 [INF] HTTP GET /uploads/products/6dbecd2cb2114da3abc14eb965876768.webp responded 200 in 29.1679 ms
+2026-07-21 16:12:08.600 +05:30 [INF] HTTP GET /uploads/products/080ec231746b49af969f58b76934e35c.webp responded 200 in 61.5563 ms
+2026-07-21 16:12:08.580 +05:30 [INF] HTTP GET /uploads/products/4d0ce5c1284b4b60b9074b3ef811667b.webp responded 200 in 60.7026 ms
+2026-07-21 16:12:08.610 +05:30 [INF] HTTP GET /uploads/products/b09a0e992fa8424bbdec31716b7ff6dd.webp responded 200 in 26.4619 ms
+2026-07-21 16:12:08.625 +05:30 [INF] HTTP GET /uploads/products/df1cd5c02f94439fae25e120cfcccb84.webp responded 200 in 14.1656 ms
+2026-07-21 16:12:08.679 +05:30 [INF] HTTP GET /uploads/products/37eb04b854a04eac9e3800b67af33000.webp responded 200 in 52.9015 ms
+2026-07-21 16:19:32.935 +05:30 [ERR] Failed executing DbCommand (332ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 500), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (DbType = Boolean), @p8='?' (Size = 100), @p9='?' (Size = 200), @p10='?' (Size = 500), @p11='?' (Size = 500), @p12='?' (Size = 200), @p13='?' (Size = -1), @p14='?' (Size = 220), @p15='?' (DbType = DateTime), @p16='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Products` (`Brand`, `Brochure`, `CategoryId`, `CreatedOn`, `Description`, `DisplayOrder`, `FeaturedImage`, `IsPublished`, `ModelNumber`, `Name`, `SeoDescription`, `SeoKeywords`, `SeoTitle`, `ShortDescription`, `Slug`, `UpdatedOn`, `Warranty`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+SELECT `Id`
+FROM `Products`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2026-07-21 16:19:33.692 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'SimbianSystems.Server.Persistence.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-07-21 16:19:34.446 +05:30 [ERR] HTTP POST /api/products responded 500 in 2822.3404 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-21 16:19:34.628 +05:30 [ERR] Unhandled exception
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 5
+2026-07-21 16:20:06.493 +05:30 [ERR] Failed executing DbCommand (196ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 500), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (DbType = Boolean), @p8='?' (Size = 100), @p9='?' (Size = 200), @p10='?' (Size = 500), @p11='?' (Size = 500), @p12='?' (Size = 200), @p13='?' (Size = -1), @p14='?' (Size = 220), @p15='?' (DbType = DateTime), @p16='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Products` (`Brand`, `Brochure`, `CategoryId`, `CreatedOn`, `Description`, `DisplayOrder`, `FeaturedImage`, `IsPublished`, `ModelNumber`, `Name`, `SeoDescription`, `SeoKeywords`, `SeoTitle`, `ShortDescription`, `Slug`, `UpdatedOn`, `Warranty`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+SELECT `Id`
+FROM `Products`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2026-07-21 16:20:06.911 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'SimbianSystems.Server.Persistence.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-07-21 16:20:07.709 +05:30 [ERR] HTTP POST /api/products responded 500 in 1479.5864 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-21 16:20:07.864 +05:30 [ERR] Unhandled exception
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 5
+2026-07-21 16:20:31.040 +05:30 [ERR] Failed executing DbCommand (203ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 500), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (DbType = Boolean), @p8='?' (Size = 100), @p9='?' (Size = 200), @p10='?' (Size = 500), @p11='?' (Size = 500), @p12='?' (Size = 200), @p13='?' (Size = -1), @p14='?' (Size = 220), @p15='?' (DbType = DateTime), @p16='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Products` (`Brand`, `Brochure`, `CategoryId`, `CreatedOn`, `Description`, `DisplayOrder`, `FeaturedImage`, `IsPublished`, `ModelNumber`, `Name`, `SeoDescription`, `SeoKeywords`, `SeoTitle`, `ShortDescription`, `Slug`, `UpdatedOn`, `Warranty`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+SELECT `Id`
+FROM `Products`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2026-07-21 16:20:31.354 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'SimbianSystems.Server.Persistence.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-07-21 16:20:31.987 +05:30 [ERR] HTTP POST /api/products responded 500 in 1195.8283 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-21 16:20:32.119 +05:30 [ERR] Unhandled exception
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 5
+2026-07-21 16:20:42.546 +05:30 [ERR] Failed executing DbCommand (183ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 500), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (DbType = Boolean), @p8='?' (Size = 100), @p9='?' (Size = 200), @p10='?' (Size = 500), @p11='?' (Size = 500), @p12='?' (Size = 200), @p13='?' (Size = -1), @p14='?' (Size = 220), @p15='?' (DbType = DateTime), @p16='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Products` (`Brand`, `Brochure`, `CategoryId`, `CreatedOn`, `Description`, `DisplayOrder`, `FeaturedImage`, `IsPublished`, `ModelNumber`, `Name`, `SeoDescription`, `SeoKeywords`, `SeoTitle`, `ShortDescription`, `Slug`, `UpdatedOn`, `Warranty`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+SELECT `Id`
+FROM `Products`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2026-07-21 16:20:42.943 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'SimbianSystems.Server.Persistence.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-07-21 16:20:43.769 +05:30 [ERR] HTTP POST /api/products responded 500 in 1449.4291 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-21 16:20:43.937 +05:30 [ERR] Unhandled exception
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Data too long for column 'ShortDescription' at row 1
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Application.Services.ProductService.CreateAsync(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Application\Services\ProductService.cs:line 29
+   at SimbianSystems.Server.Controllers.ProductsController.Create(ProductUpsertDto dto, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\ProductsController.cs:line 37
+   at lambda_method136(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 5
+2026-07-21 16:31:00.642 +05:30 [INF] HTTP GET /swagger responded 301 in 92.5167 ms
+2026-07-21 16:31:01.154 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 248.2261 ms
+2026-07-21 16:31:03.563 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1051.4822 ms
+2026-07-21 16:31:30.877 +05:30 [INF] HTTP GET /api/dashboard/stats responded 401 in 665.9961 ms
+2026-07-21 16:31:32.438 +05:30 [INF] HTTP POST /api/auth/refresh responded 200 in 1470.6095 ms
+2026-07-21 16:31:33.505 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 507.9095 ms
+2026-07-21 16:31:54.361 +05:30 [INF] HTTP GET /api/products responded 200 in 422.3937 ms
+2026-07-21 16:31:59.464 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 57.8752 ms
+2026-07-21 16:31:59.486 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 74.9947 ms
+2026-07-21 16:32:01.692 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 147.2799 ms
+2026-07-21 16:33:39.746 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 15369.7375 ms
+2026-07-21 16:33:39.981 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1925.7799 ms
+2026-07-21 16:33:40.011 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1882.2378 ms
+2026-07-21 16:33:40.200 +05:30 [INF] HTTP GET /uploads/products/670c5841b2314b87b71d643fbab630c6.webp responded 200 in 166.1836 ms
+2026-07-21 16:33:40.338 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2229.4929 ms
+2026-07-21 16:33:48.284 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 10522.6544 ms
+2026-07-21 16:33:48.823 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 10842.8520 ms
+2026-07-21 16:33:52.206 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 13714.6843 ms
+2026-07-21 16:33:54.272 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 15862.1178 ms
+2026-07-21 16:33:57.600 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 19060.9445 ms
+2026-07-21 16:35:16.900 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-07-21 16:35:17.121 +05:30 [INF] HTTP POST /api/products responded 200 in 1270.0416 ms
+2026-07-21 16:35:17.356 +05:30 [INF] HTTP GET /api/products responded 200 in 65.2680 ms
+2026-07-21 16:35:39.453 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 73.2440 ms
+2026-07-21 16:35:39.502 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 92.6682 ms
+2026-07-21 16:35:39.513 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 111.9242 ms
+2026-07-21 16:35:39.513 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 125.2716 ms
+2026-07-21 16:35:39.631 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 24.3952 ms
+2026-07-21 16:35:40.822 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 122524.8034 ms
+2026-07-21 16:35:55.875 +05:30 [INF] HTTP GET /api/products responded 200 in 34.2962 ms
+2026-07-21 16:36:50.394 +05:30 [INF] HTTP GET /uploads/products/670c5841b2314b87b71d643fbab630c6.png responded 200 in 46.0193 ms
+2026-07-21 16:37:05.410 +05:30 [INF] HTTP GET /api/products responded 200 in 56.1051 ms
+2026-07-21 16:48:16.813 +05:30 [INF] HTTP GET /api/products responded 200 in 208.6090 ms
+2026-07-21 16:48:45.500 +05:30 [INF] HTTP GET /api/products responded 200 in 31.8271 ms
+2026-07-21 16:54:39.539 +05:30 [INF] HTTP GET /api/products responded 200 in 98.7325 ms
+2026-07-21 16:56:42.426 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 81.6875 ms
+2026-07-21 16:56:42.458 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 116.7442 ms
+2026-07-21 16:56:42.552 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 210.9740 ms
+2026-07-21 16:56:42.552 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 200.6199 ms
+2026-07-21 16:56:42.697 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 58.6894 ms
+2026-07-21 16:56:42.697 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 82.6701 ms
+2026-07-21 16:56:45.092 +05:30 [INF] HTTP GET /api/products responded 200 in 44.8997 ms
+2026-07-21 16:56:49.640 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 23.1046 ms
+2026-07-21 16:56:49.685 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 61.8337 ms
+2026-07-21 16:56:49.685 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 53.0517 ms
+2026-07-21 16:56:49.703 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 60.2809 ms
+2026-07-21 16:56:49.818 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 21.4484 ms
+2026-07-21 16:59:10.451 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 49.9045 ms
+2026-07-21 16:59:10.451 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 51.4996 ms
+2026-07-21 16:59:10.492 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 92.6083 ms
+2026-07-21 16:59:10.510 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 110.2917 ms
+2026-07-21 16:59:10.633 +05:30 [INF] HTTP GET /uploads/products/670c5841b2314b87b71d643fbab630c6.webp responded 404 in 8.1227 ms
+2026-07-21 16:59:10.640 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.4080 ms
+2026-07-21 16:59:19.471 +05:30 [INF] HTTP GET /uploads/products/670c5841b2314b87b71d643fbab630c6.png responded 404 in 0.6426 ms
+2026-07-21 16:59:30.256 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 11756.8380 ms
+2026-07-21 16:59:30.355 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 29.3554 ms
+2026-07-21 16:59:30.417 +05:30 [INF] HTTP GET /uploads/products/6e4071440f324583af673fcf35aa839f.webp responded 200 in 7.4615 ms
+2026-07-21 16:59:40.134 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1079.1858 ms
+2026-07-21 16:59:40.681 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1626.0198 ms
+2026-07-21 16:59:40.740 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1659.8106 ms
+2026-07-21 16:59:47.909 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 8866.7702 ms
+2026-07-21 16:59:48.488 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 9444.8924 ms
+2026-07-21 16:59:51.264 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 11828.4983 ms
+2026-07-21 16:59:52.711 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 13456.3635 ms
+2026-07-21 16:59:55.613 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 16411.1503 ms
+2026-07-21 17:01:32.276 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 111984.6773 ms
+2026-07-21 17:01:32.480 +05:30 [INF] HTTP GET /uploads/products/cae324b29e7b4c189e81f4d6f0c91da2.webp responded 200 in 23.6938 ms
+2026-07-21 17:01:32.495 +05:30 [INF] HTTP GET /uploads/products/f15895e923044c4aae24a3dda7ebf58a.webp responded 200 in 18.6709 ms
+2026-07-21 17:01:32.485 +05:30 [INF] HTTP GET /uploads/products/88ed965ab0644eb1869b03a68e2b3731.webp responded 200 in 27.8162 ms
+2026-07-21 17:01:32.504 +05:30 [INF] HTTP GET /uploads/products/aaac1bbd459f47b099cf694083baeb3b.webp responded 200 in 19.4588 ms
+2026-07-21 17:01:32.506 +05:30 [INF] HTTP GET /uploads/products/35de59b345e047dd9723ea96db35d570.webp responded 200 in 18.4404 ms
+2026-07-21 17:01:32.516 +05:30 [INF] HTTP GET /uploads/products/50be6d53297d48e890edc31c66078ec4.webp responded 200 in 31.3028 ms
+2026-07-21 17:01:32.512 +05:30 [INF] HTTP GET /uploads/products/4cebd7ee7853469c8e8bcfec9b087d4e.webp responded 200 in 25.2547 ms
+2026-07-21 17:01:32.495 +05:30 [INF] HTTP GET /uploads/products/661ae4148e1f41528be3e7f755660ab5.webp responded 200 in 39.0909 ms
+2026-07-21 17:01:32.604 +05:30 [INF] HTTP GET /uploads/products/9e95ceeb89fc4dc4a5928089a023897e.webp responded 200 in 84.2776 ms
+2026-07-21 17:02:12.831 +05:30 [INF] HTTP PUT /api/products/1 responded 200 in 360.7216 ms
+2026-07-21 17:02:13.041 +05:30 [INF] HTTP GET /api/products responded 200 in 25.1304 ms
+2026-07-21 17:02:18.981 +05:30 [INF] HTTP GET /api/products responded 200 in 31.0700 ms
+2026-07-21 17:02:20.846 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 23.8211 ms
+2026-07-21 17:02:20.850 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 31.8297 ms
+2026-07-21 17:02:20.888 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 52.0522 ms
+2026-07-21 17:02:20.889 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 55.0713 ms
+2026-07-21 17:02:20.998 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 14.6064 ms
+2026-07-21 17:03:06.627 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 20.0588 ms
+2026-07-21 17:03:18.827 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 22.0573 ms
+2026-07-21 17:08:46.551 +05:30 [INF] HTTP GET /uploads/products/aaac1bbd459f47b099cf694083baeb3b.png responded 200 in 24.0711 ms
+2026-07-21 17:08:46.565 +05:30 [INF] HTTP GET /uploads/products/35de59b345e047dd9723ea96db35d570.png responded 200 in 47.1004 ms
+2026-07-21 17:08:46.570 +05:30 [INF] HTTP GET /uploads/products/f15895e923044c4aae24a3dda7ebf58a.png responded 200 in 16.9773 ms
+2026-07-21 17:08:46.587 +05:30 [INF] HTTP GET /uploads/products/9e95ceeb89fc4dc4a5928089a023897e.png responded 200 in 113.3408 ms
+2026-07-21 17:08:46.607 +05:30 [INF] HTTP GET /uploads/products/88ed965ab0644eb1869b03a68e2b3731.png responded 200 in 64.8661 ms
+2026-07-21 17:08:46.597 +05:30 [INF] HTTP GET /uploads/products/50be6d53297d48e890edc31c66078ec4.png responded 200 in 78.5598 ms
+2026-07-21 17:08:46.600 +05:30 [INF] HTTP GET /uploads/products/cae324b29e7b4c189e81f4d6f0c91da2.png responded 200 in 73.5326 ms
+2026-07-21 17:08:46.634 +05:30 [INF] HTTP GET /uploads/products/6e4071440f324583af673fcf35aa839f.png responded 200 in 69.6780 ms
+2026-07-21 17:08:46.650 +05:30 [INF] HTTP GET /uploads/products/661ae4148e1f41528be3e7f755660ab5.png responded 200 in 147.3371 ms
+2026-07-21 17:08:46.613 +05:30 [INF] HTTP GET /uploads/products/4cebd7ee7853469c8e8bcfec9b087d4e.png responded 200 in 116.4146 ms
+2026-07-21 17:16:25.428 +05:30 [INF] HTTP GET /api/enquiries responded 200 in 159.0313 ms
+2026-07-21 17:16:25.668 +05:30 [INF] HTTP GET /api/products responded 200 in 25.5476 ms
+2026-07-21 17:25:35.364 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 106.5638 ms

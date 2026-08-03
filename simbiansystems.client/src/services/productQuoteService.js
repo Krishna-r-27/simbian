@@ -1,0 +1,2 @@
+import api, { unwrap } from '../api/axios';
+export const productQuoteService = { getPaged: (params) => api.get('/product-quotes', { params }).then(unwrap), get: (id) => api.get(`/product-quotes/${id}`).then(unwrap), status: (id, status) => api.put(`/product-quotes/${id}/status`, { status }).then(unwrap), delete: (id) => api.delete(`/product-quotes/${id}`).then(unwrap), bulkDelete: (ids) => api.post('/product-quotes/bulk-delete', { ids }).then(unwrap), export: (excel) => api.get('/product-quotes/export', { params: { excel }, responseType: 'blob' }) };

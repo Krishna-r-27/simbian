@@ -9,6 +9,19 @@ import UnderConstruction from "./components/UnderConstruction";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import QuoteModal from "./components/QuoteModal";
+import ProtectedRoute from "./routes/ProtectedRoute";
+import AdminLayout from "./layouts/AdminLayout";
+import Login from "./pages/poweradmin/Login";
+import ForgotPassword from "./pages/poweradmin/ForgotPassword";
+import ResetPassword from "./pages/poweradmin/ResetPassword";
+import Dashboard from "./pages/poweradmin/Dashboard";
+import ProductList from "./pages/poweradmin/products/ProductList";
+import ProductForm from "./pages/poweradmin/products/ProductForm";
+import SpecTemplates from "./pages/poweradmin/products/SpecTemplates";
+import ProductQuotes from "./pages/poweradmin/products/ProductQuotes";
+import EnquiryList from "./pages/poweradmin/enquiries/EnquiryList";
+import Profile from "./pages/poweradmin/profile/Profile";
+import ChangePassword from "./pages/poweradmin/profile/ChangePassword";
 
 export default function App() {
     const [quoteModalOpen, setQuoteModalOpen] = useState(false);
@@ -53,7 +66,27 @@ export default function App() {
                 <Route
                     path="/under-construction"
                     element={<UnderConstruction />}
-                />  
+                />
+                <Route path="/poweradmin/login" element={<Login />} />
+                <Route path="/poweradmin/forgot-password" element={<ForgotPassword />} />
+                <Route path="/poweradmin/reset-password" element={<ResetPassword />} />
+                <Route element={<ProtectedRoute />}>
+                    <Route path="/poweradmin" element={<AdminLayout />}>
+                        <Route index element={<Dashboard />} />
+                        <Route path="dashboard" element={<Dashboard />} />
+                        <Route path="products" element={<ProductList />} />
+                        <Route path="products/new" element={<ProductForm />} />
+                        <Route path="products/specs" element={<SpecTemplates />} />
+                        <Route path="products/quotes" element={<ProductQuotes />} />
+                        <Route path="products/:id/edit" element={<ProductForm />} />
+                        <Route path="products/:id" element={<ProductForm />} />
+                        <Route path="spec-templates" element={<SpecTemplates />} />
+                        <Route path="product-quotes" element={<ProductQuotes />} />
+                        <Route path="enquiries" element={<EnquiryList />} />
+                        <Route path="profile" element={<Profile />} />
+                        <Route path="change-password" element={<ChangePassword />} />
+                    </Route>
+                </Route>
             </Routes>
 
             <QuoteModal

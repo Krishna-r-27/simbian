@@ -1,0 +1,1 @@
+export default function LoadingButton({ loading, children, className = 'admin-button', ...props }) { return <button className={className} disabled={loading || props.disabled} {...props}>{loading ? 'Saving…' : children}</button>; }
