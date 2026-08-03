@@ -1,3 +1,5 @@
+import hero from "../assets/images/contact_hero.png"
+
 export const CONTACT_STATIC_TEXT = {
     badge: "B2B CHANNEL & SUPPORT",
     heading: "Connect with us",
@@ -41,3 +43,11 @@ export const SUBJECT_OPTIONS = [
     { value: "power", label: "UPS Consultation" },
     { value: "support", label: "Maintenance Support" }
 ];
+
+export const contactHeroData = {
+    badgeText: "GET IN TOUCH WITH OUR TEAM",
+    image: hero,
+    title: "Contact Us",
+    description:
+        "Have custom enterprise requirements or need a detailed hardware quote? Reach out to our technical consulting team for expert guidance and procurement assistance."
+};

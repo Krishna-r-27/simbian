@@ -25,7 +25,7 @@ export const MAIN_NAV_ITEMS = [
     { id: "/products", label: "Products", hasDropdown: true },
     { id: "/solutions", label: "Solutions", hasDropdown: false },
     { id: "/services-portfolio", label: "Services", hasDropdown: false },
-    { id: "/about-us", label: "About Us", hasDropdown: false }
+    { id: "/about-us", label: "About Us", hasDropdown: false },
 ];
 
 export const MEGA_MENU_HEADER = {
@@ -37,41 +37,41 @@ export const MEGA_MENU_CATEGORIES = [
     {
         icon: "Monitor",
         title: "Desktop Computers",
-        items: [{ name: "Desktop Computers" }]
+        items: [{ name: "Desktop Computers", path: "/products/desktops" }]
     },
     {
         icon: "Laptop",
         title: "Business Laptops",
-        items: [{ name: "Business Laptops" }]
+        items: [{ name: "Business Laptops", path: "/products/laptops" }]
+    },
+    {
+        icon: "Cpu",
+        title: "Workstations",
+        items: [{ name: "Workstations", path: "/products/workstations" }]
     },
     {
         icon: "Server",
-        title: "Enterprise Servers",
-        items: [{ name: "Enterprise Servers" }]
-    },
-    {
-        icon: "HardDrive",
-        title: "Storage Solutions",
-        items: [{ name: "Storage Solutions" }]
+        title: "Enterprise Servers & Storage",
+        items: [{ name: "Servers & Storage", path: "/products/servers-storage" }]
     },
     {
         icon: "Network",
-        title: "Networking Equipment",
-        items: [{ name: "Networking Equipment" }]
+        title: "Networking & Security",
+        items: [{ name: "Networking & Security", path: "/products/networking-security" }]
     },
     {
         icon: "Printer",
         title: "Printers & Scanners",
-        items: [{ name: "Printers & Scanners" }]
+        items: [{ name: "Printers & Scanners", path: "/products/printers-scanners" }]
     },
     {
         icon: "Zap",
         title: "UPS & Power Backup",
-        items: [{ name: "UPS & Power Backup" }]
+        items: [{ name: "UPS & Power Backup", path: "/products/ups-power-backup" }]
     },
     {
         icon: "Shield",
         title: "Security & Surveillance",
-        items: [{ name: "Security & Surveillance" }]
+        items: [{ name: "Security & Surveillance", path: "/products/security-surveillance" }]
     }
 ];

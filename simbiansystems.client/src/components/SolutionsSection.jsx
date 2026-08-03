@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { SOLUTIONS_SECTION_TEXT } from "../data/solutionsData";
+import { Link } from "react-router-dom";
 
 export default function SolutionsSection({ onTriggerQuote, onNavigate }) {
     return (
@@ -28,21 +29,24 @@ export default function SolutionsSection({ onTriggerQuote, onNavigate }) {
 
                     {/* Centered Dual CTA Buttons */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-                        <button
-                            onClick={onTriggerQuote}
+                        {/* Link to Contact Us Page */}
+                        <Link
+                            to="/contact-us"
                             className="w-full sm:w-auto px-8 py-3.5 bg-primary hover:bg-accent text-white font-sans font-bold text-sm rounded-xl transition-all duration-200 flex items-center justify-center space-x-2 shadow-md hover:shadow-lg cursor-pointer"
                             id="solutions-blueprint-btn"
                         >
                             <span>{SOLUTIONS_SECTION_TEXT.primaryCta}</span>
                             <ArrowRight className="w-4 h-4" />
-                        </button>
-                        <button
-                            onClick={() => onNavigate && onNavigate("products")}
+                        </Link>
+
+                        {/* Link to Solutions Page */}
+                        <Link
+                            to="/solutions"
                             className="w-full sm:w-auto px-8 py-3.5 bg-white border border-primary/20 text-primary hover:bg-primary/5 font-sans font-bold text-sm rounded-xl transition-all duration-200 flex items-center justify-center space-x-2 shadow-sm cursor-pointer"
                             id="solutions-architecture-btn"
                         >
                             <span>{SOLUTIONS_SECTION_TEXT.secondaryCta}</span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
