@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import PageHeader from '../../../components/ui/PageHeader';
+import AdminToggle from '../../../components/ui/AdminToggle';
 import PictureImage from '../../../components/ui/PictureImage';
 import FileDropzone from '../../../components/form/FileDropzone';
 import RichTextEditor from '../../../components/form/RichTextEditor';
@@ -91,7 +92,20 @@ export default function ProductForm() {
 
   return (
     <>
-      <PageHeader title={edit ? 'Edit product' : 'Add product'} backTo="/poweradmin/products" />
+      <PageHeader
+        title={edit ? 'Edit product' : 'Add product'}
+        backTo="/poweradmin/products"
+        action={
+          <label className="flex items-center gap-2 text-sm font-medium text-slate-700">
+            <span>Published</span>
+            <AdminToggle
+              checked={!!form.isPublished}
+              label="Published"
+              onChange={(next) => set('isPublished', next)}
+            />
+          </label>
+        }
+      />
       <form onSubmit={save} className="space-y-5">
         <section className="admin-card grid gap-4 p-5 md:grid-cols-2">
           <div>
@@ -143,27 +157,6 @@ export default function ProductForm() {
               value={form.displayOrder || 0}
               onChange={(e) => set('displayOrder', +e.target.value)}
             />
-          </div>
-          <label className="flex items-center gap-2 pt-7">
-            <input
-              type="checkbox"
-              checked={form.isPublished}
-              onChange={(e) => set('isPublished', e.target.checked)}
-            />
-            Published
-          </label>
-          <div className="md:col-span-2">
-            <label className="admin-label">Short description</label>
-            <textarea
-              className="admin-input"
-              maxLength={2000}
-              rows={4}
-              value={form.shortDescription || ''}
-              onChange={(e) => set('shortDescription', e.target.value)}
-            />
-            <p className="mt-1 text-xs text-slate-500">
-              {(form.shortDescription || '').length}/2000 characters
-            </p>
           </div>
         </section>
 

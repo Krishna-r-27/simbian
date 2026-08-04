@@ -15,7 +15,6 @@ import ServicesPage from "./pages/Services";
 import SolutionsPage from "./pages/Solutions";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
-import QuoteModal from "./components/QuoteModal";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import AdminLayout from "./layouts/AdminLayout";
 import Login from "./pages/poweradmin/Login";
