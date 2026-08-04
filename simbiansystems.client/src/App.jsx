@@ -15,6 +15,9 @@ import ServicesPage from "./pages/Services";
 import SolutionsPage from "./pages/Solutions";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
+import SitemapPage from "./pages/SitemapPage";
+import PageNotFound from "./pages/PageNotFound";
+
 
 export default function App() {
     const [quoteModalOpen, setQuoteModalOpen] = useState(false);
@@ -119,7 +122,19 @@ export default function App() {
                     path="/under-construction"
                     element={<UnderConstruction />}
                 />
+
+                <Route path="*" element={<PageNotFound />} />
+
+                <Route
+                    path="sitemap"
+                    element={
+                        <SitemapPage
+                            onRequestQuote={handleOpenGeneralQuote}
+                        />
+                    }
+                />
             </Routes>
+
 
             <QuoteModal
                 isOpen={quoteModalOpen}
