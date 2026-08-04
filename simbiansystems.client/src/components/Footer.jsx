@@ -3,6 +3,7 @@ import { FiMail, FiPhone, FiMapPin, FiArrowUp, FiGlobe } from "react-icons/fi";
 import { FaLinkedinIn, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import logo from "../assets/images/simbian_logo.png";
 import { FOOTER_DATA } from "../data/footerData";
+import { Link } from "react-router-dom";
 
 export default function Footer({ onNavigate }) {
     const scrollToTop = () => {
@@ -154,12 +155,12 @@ export default function Footer({ onNavigate }) {
                     &copy; {new Date().getFullYear()} {FOOTER_DATA.copyrightText}
                 </div>
 
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-4 text-slate-300">
                     <a
                         href={FOOTER_DATA.designerUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-slate-200 transition-colors"
+                        className=""
                     >
                         Website Designed by{" "}
                         <span className="font-semibold text-white hover:text-accent">
@@ -167,12 +168,23 @@ export default function Footer({ onNavigate }) {
                         </span>
                     </a>
 
+                    <span className="text-slate-500">|</span>
+
+                    <Link
+                        to="/sitemap"
+                        className="hover:text-accent transition-colors"
+                    >
+                        Sitemap
+                    </Link>
+
+                    <span className="text-slate-500">|</span>
+
                     <button
                         onClick={scrollToTop}
-                        className="flex items-center space-x-1.5 hover:text-white transition-colors cursor-pointer group"
+                        className="flex items-center gap-1 hover:text-white transition-colors cursor-pointer"
                     >
                         <span>Back to Top</span>
-                        <FiArrowUp className="w-3.5 h-3.5 group-hover:-translate-y-0.5 transition-transform" />
+                        <FiArrowUp className="w-3.5 h-3.5" />
                     </button>
                 </div>
             </div>

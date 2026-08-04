@@ -28,6 +28,9 @@ import ProductQuotes from "./pages/poweradmin/products/ProductQuotes";
 import EnquiryList from "./pages/poweradmin/enquiries/EnquiryList";
 import Profile from "./pages/poweradmin/profile/Profile";
 import ChangePassword from "./pages/poweradmin/profile/ChangePassword";
+import SitemapPage from "./pages/SitemapPage";
+import PageNotFound from "./pages/PageNotFound";
+
 
 export default function App() {
     const [quoteModalOpen, setQuoteModalOpen] = useState(false);
@@ -152,7 +155,19 @@ export default function App() {
                         <Route path="change-password" element={<ChangePassword />} />
                     </Route>
                 </Route>
+
+                <Route path="*" element={<PageNotFound />} />
+
+                <Route
+                    path="sitemap"
+                    element={
+                        <SitemapPage
+                            onRequestQuote={handleOpenGeneralQuote}
+                        />
+                    }
+                />
             </Routes>
+
 
             <QuoteModal
                 isOpen={quoteModalOpen}
