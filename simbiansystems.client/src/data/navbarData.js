@@ -33,45 +33,4 @@ export const MEGA_MENU_HEADER = {
     subtitle: "Authorized Sales & Support for Tier-1 Brands"
 };
 
-export const MEGA_MENU_CATEGORIES = [
-    {
-        icon: "Monitor",
-        title: "Desktop Computers",
-        items: [{ name: "Desktop Computers", path: "/products/desktops" }]
-    },
-    {
-        icon: "Laptop",
-        title: "Business Laptops",
-        items: [{ name: "Business Laptops", path: "/products/laptops" }]
-    },
-    {
-        icon: "Cpu",
-        title: "Workstations",
-        items: [{ name: "Workstations", path: "/products/workstations" }]
-    },
-    {
-        icon: "Server",
-        title: "Enterprise Servers & Storage",
-        items: [{ name: "Servers & Storage", path: "/products/servers-storage" }]
-    },
-    {
-        icon: "Network",
-        title: "Networking & Security",
-        items: [{ name: "Networking & Security", path: "/products/networking-security" }]
-    },
-    {
-        icon: "Printer",
-        title: "Printers & Scanners",
-        items: [{ name: "Printers & Scanners", path: "/products/printers-scanners" }]
-    },
-    {
-        icon: "Zap",
-        title: "UPS & Power Backup",
-        items: [{ name: "UPS & Power Backup", path: "/products/ups-power-backup" }]
-    },
-    {
-        icon: "Shield",
-        title: "Security & Surveillance",
-        items: [{ name: "Security & Surveillance", path: "/products/security-surveillance" }]
-    }
-];
+// Category links are loaded from GET /api/public/categories at runtime.

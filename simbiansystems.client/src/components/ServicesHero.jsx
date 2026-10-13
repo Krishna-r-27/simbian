@@ -1,6 +1,7 @@
 import React from "react";
 import heroBg from "../assets/images/simbian-home-bg.png";
 import { servicesHeroData } from "../data/servicesData";
+import DeferredHeroImage from "./ui/DeferredHeroImage";
 
 export default function ServicesHero() {
     return (
@@ -37,10 +38,9 @@ export default function ServicesHero() {
                     {servicesHeroData.image && (
                         <div className="lg:col-span-5 flex justify-center lg:justify-end">
                             <div className="relative w-full max-w-lg lg:max-w-none">
-                                <img
+                                <DeferredHeroImage
                                     src={servicesHeroData.image}
-                                    alt={servicesHeroData.title}
-                                    className="w-full h-auto object-contain max-h-[320px] rounded-xl drop-shadow-xl"
+                                    imgClassName="w-full h-auto object-contain max-h-[320px] rounded-xl drop-shadow-xl"
                                 />
                             </div>
                         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowLeft } from "lucide-react";
 import heroBg from "../assets/images/simbian-home-bg.png";
 import { solutionsHeroData } from "../data/solutionsData";
+import DeferredHeroImage from "./ui/DeferredHeroImage";
 
 export default function SolutionsHero({ onBackHome }) {
     return (
@@ -48,10 +49,9 @@ export default function SolutionsHero({ onBackHome }) {
                     {solutionsHeroData.image && (
                         <div className="lg:col-span-5 flex justify-center lg:justify-end">
                             <div className="relative w-full max-w-lg lg:max-w-none">
-                                <img
+                                <DeferredHeroImage
                                     src={solutionsHeroData.image}
-                                    alt={solutionsHeroData.title}
-                                    className="w-full h-auto object-contain max-h-[320px] rounded-xl drop-shadow-xl"
+                                    imgClassName="w-full h-auto object-contain max-h-[320px] rounded-xl drop-shadow-xl"
                                 />
                             </div>
                         </div>

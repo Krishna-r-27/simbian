@@ -5,13 +5,14 @@ import {
     ChevronDown, Menu, X, Mail, Phone
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 import {
-    MEGA_MENU_CATEGORIES,
     CONTACT_RIBBON,
     ACCESSIBILITY_LABELS,
     BUTTON_TEXT,
     MAIN_NAV_ITEMS
 } from "../data/navbarData.js";
+import { publicCatalogService } from "../services/publicCatalogService";
 import logo from "../assets/images/simbian-logo.png";
 
 export function CategoryIcon({ name, className = "w-5 h-5" }) {
@@ -35,6 +36,11 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
     const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
 
     const navigate = useNavigate();
+
+    const { data: categories = [] } = useQuery({
+        queryKey: ["public-categories"],
+        queryFn: () => publicCatalogService.categories(),
+    });
 
     useEffect(() => {
         let ticking = false;
@@ -62,18 +68,8 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
         navigate(path);
     }, [navigate]);
 
-    // Helper to resolve route paths for sub-category items
     const handleCategoryClick = useCallback((cat) => {
-        // If the category has explicit items with paths, use them
-        const customPath = cat.items?.[0]?.path;
-
-        if (customPath) {
-            handleLinkClick(customPath);
-        } else if (cat.title === "Desktop Computers") {
-            handleLinkClick("/products/desktops");
-        } else {
-            handleLinkClick("/products");
-        }
+        handleLinkClick(`/products/${cat.slug}`);
     }, [handleLinkClick]);
 
     const handleQuoteClick = useCallback(() => {
@@ -91,7 +87,6 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                     : "bg-white/90 backdrop-blur-sm border-b border-border-light/20"
                     }`}
             >
-                {/* Contact Ribbon */}
                 {!scrolled && (
                     <div className="hidden lg:block bg-neutral-bg text-primary py-2.5 text-xs font-sans border-b border-border-light/50">
                         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
@@ -118,9 +113,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                     </div>
                 )}
 
-                {/* Main Navigation Row Container */}
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between transition-all duration-300 py-4">
-                    {/* Logo Home Button */}
                     <button
                         onClick={() => handleLinkClick(MAIN_NAV_ITEMS[0].id)}
                         className="flex items-center space-x-2 group focus:outline-hidden cursor-pointer"
@@ -130,11 +123,14 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                         <img
                             src={logo}
                             alt={ACCESSIBILITY_LABELS.brandName}
+                            loading="eager"
+                            fetchPriority="high"
+                            decoding="async"
+                            style={{ color: "transparent", fontSize: 0 }}
                             className="w-42 h-12 object-contain flex-shrink-0 drop-shadow-xs transition-transform group-hover:scale-105 duration-300"
                         />
                     </button>
 
-                    {/* Desktop Layout Wrapper */}
                     <div className="hidden lg:flex items-center space-x-10">
                         <nav className="flex items-center space-x-8" id="desktop-nav">
                             {MAIN_NAV_ITEMS.map((item) => {
@@ -168,9 +164,9 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                         transition={{ duration: 0.15, ease: "easeOut" }}
                                                         className="absolute left-0 top-full mt-2 w-72 bg-white rounded-xl shadow-2xl border border-border-light p-3 z-50 flex flex-col space-y-1 font-normal"
                                                     >
-                                                        {MEGA_MENU_CATEGORIES.map((cat, i) => (
+                                                        {categories.map((cat) => (
                                                             <button
-                                                                key={i}
+                                                                key={cat.id}
                                                                 onClick={() => handleCategoryClick(cat)}
                                                                 className="flex items-center space-x-3 p-2.5 rounded-lg hover:bg-slate-50 transition-colors text-left cursor-pointer group w-full"
                                                             >
@@ -178,7 +174,7 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                                     <CategoryIcon name={cat.icon} className="w-4 h-4" />
                                                                 </div>
                                                                 <span className="font-display font-semibold text-sm text-primary group-hover:text-[#2F8F83] transition-colors">
-                                                                    {cat.title}
+                                                                    {cat.name}
                                                                 </span>
                                                             </button>
                                                         ))}
@@ -210,7 +206,6 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                             })}
                         </nav>
 
-                        {/* CTA Trigger */}
                         <div className="flex items-center">
                             <button
                                 onClick={handleQuoteClick}
@@ -221,7 +216,6 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                         </div>
                     </div>
 
-                    {/* Mobile Toggle Control */}
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         className="lg:hidden p-2 text-primary hover:text-accent transition-colors cursor-pointer"
@@ -233,7 +227,6 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                 </div>
             </header>
 
-            {/* Mobile View Panel Drawer */}
             <AnimatePresence>
                 {mobileMenuOpen && (
                     <motion.div
@@ -282,13 +275,13 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                                     </button>
                                                     {mobileProductsOpen && (
                                                         <div className="mt-2 pl-4 border-l border-border-light space-y-2">
-                                                            {MEGA_MENU_CATEGORIES.map((cat, idx) => (
+                                                            {categories.map((cat) => (
                                                                 <button
-                                                                    key={idx}
+                                                                    key={cat.id}
                                                                     onClick={() => handleCategoryClick(cat)}
                                                                     className="block w-full text-left font-sans text-xs text-gray-600 hover:text-accent py-1 cursor-pointer"
                                                                 >
-                                                                    {cat.title}
+                                                                    {cat.name}
                                                                 </button>
                                                             ))}
                                                         </div>
@@ -310,14 +303,12 @@ export default function Navbar({ onRequestQuote, onNavigate, activeSection = "he
                                 </nav>
                             </div>
 
-                            <div className="pt-6 border-t border-border-light mt-8">
-                                <button
-                                    onClick={handleQuoteClick}
-                                    className="w-full py-3 bg-primary hover:bg-accent text-white font-sans font-semibold text-sm rounded-lg text-center shadow-lg cursor-pointer"
-                                >
-                                    {BUTTON_TEXT.requestQuote}
-                                </button>
-                            </div>
+                            <button
+                                onClick={handleQuoteClick}
+                                className="w-full mt-6 px-6 py-3 bg-primary hover:bg-accent text-white font-display font-bold text-sm rounded-lg transition-colors"
+                            >
+                                {BUTTON_TEXT.requestQuote}
+                            </button>
                         </motion.div>
                     </motion.div>
                 )}

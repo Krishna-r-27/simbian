@@ -92,6 +92,8 @@ try
         });
     });
 
+    builder.Services.AddSingleton<SimbianSystems.Server.Seo.SeoRouteCatalog>();
+
     builder.Services.AddRateLimiter(options =>
     {
         options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
@@ -113,6 +115,7 @@ try
 
     app.UseMiddleware<ExceptionHandlingMiddleware>();
     app.UseSerilogRequestLogging();
+    app.UseMiddleware<SimbianSystems.Server.Seo.SeoHtmlMiddleware>();
 
     app.UseDefaultFiles();
     app.UseStaticFiles();
@@ -125,6 +128,16 @@ try
         FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(uploadsPath),
         RequestPath = "/uploads"
     });
+
+    var spaRoot = app.Services.GetRequiredService<SimbianSystems.Server.Seo.SeoRouteCatalog>().FindSpaRoot();
+    if (spaRoot != null
+        && !string.Equals(Path.GetFullPath(spaRoot), Path.GetFullPath(webRoot), StringComparison.OrdinalIgnoreCase))
+    {
+        app.UseStaticFiles(new StaticFileOptions
+        {
+            FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(spaRoot)
+        });
+    }
 
     if (app.Environment.IsDevelopment())
     {
@@ -139,7 +152,42 @@ try
     app.UseAuthorization();
 
     app.MapControllers();
-    app.MapFallbackToFile("/index.html");
+    app.MapFallback(async context =>
+    {
+        if (context.Request.Path.StartsWithSegments("/api")
+            || context.Request.Path.StartsWithSegments("/swagger"))
+        {
+            context.Response.StatusCode = StatusCodes.Status404NotFound;
+            return;
+        }
+
+        var catalog = context.RequestServices.GetRequiredService<SimbianSystems.Server.Seo.SeoRouteCatalog>();
+        var shell = catalog.ReadShell();
+        var routes = catalog.Load();
+        context.Response.StatusCode = StatusCodes.Status404NotFound;
+        context.Response.ContentType = "text/html; charset=utf-8";
+        if (shell == null || routes == null)
+            return;
+
+        var configured = context.RequestServices.GetRequiredService<IConfiguration>()["App:FrontendBaseUrl"]?.Trim().TrimEnd('/');
+        var origin = !string.IsNullOrWhiteSpace(configured)
+            && Uri.TryCreate(configured, UriKind.Absolute, out var uri)
+            && !uri.Host.Contains("localhost", StringComparison.OrdinalIgnoreCase)
+            && uri.Host != "127.0.0.1"
+                ? configured
+                : $"{context.Request.Scheme}://{context.Request.Host.Value}".TrimEnd('/');
+        var path = context.Request.Path.Value ?? "/";
+        var missing = routes.NotFound;
+        var html = SimbianSystems.Server.Seo.PageMetaInjector.Apply(shell, new SimbianSystems.Server.Seo.SeoDocument(
+            string.IsNullOrWhiteSpace(missing.Title) ? "Page Not Found | Simbian Systems" : missing.Title,
+            missing.Description,
+            missing.Keywords,
+            $"{origin}{path}",
+            string.IsNullOrWhiteSpace(missing.Heading) ? "Page not found" : missing.Heading,
+            missing.Summary,
+            Robots: "noindex"), ensureBody: true);
+        await context.Response.WriteAsync(html);
+    });
 
     Console.WriteLine("Starting database migrate/seed...");
     using (var scope = app.Services.CreateScope())

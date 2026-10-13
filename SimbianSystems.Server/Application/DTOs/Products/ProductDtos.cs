@@ -9,6 +9,7 @@ public class ProductListItemDto
     public string Slug { get; set; } = string.Empty;
     public int CategoryId { get; set; }
     public string CategoryName { get; set; } = string.Empty;
+    public string CategorySlug { get; set; } = string.Empty;
     public string? Brand { get; set; }
     public string? ModelNumber { get; set; }
     public string? FeaturedImage { get; set; }
@@ -58,6 +59,11 @@ public class ProductUpsertDto
     public string? SeoDescription { get; set; }
     public List<string> GalleryImages { get; set; } = new();
     public List<ProductSpecValueDto> Specifications { get; set; } = new();
+}
+
+public class ProductGalleryOrderDto
+{
+    public List<string> GalleryImages { get; set; } = new();
 }
 
 public class CategoryDto

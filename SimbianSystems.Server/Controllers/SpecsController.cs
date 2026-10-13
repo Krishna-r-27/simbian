@@ -34,6 +34,13 @@ public class SpecsController : ControllerBase
         return Ok(ApiResponse.Ok("Group deleted."));
     }
 
+    [HttpPost("groups/reorder")]
+    public async Task<ActionResult<ApiResponse<object>>> ReorderGroups([FromBody] SpecReorderDto dto, CancellationToken ct)
+    {
+        await _service.ReorderGroupsAsync(dto.Ids ?? [], ct);
+        return Ok(ApiResponse.Ok("Group order saved."));
+    }
+
     [HttpGet("definitions")]
     public async Task<ActionResult<ApiResponse<List<SpecDefinitionDto>>>> Definitions([FromQuery] int? categoryId, CancellationToken ct)
         => Ok(ApiResponse<List<SpecDefinitionDto>>.Ok(await _service.GetDefinitionsAsync(categoryId, ct)));
@@ -51,6 +58,13 @@ public class SpecsController : ControllerBase
     {
         await _service.DeleteDefinitionAsync(id, ct);
         return Ok(ApiResponse.Ok("Definition deleted."));
+    }
+
+    [HttpPost("definitions/reorder")]
+    public async Task<ActionResult<ApiResponse<object>>> ReorderDefinitions([FromBody] SpecReorderDto dto, CancellationToken ct)
+    {
+        await _service.ReorderDefinitionsAsync(dto.Ids ?? [], ct);
+        return Ok(ApiResponse.Ok("Definition order saved."));
     }
 
     [HttpGet("template/{categoryId:int}")]

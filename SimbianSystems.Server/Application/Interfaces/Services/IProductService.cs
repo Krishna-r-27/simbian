@@ -8,6 +8,7 @@ public interface IProductService
     Task<ProductDetailDto> GetByIdAsync(int id, CancellationToken ct = default);
     Task<ProductDetailDto> CreateAsync(ProductUpsertDto dto, CancellationToken ct = default);
     Task<ProductDetailDto> UpdateAsync(int id, ProductUpsertDto dto, CancellationToken ct = default);
+    Task<ProductDetailDto> ReorderGalleryAsync(int id, ProductGalleryOrderDto dto, CancellationToken ct = default);
     Task DeleteAsync(int id, CancellationToken ct = default);
     Task<ProductDetailDto> DuplicateAsync(int id, CancellationToken ct = default);
     Task BulkDeleteAsync(IEnumerable<int> ids, CancellationToken ct = default);

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 import {
     FiHome,
     FiBox,
@@ -9,7 +10,9 @@ import {
     FiMail,
     FiArrowRight,
 } from "react-icons/fi";
-import { MAIN_NAV_ITEMS, MEGA_MENU_CATEGORIES, BUTTON_TEXT } from "../data/navbarData";
+import { MAIN_NAV_ITEMS, BUTTON_TEXT } from "../data/navbarData";
+import { publicCatalogService } from "../services/publicCatalogService";
+import CatalogSeo from "../components/CatalogSeo";
 
 const iconForNav = {
     "/": FiHome,
@@ -31,8 +34,61 @@ const SUPPORT_LINKS = [
 ];
 
 export default function SitemapPage({ onRequestQuote }) {
+    const { data: categories = [] } = useQuery({
+        queryKey: ["public-categories"],
+        queryFn: () => publicCatalogService.categories(),
+    });
+
+    const { data: products = [], isLoading: productsLoading } = useQuery({
+        queryKey: ["public-products", "sitemap"],
+        queryFn: async () => {
+            const items = [];
+            let page = 1;
+            let total = 0;
+            do {
+                const result = await publicCatalogService.list({ page, pageSize: 200 });
+                const batch = result?.items ?? [];
+                total = result?.totalCount ?? batch.length;
+                items.push(...batch);
+                page += 1;
+                if (batch.length === 0) break;
+            } while (items.length < total);
+            return items;
+        },
+    });
+
+    const productsByCategory = useMemo(() => {
+        const bySlug = new Map();
+        for (const product of products) {
+            const key = product.categorySlug || "other";
+            if (!bySlug.has(key)) bySlug.set(key, []);
+            bySlug.get(key).push(product);
+        }
+
+        const ordered = categories
+            .filter((category) => bySlug.has(category.slug))
+            .map((category) => ({
+                name: category.name,
+                slug: category.slug,
+                items: bySlug.get(category.slug),
+            }));
+
+        for (const [slug, items] of bySlug) {
+            if (!ordered.some((group) => group.slug === slug)) {
+                ordered.push({
+                    name: items[0]?.categoryName || slug,
+                    slug,
+                    items,
+                });
+            }
+        }
+
+        return ordered;
+    }, [categories, products]);
+
     return (
         <div className="bg-white">
+            <CatalogSeo />
             {/* Header Band */}
             <section className="bg-primary text-white pt-28 pb-16 px-6">
                 <div className="max-w-7xl mx-auto">
@@ -46,8 +102,7 @@ export default function SitemapPage({ onRequestQuote }) {
                         Sitemap
                     </h1>
                     <p className="font-sans text-sm sm:text-base text-slate-300 mt-3 max-w-2xl">
-                        Every page and product category on Simbian Systems, organized in
-                        one place so you can find what you're looking for fast.
+                        Every page, product category, and published product on Simbian Systems.
                     </p>
                 </div>
             </section>
@@ -81,14 +136,14 @@ export default function SitemapPage({ onRequestQuote }) {
                     <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm lg:col-span-2">
                         <SectionHeading label="Product Categories" />
                         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 font-sans text-sm text-slate-600">
-                            {MEGA_MENU_CATEGORIES.flatMap((cat) => cat.items).map((item) => (
-                                <li key={item.path}>
+                            {categories.map((cat) => (
+                                <li key={cat.slug}>
                                     <Link
-                                        to={item.path}
+                                        to={`/products/${cat.slug}`}
                                         className="flex items-center gap-2.5 hover:text-accent transition-colors"
                                     >
                                         <FiArrowRight className="w-3.5 h-3.5 text-accent shrink-0" />
-                                        {item.name}
+                                        {cat.name}
                                     </Link>
                                 </li>
                             ))}
@@ -146,6 +201,39 @@ export default function SitemapPage({ onRequestQuote }) {
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <div className="max-w-7xl mx-auto mt-8 bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
+                    <SectionHeading label="Products" />
+                    {productsLoading ? (
+                        <p className="font-sans text-sm text-slate-500">Loading products…</p>
+                    ) : products.length === 0 ? (
+                        <p className="font-sans text-sm text-slate-500">No published products yet.</p>
+                    ) : (
+                        <div className="space-y-6">
+                            {productsByCategory.map((group) => (
+                                <div key={group.slug}>
+                                    <h3 className="font-display text-sm font-bold text-primary mb-3">
+                                        <Link to={`/products/${group.slug}`} className="hover:text-accent">
+                                            {group.name}
+                                        </Link>
+                                    </h3>
+                                    <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2 font-sans text-sm text-slate-600">
+                                        {group.items.map((product) => (
+                                            <li key={product.id}>
+                                                <Link
+                                                    to={`/products/${product.categorySlug}/${product.slug}`}
+                                                    className="hover:text-accent transition-colors"
+                                                >
+                                                    {product.name}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
 
                 {/* CTA */}

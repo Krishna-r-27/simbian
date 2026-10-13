@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import { GripVertical } from 'lucide-react';
 import toast from 'react-hot-toast';
 import PageHeader from '../../../components/ui/PageHeader';
 import AdminToggle from '../../../components/ui/AdminToggle';
@@ -23,12 +24,22 @@ const empty = {
   modelNumber: '',
   warranty: '',
   displayOrder: 0,
-  isPublished: false,
+  isPublished: true,
   seoTitle: '',
   seoKeywords: '',
   seoDescription: '',
   specifications: [],
 };
+
+function moveItem(list, from, to) {
+  if (from === to || from < 0 || to < 0 || from >= list.length || to >= list.length) {
+    return list;
+  }
+  const next = list.slice();
+  const [item] = next.splice(from, 1);
+  next.splice(to, 0, item);
+  return next;
+}
 
 function toBasePath(uploaded) {
   return (
@@ -48,6 +59,11 @@ export default function ProductForm() {
   const [categories, setCategories] = useState([]);
   const [groups, setGroups] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [dragIndex, setDragIndex] = useState(null);
+  const galleryRef = useRef([]);
+  const dragIndexRef = useRef(null);
+  const galleryOrderOriginRef = useRef('');
+  const gallerySaveRef = useRef({ chain: Promise.resolve(), latest: null });
 
   useEffect(() => {
     productService.categories().then(setCategories);
@@ -75,12 +91,41 @@ export default function ProductForm() {
 
   const set = (key, value) => setForm((f) => ({ ...f, [key]: value }));
 
+  galleryRef.current = form.galleryImages || [];
+
+  const persistGalleryOrder = (next) => {
+    if (!edit) return Promise.resolve();
+    const state = gallerySaveRef.current;
+    state.latest = next;
+    const pending = state.chain
+      .then(async () => {
+        const payload = state.latest;
+        if (!payload) return;
+        state.latest = null;
+        await productService.reorderGallery(id, payload);
+      })
+      .catch((err) => {
+        toast.error(getApiErrorMessage(err, 'Could not save gallery order.'));
+      });
+    state.chain = pending;
+    return pending;
+  };
+
+  const setGalleryImages = (next) => {
+    galleryRef.current = next;
+    set('galleryImages', next);
+  };
+
   const save = async (e) => {
     e.preventDefault();
     setLoading(true);
     try {
-      if (edit) await productService.update(id, form);
-      else await productService.create(form);
+      if (edit) {
+        await persistGalleryOrder(galleryRef.current);
+        await productService.update(id, { ...form, galleryImages: galleryRef.current });
+      } else {
+        await productService.create({ ...form, galleryImages: galleryRef.current });
+      }
       toast.success(`Product ${edit ? 'updated' : 'created'}.`);
       nav('/poweradmin/products');
     } catch (err) {
@@ -95,43 +140,45 @@ export default function ProductForm() {
       <PageHeader
         title={edit ? 'Edit product' : 'Add product'}
         backTo="/poweradmin/products"
-        action={
-          <label className="flex items-center gap-2 text-sm font-medium text-slate-700">
-            <span>Published</span>
-            <AdminToggle
-              checked={!!form.isPublished}
-              label="Published"
-              onChange={(next) => set('isPublished', next)}
-            />
-          </label>
-        }
       />
       <form onSubmit={save} className="space-y-5">
         <section className="admin-card grid gap-4 p-5 md:grid-cols-2">
-          <div>
-            <label className="admin-label">Category</label>
-            <select
-              className="admin-input"
-              required
-              value={form.categoryId}
-              onChange={(e) => set('categoryId', +e.target.value)}
-            >
-              <option value="">Select category</option>
-              {categories.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.name}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div>
-            <label className="admin-label">Product name</label>
-            <input
-              className="admin-input"
-              required
-              value={form.name}
-              onChange={(e) => set('name', e.target.value)}
-            />
+          <div className="flex flex-wrap items-end gap-4 md:col-span-2">
+            <div className="shrink-0">
+              <label className="admin-label">Publish</label>
+              <div className="flex h-[2.65rem] items-center">
+                <AdminToggle
+                  checked={!!form.isPublished}
+                  label="Publish"
+                  onChange={(next) => set('isPublished', next)}
+                />
+              </div>
+            </div>
+            <div className="min-w-0 flex-1 basis-40">
+              <label className="admin-label">Category</label>
+              <select
+                className="admin-input"
+                required
+                value={form.categoryId}
+                onChange={(e) => set('categoryId', +e.target.value)}
+              >
+                <option value="">Select category</option>
+                {categories.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="min-w-0 flex-1 basis-40">
+              <label className="admin-label">Product name</label>
+              <input
+                className="admin-input"
+                required
+                value={form.name}
+                onChange={(e) => set('name', e.target.value)}
+              />
+            </div>
           </div>
           <div>
             <label className="admin-label">Brand</label>
@@ -196,43 +243,84 @@ export default function ProductForm() {
                 const uploaded = await Promise.all(
                   batch.map((file) => uploadService.uploadImage(file, 'products', { onProgress })),
                 );
-                set(
-                  'galleryImages',
+                setGalleryImages(
                   [...(form.galleryImages || []), ...uploaded.map(toBasePath)].slice(0, 12),
                 );
               }}
             />
             {form.galleryImages?.length > 0 ? (
-              <div className="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-4">
-                {form.galleryImages.map((path) => (
-                  <div key={path} className="relative aspect-square">
-                    <PictureImage
-                      imageBasePath={path}
-                      alt="Gallery"
-                      className="h-full w-full rounded-lg border border-slate-200 bg-slate-50"
-                      imgClassName="h-full w-full object-cover"
-                    />
-                    <button
-                      type="button"
-                      className="absolute -right-1.5 -top-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs leading-none text-white shadow"
-                      onClick={async () => {
-                        try {
-                          await uploadService.deleteImage(path);
-                        } catch {
-                          /* best-effort */
-                        }
-                        set(
-                          'galleryImages',
-                          form.galleryImages.filter((p) => p !== path),
-                        );
+              <>
+                <p className="mt-2 text-xs text-slate-500">
+                  Drag to reorder
+                  {edit ? ' · saved when you drop' : ''}
+                </p>
+                <div className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-4">
+                  {form.galleryImages.map((path, index) => (
+                    <div
+                      key={path}
+                      draggable
+                      onDragStart={(e) => {
+                        e.dataTransfer.effectAllowed = 'move';
+                        e.dataTransfer.setData('text/plain', String(index));
+                        galleryOrderOriginRef.current = (form.galleryImages || []).join('\0');
+                        dragIndexRef.current = index;
+                        setDragIndex(index);
                       }}
-                      aria-label="Remove image"
+                      onDragOver={(e) => {
+                        e.preventDefault();
+                        e.dataTransfer.dropEffect = 'move';
+                        const from = dragIndexRef.current;
+                        if (from === null || from === index) return;
+                        const next = moveItem(galleryRef.current || [], from, index);
+                        dragIndexRef.current = index;
+                        setGalleryImages(next);
+                        setDragIndex(index);
+                      }}
+                      onDrop={(e) => e.preventDefault()}
+                      onDragEnd={() => {
+                        const next = galleryRef.current;
+                        dragIndexRef.current = null;
+                        setDragIndex(null);
+                        if ((next || []).join('\0') !== galleryOrderOriginRef.current) {
+                          persistGalleryOrder(next);
+                        }
+                      }}
+                      title="Drag to reorder"
+                      className={`relative aspect-square cursor-grab select-none active:cursor-grabbing ${
+                        dragIndex === index ? 'opacity-50 ring-2 ring-primary' : ''
+                      }`}
                     >
-                      ×
-                    </button>
-                  </div>
-                ))}
-              </div>
+                      <span className="pointer-events-none absolute left-1 top-1 z-10 rounded bg-white/90 p-0.5 text-slate-500 shadow-sm">
+                        <GripVertical className="h-3.5 w-3.5" />
+                      </span>
+                      <PictureImage
+                        imageBasePath={path}
+                        alt={`Gallery ${index + 1}`}
+                        className="h-full w-full rounded-lg border border-slate-200 bg-slate-50"
+                        imgClassName="h-full w-full object-cover pointer-events-none"
+                      />
+                      <button
+                        type="button"
+                        className="absolute -right-1.5 -top-1.5 z-10 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs leading-none text-white shadow"
+                        onMouseDown={(e) => e.stopPropagation()}
+                        onClick={async () => {
+                          try {
+                            await uploadService.deleteImage(path);
+                          } catch {
+                            /* best-effort */
+                          }
+                          setGalleryImages(
+                            (form.galleryImages || []).filter((p) => p !== path),
+                          );
+                        }}
+                        aria-label="Remove image"
+                      >
+                        ×
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </>
             ) : null}
           </div>
 

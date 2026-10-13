@@ -55,6 +55,9 @@ export default function Footer({ onNavigate }) {
                         <img
                             src={logo}
                             alt="Simbian Systems"
+                            loading="lazy"
+                            decoding="async"
+                            style={{ color: "transparent", fontSize: 0 }}
                             className="h-10 lg:h-12 w-auto object-contain"
                         />
                     </div>

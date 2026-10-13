@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight, FiHome, FiBox, FiMap } from "react-icons/fi";
 import { MAIN_NAV_ITEMS } from "../data/navbarData";
+import SeoHead from "../components/SeoHead";
+import { notFoundSeo } from "../seo/publicRoutes";
 
 const QUICK_LINKS = [
     { name: "Home", path: "/", icon: FiHome },
@@ -10,8 +12,15 @@ const QUICK_LINKS = [
 ];
 
 export default function PageNotFound() {
+    const { pathname } = useLocation();
     return (
         <div className="bg-white min-h-[calc(100vh-4rem)] flex items-center">
+            <SeoHead
+                title={notFoundSeo.title}
+                description={notFoundSeo.description}
+                keywords={notFoundSeo.keywords}
+                path={pathname}
+            />
             <section className="w-full py-24 px-6">
                 <div className="max-w-3xl mx-auto text-center">
                     <div className="flex items-center justify-center gap-2 mb-5">

@@ -40,6 +40,10 @@ public class ProductsController : ControllerBase
     public async Task<ActionResult<ApiResponse<ProductDetailDto>>> Update(int id, [FromBody] ProductUpsertDto dto, CancellationToken ct)
         => Ok(ApiResponse<ProductDetailDto>.Ok(await _service.UpdateAsync(id, dto, ct), "Product updated."));
 
+    [HttpPut("{id:int}/gallery-order")]
+    public async Task<ActionResult<ApiResponse<ProductDetailDto>>> ReorderGallery(int id, [FromBody] ProductGalleryOrderDto dto, CancellationToken ct)
+        => Ok(ApiResponse<ProductDetailDto>.Ok(await _service.ReorderGalleryAsync(id, dto, ct), "Gallery order saved."));
+
     [HttpDelete("{id:int}")]
     public async Task<ActionResult<ApiResponse<object>>> Delete(int id, CancellationToken ct)
     {

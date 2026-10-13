@@ -49,3 +49,8 @@ public class SpecTemplateGroupDto
     public int DisplayOrder { get; set; }
     public List<SpecDefinitionDto> Fields { get; set; } = new();
 }
+
+public class SpecReorderDto
+{
+    public List<int> Ids { get; set; } = new();
+}

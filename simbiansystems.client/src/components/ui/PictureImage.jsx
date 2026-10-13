@@ -1,10 +1,13 @@
 import { resolveImageUrls } from '../../utils/imagePath';
 
+const hiddenAlt = { color: "transparent", fontSize: 0 };
+
 export default function PictureImage({
   imageBasePath,
   alt = '',
   className = '',
   imgClassName = '',
+  priority = false,
 }) {
   const urls = resolveImageUrls(imageBasePath);
   if (!imageBasePath) {
@@ -23,8 +26,12 @@ export default function PictureImage({
       <img
         src={urls.png || urls.fallback}
         alt={alt}
+        draggable={false}
         className={imgClassName || 'block h-full w-full object-cover'}
-        loading="lazy"
+        loading={priority ? 'eager' : 'lazy'}
+        fetchPriority={priority ? 'high' : 'auto'}
+        decoding="async"
+        style={hiddenAlt}
       />
     </picture>
   );

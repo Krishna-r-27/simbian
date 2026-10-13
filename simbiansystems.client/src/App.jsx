@@ -71,46 +71,16 @@ export default function App() {
                     />
 
                     {/* Products Base */}
+                    <Route path="products" element={<ProductsPage />} />
+
+                    {/* Product detail: /products/:categorySlug/:productSlug */}
                     <Route
-                        path="products"
-                        element={
-                            <ProductsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
+                        path="products/:categorySlug/:productSlug"
+                        element={<ProductDetailsPage />}
                     />
 
-                    {/* Product Details (canonical form, with /details/) */}
-                    <Route
-                        path="products/:categorySlug/details/:productId"
-                        element={
-                            <ProductDetailsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
-                    />
-
-                    {/* Category + Brand routes (e.g. /products/laptops/dell) */}
-                    <Route
-                        path="products/:categorySlug/*"
-                        element={
-                            <ProductsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
-                    />
+                    {/* Category listing: /products/:categorySlug */}
+                    <Route path="products/:categorySlug" element={<ProductsPage />} />
 
                     {/* Other Pages */}
                     <Route

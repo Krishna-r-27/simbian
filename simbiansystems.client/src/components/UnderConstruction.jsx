@@ -16,6 +16,10 @@ const UnderConstruction = () => {
                         <img
                             src={logo}
                             alt="Simbian Systems"
+                            loading="eager"
+                            fetchPriority="high"
+                            decoding="async"
+                            style={{ color: "transparent", fontSize: 0 }}
                             className="h-12 md:h-14 w-auto object-contain hover:scale-105 transition-transform duration-300"
                         />
                     </button>

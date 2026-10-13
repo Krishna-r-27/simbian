@@ -1,6 +1,7 @@
 import React from "react";
 import heroBg from "../assets/images/simbian-home-bg.png";
 import { contactHeroData } from "../data/contactData";
+import DeferredHeroImage from "./ui/DeferredHeroImage";
 
 export default function ContactHero() {
     return (
@@ -36,10 +37,9 @@ export default function ContactHero() {
                     {contactHeroData.image && (
                         <div className="lg:col-span-5 flex justify-center lg:justify-end">
                             <div className="relative w-full max-w-lg lg:max-w-none">
-                                <img
+                                <DeferredHeroImage
                                     src={contactHeroData.image}
-                                    alt={contactHeroData.title}
-                                    className="w-full h-auto object-contain max-h-[300px] rounded-xl"
+                                    imgClassName="w-full h-auto object-contain max-h-[300px] rounded-xl"
                                 />
                             </div>
                         </div>

@@ -143,12 +143,13 @@ export default function FileDropzone({
         }`}
         onDragOver={(e) => {
           e.preventDefault();
-          if (!busy) setDragging(true);
+          if (!busy && Array.from(e.dataTransfer.types || []).includes('Files')) setDragging(true);
         }}
         onDragLeave={() => setDragging(false)}
         onDrop={(e) => {
           e.preventDefault();
           setDragging(false);
+          if (!e.dataTransfer.files?.length) return;
           handleFiles(e.dataTransfer.files);
         }}
       >

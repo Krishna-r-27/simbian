@@ -2,7 +2,7 @@ export const FOOTER_DATA = {
     companyDescription: "Simbian Systems is a premier systems integration and IT marketing organization providing workstations, servers, networking, storage, and facility management (FMS) across India.",
     copyrightText: "Simbian Systems. All Rights Reserved. All brand logos are trademarks of their respective OEMs.",
     designerName: "Dots and Coms",
-    designerUrl: "https://dotsandcoms.com",
+    designerUrl: "https://dotsandcoms.in",
 
     socialLinks: [
         { label: "LinkedIn", url: "#", icon: "linkedin" },

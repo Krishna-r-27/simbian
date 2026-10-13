@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /poweradmin/
+
+Sitemap: https://www.simbiansystems.com/sitemap.xml

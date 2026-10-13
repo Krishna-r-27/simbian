@@ -24,3 +24,12 @@ public class ProductUpsertDtoValidator : AbstractValidator<ProductUpsertDto>
             .WithMessage("Maximum 12 gallery images allowed.");
     }
 }
+
+public class ProductGalleryOrderDtoValidator : AbstractValidator<ProductGalleryOrderDto>
+{
+    public ProductGalleryOrderDtoValidator()
+    {
+        RuleFor(x => x.GalleryImages).NotNull().Must(g => g.Count <= 12)
+            .WithMessage("Maximum 12 gallery images allowed.");
+    }
+}

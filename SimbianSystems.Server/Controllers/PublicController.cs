@@ -25,6 +25,11 @@ public class PublicController : ControllerBase
         _quotes = quotes;
     }
 
+    /// <summary>Active product categories for storefront nav and filters.</summary>
+    [HttpGet("categories")]
+    public async Task<ActionResult<ApiResponse<List<CategoryDto>>>> Categories(CancellationToken ct)
+        => Ok(ApiResponse<List<CategoryDto>>.Ok(await _catalog.GetCategoriesAsync(ct)));
+
     /// <summary>Product listing (published only). Filter by category slug or id.</summary>
     [HttpGet("category")]
     public async Task<ActionResult<ApiResponse<PagedResult<ProductListItemDto>>>> Listing(
