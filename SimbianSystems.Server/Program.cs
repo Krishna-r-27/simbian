@@ -20,6 +20,9 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
+    // Same mail settings on localhost and production. The password stays out of git.
+    builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
+
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
         .ReadFrom.Services(services)
