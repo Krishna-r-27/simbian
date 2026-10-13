@@ -1,6 +1,6 @@
 import server from "../assets/images/server.jpg";
 import storage from "../assets/images/storage.jpg";
-import dekstop from "../assets/images/dekstop.jpg"
+import dekstop from "../assets/images/dekstop.jpg";
 import laptop from "../assets/images/laptop.png";
 import printer from "../assets/images/printer.png";
 
@@ -14,17 +14,17 @@ export const PRODUCT_SECTION_TEXT = {
     drawerSummaryTitle: "Executive Summary",
     drawerOfferingsTitle: "Systems Subcategories & Offerings",
     slaTitle: "SLA & Deployment Support",
-    slaDescription: "All hardware deployments are supplied with official factory warranties. Turnkey installations include network configuration, software system loads, and local power testing overseen by our 40-engineer strong FMS team.",
+    slaDescription:
+        "All hardware deployments are supplied with official factory warranties. Turnkey installations include network configuration, software system loads, and local power testing overseen by our 40-engineer strong FMS team.",
     closeButton: "Close Specs",
-    ctaPrefix: "Request Quote for "
+    ctaPrefix: "Request Quote for ",
 };
 
-export const PRODUCT_CATEGORIES = [
-    {
-        id: "desktops",
-        name: "Desktop Computers",
-        description: "Enterprise workstations, HP & Dell corporate business desktops, and bespoke high-performance custom PCs designed for continuous uptime.",
-        iconName: "Monitor",
+/** Marketing copy + images keyed by DB category slug. */
+export const CATEGORY_MARKETING = {
+    "desktop-computers": {
+        description:
+            "Enterprise workstations, HP & Dell corporate business desktops, and bespoke high-performance custom PCs designed for continuous uptime.",
         image: dekstop,
         items: [
             { name: "Business Desktops", description: "Energy efficient, secure, and expandable B2B systems." },
@@ -32,11 +32,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Custom PCs", description: "Optimized configurations tailored to engineering, dev-ops, and architecture." },
         ],
     },
-    {
-        id: "laptops",
-        name: "Business Laptops",
-        description: "Premium corporate laptops of various brands with robust security features, durable casings, and long battery life for corporate professionals.",
-        iconName: "Laptop",
+    "business-laptops": {
+        description:
+            "Premium corporate laptops of various brands with robust security features, durable casings, and long battery life for corporate professionals.",
         image: laptop,
         items: [
             { name: "Executive Ultrabooks", description: "Ultra-thin, lightweight laptops with biometric login." },
@@ -44,11 +42,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Mobile Workstations", description: "Heavy-duty discrete graphics systems for complex processing on the go." },
         ],
     },
-    {
-        id: "servers",
-        name: "Enterprise Servers",
-        description: "Rack-mount, tower, and blade servers optimized for high computational throughput, virtualization, database servers, and multi-tenant hosting.",
-        iconName: "Server",
+    "enterprise-servers": {
+        description:
+            "Rack-mount, tower, and blade servers optimized for high computational throughput, virtualization, database servers, and multi-tenant hosting.",
         image: server,
         items: [
             { name: "Tower Servers", description: "Expandable dual & quad CPU tower units for SMB database and storage." },
@@ -56,11 +52,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Blade & Storage Servers", description: "Modular SAN/NAS storage servers powered by Intel Xeon processing units." },
         ],
     },
-    {
-        id: "storage",
-        name: "Storage Solutions",
-        description: "Network Attached Storage (NAS), Storage Area Networks (SAN), enterprise Solid State Drives (SSDs), and secure backup equipment to safeguard data.",
-        iconName: "HardDrive",
+    "storage-solutions": {
+        description:
+            "Network Attached Storage (NAS), Storage Area Networks (SAN), enterprise Solid State Drives (SSDs), and secure backup equipment to safeguard data.",
         image: storage,
         items: [
             { name: "SAN & NAS Systems", description: "High-capacity network storage arrays with real-time replication." },
@@ -68,11 +62,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Backup & Recovery Solutions", description: "Automated tape, cloud, and local backup systems with failover." },
         ],
     },
-    {
-        id: "networking",
-        name: "Networking Equipment",
-        description: "Enterprise-grade switches, high-throughput routers, corporate wireless APs, secure network cabling, and robust point-to-point wireless links.",
-        iconName: "Network",
+    "networking-equipment": {
+        description:
+            "Enterprise-grade switches, high-throughput routers, corporate wireless APs, secure network cabling, and robust point-to-point wireless links.",
         image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
         items: [
             { name: "Managed Switches", description: "Layer 2/3 enterprise switches supporting high-density PoE and VLANs." },
@@ -80,11 +72,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Corporate Wireless", description: "Secure high-density Wi-Fi networks and point-to-point link systems." },
         ],
     },
-    {
-        id: "peripherals",
-        name: "Printers & Scanners",
-        description: "Laser, inkjet, and multi-function printers, workgroup flatbed scanners, high-resolution business monitors, and professional LCD/DLP projectors.",
-        iconName: "Printer",
+    "printers-scanners": {
+        description:
+            "Laser, inkjet, and multi-function printers, workgroup flatbed scanners, high-resolution business monitors, and professional LCD/DLP projectors.",
         image: printer,
         items: [
             { name: "Multi-Function Printers (MFP)", description: "Enterprise-grade heavy duty print, copy, scan, and fax units." },
@@ -92,11 +82,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Monitors & Projectors", description: "High-definition corporate displays and conference room DLP projection." },
         ],
     },
-    {
-        id: "power",
-        name: "UPS & Power Backup",
-        description: "Uninterruptible Power Supplies (UPS) with high ratings, static stabilizers, and isolation transformers to prevent business interruption.",
-        iconName: "Zap",
+    "ups-power-backup": {
+        description:
+            "Uninterruptible Power Supplies (UPS) with high ratings, static stabilizers, and isolation transformers to prevent business interruption.",
         image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
         items: [
             { name: "Enterprise UPS Systems", description: "Wide-range ratings UPS systems with intelligent battery managers." },
@@ -104,11 +92,9 @@ export const PRODUCT_CATEGORIES = [
             { name: "Isolation Transformers", description: "High attenuation shielding to eliminate power spikes and noise harmonics." },
         ],
     },
-    {
-        id: "security",
-        name: "Security & Surveillance",
-        description: "Comprehensive Wi-Fi setups, CCTV dome/bullet cameras, biometric access control, fire systems, and building management system (BMS) integration.",
-        iconName: "Shield",
+    "security-surveillance": {
+        description:
+            "Comprehensive Wi-Fi setups, CCTV dome/bullet cameras, biometric access control, fire systems, and building management system (BMS) integration.",
         image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
         items: [
             { name: "Biometric Access Control", description: "Time-attendance systems, facial/fingerprint scanners, and smart locks." },
@@ -116,4 +102,17 @@ export const PRODUCT_CATEGORIES = [
             { name: "Building Management (BMS)", description: "Integrated smart monitoring, alarm systems, and environmental controllers." },
         ],
     },
-];
+};
+
+const PLACEHOLDER_IMAGE =
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80";
+
+export function getCategoryMarketing(slug) {
+    return (
+        CATEGORY_MARKETING[slug] || {
+            description: "Enterprise IT hardware and solutions from Simbian Systems.",
+            image: PLACEHOLDER_IMAGE,
+            items: [],
+        }
+    );
+}

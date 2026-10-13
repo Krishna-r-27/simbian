@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Phone, Mail, MapPin, Send, CheckCircle2 } from "lucide-react";
 import { CONTACT_STATIC_TEXT, SUBJECT_OPTIONS } from "../data/contactData";
@@ -13,9 +14,20 @@ const INITIAL_FORM_STATE = {
 };
 
 export default function ContactSection() {
+    const location = useLocation();
     const [formData, setFormData] = useState(INITIAL_FORM_STATE);
     const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);
+
+    useEffect(() => {
+        const selectedProduct = location.state?.selectedProduct;
+        if (!selectedProduct) return;
+        setFormData((prev) => ({
+            ...prev,
+            subject: "procurement",
+            message: `I am interested in: ${selectedProduct}`,
+        }));
+    }, [location.state]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;

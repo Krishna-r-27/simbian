@@ -1,0 +1,2 @@
+import api, { unwrap } from '../api/axios';
+export const enquiryService = { getPaged: (params) => api.get('/enquiries', { params }).then(unwrap), get: (id) => api.get(`/enquiries/${id}`).then(unwrap), status: (id, status) => api.put(`/enquiries/${id}/status`, { status }).then(unwrap), delete: (id) => api.delete(`/enquiries/${id}`).then(unwrap), bulkDelete: (ids) => api.post('/enquiries/bulk-delete', { ids }).then(unwrap), export: (excel) => api.get('/enquiries/export', { params: { excel }, responseType: 'blob' }) };

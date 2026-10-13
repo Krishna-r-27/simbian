@@ -15,6 +15,19 @@ import ServicesPage from "./pages/Services";
 import SolutionsPage from "./pages/Solutions";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
+import ProtectedRoute from "./routes/ProtectedRoute";
+import AdminLayout from "./layouts/AdminLayout";
+import Login from "./pages/poweradmin/Login";
+import ForgotPassword from "./pages/poweradmin/ForgotPassword";
+import ResetPassword from "./pages/poweradmin/ResetPassword";
+import Dashboard from "./pages/poweradmin/Dashboard";
+import ProductList from "./pages/poweradmin/products/ProductList";
+import ProductForm from "./pages/poweradmin/products/ProductForm";
+import SpecTemplates from "./pages/poweradmin/products/SpecTemplates";
+import ProductQuotes from "./pages/poweradmin/products/ProductQuotes";
+import EnquiryList from "./pages/poweradmin/enquiries/EnquiryList";
+import Profile from "./pages/poweradmin/profile/Profile";
+import ChangePassword from "./pages/poweradmin/profile/ChangePassword";
 import SitemapPage from "./pages/SitemapPage";
 import PageNotFound from "./pages/PageNotFound";
 
@@ -58,46 +71,16 @@ export default function App() {
                     />
 
                     {/* Products Base */}
+                    <Route path="products" element={<ProductsPage />} />
+
+                    {/* Product detail: /products/:categorySlug/:productSlug */}
                     <Route
-                        path="products"
-                        element={
-                            <ProductsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
+                        path="products/:categorySlug/:productSlug"
+                        element={<ProductDetailsPage />}
                     />
 
-                    {/* Product Details (canonical form, with /details/) */}
-                    <Route
-                        path="products/:categorySlug/details/:productId"
-                        element={
-                            <ProductDetailsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
-                    />
-
-                    {/* Category + Brand routes (e.g. /products/laptops/dell) */}
-                    <Route
-                        path="products/:categorySlug/*"
-                        element={
-                            <ProductsPage
-                                onInquire={(product) =>
-                                    handleOpenQuoteWithCategory(
-                                        `Inquiry: ${product?.name || "Product Inquiry"}`
-                                    )
-                                }
-                            />
-                        }
-                    />
+                    {/* Category listing: /products/:categorySlug */}
+                    <Route path="products/:categorySlug" element={<ProductsPage />} />
 
                     {/* Other Pages */}
                     <Route
@@ -122,6 +105,26 @@ export default function App() {
                     path="/under-construction"
                     element={<UnderConstruction />}
                 />
+                <Route path="/poweradmin/login" element={<Login />} />
+                <Route path="/poweradmin/forgot-password" element={<ForgotPassword />} />
+                <Route path="/poweradmin/reset-password" element={<ResetPassword />} />
+                <Route element={<ProtectedRoute />}>
+                    <Route path="/poweradmin" element={<AdminLayout />}>
+                        <Route index element={<Dashboard />} />
+                        <Route path="dashboard" element={<Dashboard />} />
+                        <Route path="products" element={<ProductList />} />
+                        <Route path="products/new" element={<ProductForm />} />
+                        <Route path="products/specs" element={<SpecTemplates />} />
+                        <Route path="products/quotes" element={<ProductQuotes />} />
+                        <Route path="products/:id/edit" element={<ProductForm />} />
+                        <Route path="products/:id" element={<ProductForm />} />
+                        <Route path="spec-templates" element={<SpecTemplates />} />
+                        <Route path="product-quotes" element={<ProductQuotes />} />
+                        <Route path="enquiries" element={<EnquiryList />} />
+                        <Route path="profile" element={<Profile />} />
+                        <Route path="change-password" element={<ChangePassword />} />
+                    </Route>
+                </Route>
 
                 <Route path="*" element={<PageNotFound />} />
 

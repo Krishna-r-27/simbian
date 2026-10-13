@@ -1,0 +1,89 @@
+{
+  "origin": "https://www.simbiansystems.com",
+  "notFound": {
+    "title": "Page Not Found | Simbian Systems",
+    "description": "The page you requested is not on the Simbian Systems website. Visit the homepage, product catalog, or contact page to continue.",
+    "keywords": "Simbian Systems, page not found",
+    "heading": "Page not found",
+    "summary": "This address does not match a page on Simbian Systems. Open the homepage, the product catalog, or the contact page to find enterprise IT hardware and services."
+  },
+  "routes": [
+    {
+      "path": "/",
+      "title": "Enterprise IT Solutions Built for Performance | Simbian Systems",
+      "description": "Simbian Systems delivers enterprise computing, servers, networking, storage, and managed IT services for businesses, education, healthcare, and government across Gujarat and India.",
+      "keywords": "Simbian Systems, enterprise IT, computers, servers, networking, storage, Gujarat, Baroda",
+      "canonical": "https://www.simbiansystems.com/",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Enterprise IT solutions built for performance",
+      "summary": "Simbian Systems is a Baroda-based supplier of enterprise desktops, laptops, servers, networking, and managed IT services. The company supports businesses, educational institutions, healthcare, and government organizations with hardware, installation, and ongoing facility management."
+    },
+    {
+      "path": "/products",
+      "title": "Enterprise IT Products | Simbian Systems",
+      "description": "Browse enterprise IT hardware from Simbian Systems, including desktops, laptops, servers, networking gear, printers, UPS systems, and security products.",
+      "keywords": "enterprise desktops, business laptops, servers, networking, printers, UPS, Simbian Systems products",
+      "canonical": "https://www.simbiansystems.com/products",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Enterprise IT products",
+      "summary": "Browse the Simbian Systems product catalog. Published hardware is grouped by category, covering desktops, laptops, servers, networking, printers, power protection, and security equipment available for quote."
+    },
+    {
+      "path": "/solutions",
+      "title": "Turnkey IT Solutions | Simbian Systems",
+      "description": "Turnkey information management, banking and education infrastructure, global trading, and OEM technical support from Simbian Systems.",
+      "keywords": "turnkey IT solutions, banking infrastructure, education IT, global trading, OEM support, Simbian Systems",
+      "canonical": "https://www.simbiansystems.com/solutions",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Turnkey IT solutions",
+      "summary": "Simbian Systems designs turnkey information management systems, banking and educational infrastructure, and global supply support. Solutions cover architecture, deployment, and OEM technical backing for corporate computer centers."
+    },
+    {
+      "path": "/services-portfolio",
+      "title": "Managed IT Services and Facility Management | Simbian Systems",
+      "description": "Facility management, on-site engineers, network security, database administration, and hardware maintenance contracts from Simbian Systems.",
+      "keywords": "facility management, FMS, AMC, on-site engineers, hardware maintenance, Simbian Systems services",
+      "canonical": "https://www.simbiansystems.com/services-portfolio",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Managed IT services and facility management",
+      "summary": "Simbian Systems provides facility management and annual maintenance for business IT. Services include resident engineers, network security, database administration, and hardware support that keep offices and computer centers running."
+    },
+    {
+      "path": "/about-us",
+      "title": "About Simbian Systems | Baroda IT Infrastructure",
+      "description": "Simbian Systems is a Baroda-based computer and peripheral marketing organization supplying enterprise IT infrastructure across Gujarat and India.",
+      "keywords": "about Simbian Systems, Baroda IT company, Gujarat computer supplier, enterprise infrastructure",
+      "canonical": "https://www.simbiansystems.com/about-us",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "About Simbian Systems",
+      "summary": "Simbian Systems is a Baroda-based computer system and peripheral marketing organization with a presence across Gujarat, a national associate network, and international supply connections for enterprise IT infrastructure."
+    },
+    {
+      "path": "/contact-us",
+      "title": "Contact Simbian Systems | Sales and Support",
+      "description": "Contact Simbian Systems in Baroda for enterprise hardware quotes, procurement, facility management, and technical consulting.",
+      "keywords": "contact Simbian Systems, IT quote, hardware procurement, Baroda sales, technical consulting",
+      "canonical": "https://www.simbiansystems.com/contact-us",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Contact Simbian Systems",
+      "summary": "Contact the Simbian Systems team for enterprise hardware quotes, procurement help, facility management, and technical consulting. Share your requirement and the team will follow up from Baroda."
+    },
+    {
+      "path": "/sitemap",
+      "title": "Sitemap | Simbian Systems",
+      "description": "Directory of Simbian Systems pages: home, products, solutions, services, about, contact, and product categories.",
+      "keywords": "Simbian Systems sitemap, site directory, product categories",
+      "canonical": "https://www.simbiansystems.com/sitemap",
+      "prerender": true,
+      "sitemap": true,
+      "heading": "Sitemap",
+      "summary": "Directory of the Simbian Systems website. Find the homepage, product catalog, turnkey solutions, managed services, company profile, and contact page, plus links into each product category."
+    }
+  ]
+}

@@ -60,3 +60,5 @@ appsettings.Local.json
 # ==========================================
 publish/
 out/
+/SimbianSystems.Server/logs/log-20260803.txt
+/SimbianSystems.Server/logs/log-20260804.txt

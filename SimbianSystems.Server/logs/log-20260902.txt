@@ -1,0 +1,1525 @@
+2026-09-02 10:23:53.357 +05:30 [INF] HTTP GET /swagger responded 301 in 47.8325 ms
+2026-09-02 10:23:53.608 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 153.1477 ms
+2026-09-02 10:23:53.670 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 54.1772 ms
+2026-09-02 10:23:53.670 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 49.4573 ms
+2026-09-02 10:23:53.732 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 112.8345 ms
+2026-09-02 10:23:53.982 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.5117 ms
+2026-09-02 10:23:54.226 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 263.3423 ms
+2026-09-02 10:24:20.015 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 1050.8675 ms
+2026-09-02 10:24:22.361 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 299.2167 ms
+2026-09-02 10:24:22.774 +05:30 [INF] HTTP GET /api/public/category responded 200 in 714.5531 ms
+2026-09-02 10:24:22.839 +05:30 [INF] HTTP GET /uploads/products/6e4071440f324583af673fcf35aa839f.webp responded 200 in 24.5756 ms
+2026-09-02 10:24:39.646 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 166.7237 ms
+2026-09-02 10:24:39.674 +05:30 [INF] HTTP GET /api/public/category responded 200 in 167.4271 ms
+2026-09-02 10:24:49.638 +05:30 [INF] HTTP GET /api/public/category responded 200 in 248.5444 ms
+2026-09-02 10:24:49.663 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 275.1711 ms
+2026-09-02 10:27:21.751 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 210.1736 ms
+2026-09-02 10:27:21.789 +05:30 [INF] HTTP GET /api/public/category responded 200 in 184.1634 ms
+2026-09-02 10:27:28.182 +05:30 [INF] HTTP GET /api/dashboard/stats responded 401 in 90.0463 ms
+2026-09-02 10:27:29.256 +05:30 [INF] HTTP POST /api/auth/refresh responded 200 in 1039.4081 ms
+2026-09-02 10:27:29.497 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 206.4734 ms
+2026-09-02 10:27:31.220 +05:30 [INF] HTTP GET /api/products responded 200 in 108.7153 ms
+2026-09-02 10:27:31.287 +05:30 [INF] HTTP GET /uploads/products/7d5e7342faa144c19f9c14e02626f3f8.webp responded 200 in 4.7143 ms
+2026-09-02 10:27:41.386 +05:30 [INF] HTTP GET /api/products responded 200 in 22.3757 ms
+2026-09-02 10:31:52.431 +05:30 [INF] HTTP GET /api/products responded 200 in 59.2166 ms
+2026-09-02 10:31:54.447 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 22.4079 ms
+2026-09-02 10:31:54.449 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.9335 ms
+2026-09-02 10:32:09.160 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 139.0623 ms
+2026-09-02 10:33:02.921 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 40.6752 ms
+2026-09-02 10:33:02.985 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 56.2075 ms
+2026-09-02 10:33:02.986 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 106.6946 ms
+2026-09-02 10:33:03.004 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 99.5344 ms
+2026-09-02 10:33:03.011 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 130.8280 ms
+2026-09-02 10:33:03.014 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 126.4032 ms
+2026-09-02 10:33:13.331 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 27.4949 ms
+2026-09-02 10:33:13.336 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 33.4647 ms
+2026-09-02 10:33:22.135 +05:30 [INF] HTTP GET /api/products responded 200 in 19.8529 ms
+2026-09-02 10:33:23.435 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 21.2254 ms
+2026-09-02 10:33:23.436 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.4378 ms
+2026-09-02 10:33:26.959 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 20.5535 ms
+2026-09-02 10:35:06.795 +05:30 [INF] HTTP POST /api/specs/groups responded 200 in 170.4836 ms
+2026-09-02 10:35:06.858 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 23.7434 ms
+2026-09-02 10:35:06.879 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 29.9791 ms
+2026-09-02 10:35:25.561 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 22.0367 ms
+2026-09-02 10:35:37.750 +05:30 [INF] HTTP POST /api/specs/definitions responded 200 in 187.9001 ms
+2026-09-02 10:35:37.804 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 16.1527 ms
+2026-09-02 10:35:37.818 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 29.7785 ms
+2026-09-02 10:35:43.071 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 20.2503 ms
+2026-09-02 10:36:49.744 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 3320.2011 ms
+2026-09-02 10:36:49.847 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.webp responded 200 in 31.4427 ms
+2026-09-02 10:36:56.249 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1622.4364 ms
+2026-09-02 10:36:56.337 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1694.9570 ms
+2026-09-02 10:36:56.489 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1801.2949 ms
+2026-09-02 10:36:56.548 +05:30 [INF] HTTP GET /uploads/products/f52311408cee45a0beaa0d6bf8eb93c7.webp responded 200 in 9.6171 ms
+2026-09-02 10:36:56.550 +05:30 [INF] HTTP GET /uploads/products/81e56822ec1e409899134d28811ba7e9.webp responded 200 in 9.5497 ms
+2026-09-02 10:36:56.550 +05:30 [INF] HTTP GET /uploads/products/5ba4d6348925448fbc8f9a20d9bf0c28.webp responded 200 in 9.7736 ms
+2026-09-02 10:37:04.790 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-09-02 10:37:04.908 +05:30 [INF] HTTP POST /api/products responded 200 in 926.5388 ms
+2026-09-02 10:37:05.090 +05:30 [INF] HTTP GET /api/products responded 200 in 23.5906 ms
+2026-09-02 10:37:12.372 +05:30 [INF] HTTP POST /api/products/bulk-publish responded 200 in 128.3783 ms
+2026-09-02 10:37:12.430 +05:30 [INF] HTTP GET /api/products responded 200 in 29.8258 ms
+2026-09-02 10:37:19.959 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 31.1651 ms
+2026-09-02 10:37:22.571 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 11.4999 ms
+2026-09-02 10:37:22.583 +05:30 [INF] HTTP GET /api/public/category responded 200 in 22.1221 ms
+2026-09-02 10:37:22.629 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.webp responded 304 in 3.0414 ms
+2026-09-02 10:37:24.702 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-09-02 10:37:24.751 +05:30 [INF] HTTP GET /api/public/category/hp-pro-tower-400-g9-pci-desktop-pc responded 200 in 100.9233 ms
+2026-09-02 10:37:24.836 +05:30 [INF] HTTP GET /uploads/products/5ba4d6348925448fbc8f9a20d9bf0c28.webp responded 304 in 0.3357 ms
+2026-09-02 10:37:24.836 +05:30 [INF] HTTP GET /uploads/products/f52311408cee45a0beaa0d6bf8eb93c7.webp responded 304 in 0.2779 ms
+2026-09-02 10:37:24.836 +05:30 [INF] HTTP GET /uploads/products/81e56822ec1e409899134d28811ba7e9.webp responded 304 in 0.4080 ms
+2026-09-02 10:37:26.933 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.png responded 200 in 6.6051 ms
+2026-09-02 10:37:47.600 +05:30 [INF] HTTP GET /api/products responded 200 in 27.5059 ms
+2026-09-02 10:37:49.563 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 13.7927 ms
+2026-09-02 10:37:49.571 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.6771 ms
+2026-09-02 10:37:49.597 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 51.4122 ms
+2026-09-02 10:37:49.597 +05:30 [INF] HTTP GET /api/products/1 responded 200 in 52.3044 ms
+2026-09-02 10:37:49.694 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 16.1305 ms
+2026-09-02 10:37:52.284 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 17.9745 ms
+2026-09-02 10:37:53.269 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.png responded 304 in 0.6860 ms
+2026-09-02 10:37:55.720 +05:30 [INF] HTTP PUT /api/products/1 responded 200 in 213.8568 ms
+2026-09-02 10:37:55.884 +05:30 [INF] HTTP GET /api/products responded 200 in 21.8114 ms
+2026-09-02 10:37:57.334 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 18.5973 ms
+2026-09-02 10:37:57.355 +05:30 [INF] HTTP GET /api/public/category/hp-pro-tower-400-g9-pci-desktop-pc responded 200 in 36.6906 ms
+2026-09-02 10:37:57.672 +05:30 [INF] HTTP GET /uploads/products/81e56822ec1e409899134d28811ba7e9.png responded 200 in 7.2209 ms
+2026-09-02 10:37:57.672 +05:30 [INF] HTTP GET /uploads/products/5ba4d6348925448fbc8f9a20d9bf0c28.png responded 404 in 1.3371 ms
+2026-09-02 10:37:57.680 +05:30 [INF] HTTP GET /uploads/products/f52311408cee45a0beaa0d6bf8eb93c7.png responded 200 in 8.0698 ms
+2026-09-02 10:38:04.537 +05:30 [INF] HTTP GET /api/products responded 200 in 32.5585 ms
+2026-09-02 10:38:09.921 +05:30 [INF] HTTP GET /api/products responded 200 in 35.0707 ms
+2026-09-02 10:38:10.367 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 29.7819 ms
+2026-09-02 10:38:10.369 +05:30 [INF] HTTP GET /api/public/category/hp-pro-tower-400-g9-pci-desktop-pc responded 200 in 32.5756 ms
+2026-09-02 10:38:28.910 +05:30 [INF] HTTP GET /api/products responded 200 in 31.7361 ms
+2026-09-02 16:19:38.955 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 187.6870 ms
+2026-09-02 16:19:40.323 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 636.3148 ms
+2026-09-02 16:20:01.548 +05:30 [INF] HTTP GET /api/dashboard/stats responded 401 in 280.5628 ms
+2026-09-02 16:20:02.495 +05:30 [ERR] HTTP POST /api/auth/refresh responded 500 in 916.6095 ms
+SimbianSystems.Server.Application.Common.AppException: Refresh token is expired or revoked.
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.RefreshTokenAsync(RefreshTokenRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 76
+   at SimbianSystems.Server.Controllers.AuthController.Refresh(RefreshTokenRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 28
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:23:41.543 +05:30 [ERR] HTTP POST /api/auth/login responded 500 in 596.1434 ms
+SimbianSystems.Server.Application.Common.AppException: Invalid username/email or password.
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.LoginAsync(LoginRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 57
+   at SimbianSystems.Server.Controllers.AuthController.Login(LoginRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 22
+   at lambda_method79(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:25:58.349 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=NQT2NaAlymQRdPrkg7bdtLj1FPPEkwwW%2B4Q97MuKVYM%3D&email=ronak%40dotscoms.com
+2026-09-02 16:25:58.355 +05:30 [WRN] SMTP not configured. Email to ronak@dotscoms.com | Subject: Reset your password | Body: <p>Hello admin,</p>
+<p>A password reset was requested for your Simbian Systems admin account.</p>
+<p><a href="https://localhost:60679/poweradmin/reset-password?token=NQT2NaAlymQRdPrkg7bdtLj1FPPEkwwW%2B4Q97MuKVYM%3D&email=ronak%40dotscoms.com">Reset your password</a></p>
+<p>This link expires in 1 hour.</p>
+2026-09-02 16:25:58.363 +05:30 [INF] HTTP POST /api/auth/forgot-password responded 200 in 182.0512 ms
+2026-09-02 16:29:13.656 +05:30 [INF] HTTP POST /api/auth/forgot-password responded 200 in 11.5991 ms
+2026-09-02 16:29:59.708 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=Xbi%2B8A6N6GFRIWAGw1t3c32LJH%2B4oAmgL07K3oAnb2c%3D&email=ronak%40dotscoms.com
+2026-09-02 16:30:32.796 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=sf1VXoPwUjAWMBVK1wZOiW%2BGZ8vLEfhF38d%2Fcye%2BHnY%3D&email=ronak%40dotscoms.com
+2026-09-02 16:30:33.316 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 539.4604 ms
+System.NotSupportedException: The SMTP server does not support the STARTTLS extension.
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:30:33.392 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+System.NotSupportedException: The SMTP server does not support the STARTTLS extension.
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:30:33.633 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:31:06.337 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=8Ddyp8a1lSjXuUgAioePVDGhbw%2BBWqbDi%2FRaNpADJRQ%3D&email=ronak%40dotscoms.com
+2026-09-02 16:31:06.792 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 466.4058 ms
+System.NotSupportedException: The SMTP server does not support the STARTTLS extension.
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:31:06.854 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+System.NotSupportedException: The SMTP server does not support the STARTTLS extension.
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:31:36.090 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=wYe5qUx5LovXMp%2Bs9YSv3iiamSoS%2FthJ6aU4dzrFQmg%3D&email=ronak%40dotscoms.com
+2026-09-02 16:31:36.577 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 503.8838 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:31:36.638 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:31:36.817 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:32:01.684 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 121994.4414 ms
+System.TimeoutException: Operation timed out after 120000 milliseconds
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at MailKit.Net.NetworkStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MailKit.Net.NetworkStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadAheadAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponseAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:32:01.736 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+System.TimeoutException: Operation timed out after 120000 milliseconds
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at MailKit.Net.NetworkStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MailKit.Net.NetworkStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadAheadAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponseAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.PostConnectAsync(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:32:01.929 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:32:46.096 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=A6o3nws5t8WgxWouGbZgIzae2Fz4CypR2RSO%2Bjkn3U0%3D&email=ronak%40dotscoms.com
+2026-09-02 16:33:55.437 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 113238.4181 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:33:55.470 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method135(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:35:13.806 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 202.4513 ms
+2026-09-02 16:35:14.171 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 264.0481 ms
+2026-09-02 16:35:37.345 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=8EpZZBJq21hmxDA4C6X2Lht3%2BwS0DfvXPbXQBH88WqM%3D&email=ronak%40dotscoms.com
+2026-09-02 16:35:37.943 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 2718.0732 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:35:37.978 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:35:38.177 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:36:30.277 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=GJnmdVAja4y7ZVARcUKlGceZvyFirgJSS%2BQZzAhcImw%3D&email=ronak%40dotscoms.com
+2026-09-02 16:45:39.312 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 597746.6515 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:45:39.344 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:45:48.085 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:48:10.679 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=ZD7Sc1kwPssKagRH4YgNiNLdsC5WUzhwhr1zS1c06mw%3D&email=ronak%40dotscoms.com
+2026-09-02 16:48:15.112 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 7133.7634 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:48:15.144 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:51:25.680 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=nsxFG8uUZtxMxJgXnHSnILolnQjWmOcmom4yMkrNDfs%3D&email=ronak%40dotscoms.com
+2026-09-02 16:51:26.658 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 7497.9771 ms
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:51:26.687 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:51:27.539 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+MailKit.Security.AuthenticationException: 535: Authentication failed
+ ---> MailKit.Net.Smtp.SmtpCommandException: Authentication failed
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 118
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:51:44.458 +05:30 [ERR] HTTP POST /api/auth/login responded 500 in 458.9971 ms
+SimbianSystems.Server.Application.Common.AppException: Invalid username/email or password.
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.LoginAsync(LoginRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 57
+   at SimbianSystems.Server.Controllers.AuthController.Login(LoginRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 22
+   at lambda_method257(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:51:50.783 +05:30 [ERR] HTTP POST /api/auth/login responded 500 in 461.2321 ms
+SimbianSystems.Server.Application.Common.AppException: Invalid username/email or password.
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.LoginAsync(LoginRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 57
+   at SimbianSystems.Server.Controllers.AuthController.Login(LoginRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 22
+   at lambda_method257(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:53:48.811 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 216.4030 ms
+2026-09-02 16:53:49.253 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 339.3848 ms
+2026-09-02 16:54:10.935 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=Q1lOV6i1Xw9o0Be74mTIaidvuUfkcV634EoxdtQVFjk%3D&email=ronak%40dotscoms.com
+2026-09-02 16:54:36.544 +05:30 [ERR] HTTP POST /api/auth/forgot-password responded 500 in 27709.3555 ms
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at MailKit.Net.SocketUtils.SocketConnectState.OnEndConnect(IAsyncResult ar)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetworkAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-09-02 16:54:36.629 +05:30 [ERR] Unhandled exception for POST /api/auth/forgot-password
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at MailKit.Net.SocketUtils.SocketConnectState.OnEndConnect(IAsyncResult ar)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetworkAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendAsync(String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 34
+   at SimbianSystems.Server.Infrastructure.Services.AuthService.ForgotPasswordAsync(ForgotPasswordRequest request, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\AuthService.cs:line 163
+   at SimbianSystems.Server.Controllers.AuthController.ForgotPassword(ForgotPasswordRequest request, CancellationToken ct) in D:\Ronak\simbiansystems\SimbianSystems.Server\Controllers\AuthController.cs:line 35
+   at lambda_method15(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SimbianSystems.Server.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Ronak\simbiansystems\SimbianSystems.Server\Middleware\ExceptionHandlingMiddleware.cs:line 21
+2026-09-02 16:55:03.937 +05:30 [ERR] Failed to send exception alert email to testing@yourwebsitepreview.com
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at MailKit.Net.SocketUtils.SocketConnectState.OnEndConnect(IAsyncResult ar)
+--- End of stack trace from previous location ---
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, CancellationToken cancellationToken)
+   at MailKit.Net.SocketUtils.ConnectAsync(String host, Int32 port, IPEndPoint localEndPoint, Int32 timeout, CancellationToken cancellationToken)
+   at MailKit.MailService.ConnectNetworkAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendWithSettingsAsync(SmtpSettings settings, String to, String subject, String htmlBody, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 116
+   at SimbianSystems.Server.Infrastructure.Services.EmailService.SendExceptionAlertAsync(Exception exception, String requestMethod, String requestPath, String queryString, String userId, String userEmail, String ipAddress, CancellationToken cancellationToken) in D:\Ronak\simbiansystems\SimbianSystems.Server\Infrastructure\Services\EmailService.cs:line 86
+2026-09-02 16:55:51.239 +05:30 [INF] Password reset link for ronak@dotscoms.com: https://localhost:60679/poweradmin/reset-password?token=pQShGToFVJs50NU7OQomgajkCtj3RIwEVNYfYGApkT4%3D&email=ronak%40dotscoms.com
+2026-09-02 17:11:53.514 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 199.9379 ms
+2026-09-02 17:11:54.021 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 375.0675 ms
+2026-09-02 17:12:32.940 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 973.1461 ms
+2026-09-02 17:12:33.326 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 319.7689 ms
+2026-09-02 17:12:36.322 +05:30 [INF] HTTP GET /api/products responded 200 in 280.2058 ms
+2026-09-02 17:12:36.954 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.webp responded 200 in 21.0018 ms
+2026-09-02 17:13:36.937 +05:30 [INF] HTTP GET /api/products responded 200 in 23.5985 ms
+2026-09-02 17:13:43.234 +05:30 [INF] HTTP GET /api/products responded 200 in 24.8718 ms
+2026-09-02 17:14:24.813 +05:30 [INF] HTTP GET /api/products responded 200 in 16.8478 ms
+2026-09-02 17:14:26.278 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 26.8477 ms
+2026-09-02 17:14:26.311 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.7869 ms
+2026-09-02 17:14:27.641 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 66.6878 ms
+2026-09-02 17:14:28.643 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 8.8108 ms
+2026-09-02 17:15:16.677 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1698.9197 ms
+2026-09-02 17:15:16.731 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 200 in 26.2654 ms
+2026-09-02 17:15:21.234 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 780.1293 ms
+2026-09-02 17:15:21.332 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 835.9929 ms
+2026-09-02 17:15:22.865 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2421.3909 ms
+2026-09-02 17:15:22.901 +05:30 [INF] HTTP GET /uploads/products/4027fe09ffcf4c95b498aa7fd6571076.webp responded 200 in 3.0895 ms
+2026-09-02 17:15:22.905 +05:30 [INF] HTTP GET /uploads/products/1f940f2c56434de4bcb57fc169175956.webp responded 200 in 6.8798 ms
+2026-09-02 17:15:22.901 +05:30 [INF] HTTP GET /uploads/products/e733e7be0f394c5e9490d162d49ecd31.webp responded 200 in 3.1038 ms
+2026-09-02 17:15:27.666 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 11.8949 ms
+2026-09-02 17:15:33.155 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2114.1328 ms
+2026-09-02 17:15:33.187 +05:30 [INF] HTTP GET /uploads/products/b57a71d83cac4667974775ed31d56880.webp responded 200 in 2.2101 ms
+2026-09-02 17:16:14.827 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-09-02 17:16:14.912 +05:30 [INF] HTTP POST /api/products responded 200 in 512.1203 ms
+2026-09-02 17:16:14.976 +05:30 [INF] HTTP GET /api/products responded 200 in 9.2652 ms
+2026-09-02 17:16:19.744 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 14.3230 ms
+2026-09-02 17:16:19.766 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 7.6449 ms
+2026-09-02 17:16:34.224 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.0329 ms
+2026-09-02 17:17:42.995 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 685.9317 ms
+2026-09-02 17:17:43.031 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 200 in 3.4813 ms
+2026-09-02 17:17:48.010 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 598.0818 ms
+2026-09-02 17:17:48.093 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 699.1233 ms
+2026-09-02 17:17:48.121 +05:30 [INF] HTTP GET /uploads/products/d953e05bff20473f9189ecb23ccc4da2.webp responded 200 in 1.7267 ms
+2026-09-02 17:17:48.127 +05:30 [INF] HTTP GET /uploads/products/576007b196384000a89a90ccd6382b92.webp responded 200 in 7.0247 ms
+2026-09-02 17:17:52.386 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2031.3164 ms
+2026-09-02 17:17:52.415 +05:30 [INF] HTTP GET /uploads/products/b7b02a96f57d4a60835fbcece9ccc355.webp responded 200 in 3.0717 ms
+2026-09-02 17:17:56.308 +05:30 [INF] HTTP POST /api/products responded 200 in 47.0545 ms
+2026-09-02 17:17:56.375 +05:30 [INF] HTTP GET /api/products responded 200 in 13.2748 ms
+2026-09-02 17:17:56.375 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 3.2947 ms
+2026-09-02 17:17:56.405 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.3575 ms
+2026-09-02 17:17:58.117 +05:30 [INF] HTTP POST /api/products/bulk-publish responded 200 in 73.2584 ms
+2026-09-02 17:17:58.140 +05:30 [INF] HTTP GET /api/products responded 200 in 10.2800 ms
+2026-09-02 17:18:20.780 +05:30 [INF] HTTP GET /api/products responded 200 in 14.5746 ms
+2026-09-02 17:18:23.257 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.3166 ms
+2026-09-02 17:18:23.274 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.0461 ms
+2026-09-02 17:18:24.768 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 8.3556 ms
+2026-09-02 17:19:11.959 +05:30 [INF] HTTP POST /api/products responded 200 in 43.7331 ms
+2026-09-02 17:19:12.010 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.4769 ms
+2026-09-02 17:19:12.017 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 1.3004 ms
+2026-09-02 17:19:12.026 +05:30 [INF] HTTP GET /api/products responded 200 in 17.7159 ms
+2026-09-02 17:19:14.952 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.5929 ms
+2026-09-02 17:19:14.991 +05:30 [INF] HTTP GET /api/products/4 responded 200 in 49.1712 ms
+2026-09-02 17:19:15.012 +05:30 [INF] HTTP GET /api/products/4 responded 200 in 8.5478 ms
+2026-09-02 17:19:15.019 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 34.2052 ms
+2026-09-02 17:19:15.039 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.6769 ms
+2026-09-02 17:19:40.064 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 859.7523 ms
+2026-09-02 17:19:40.095 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 200 in 2.6464 ms
+2026-09-02 17:19:46.943 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 760.6171 ms
+2026-09-02 17:19:46.976 +05:30 [INF] HTTP GET /uploads/products/e1a0af62105048af965daf0958ac3394.webp responded 200 in 3.2852 ms
+2026-09-02 17:19:52.649 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 642.8724 ms
+2026-09-02 17:19:52.686 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 671.3114 ms
+2026-09-02 17:19:52.724 +05:30 [INF] HTTP GET /uploads/products/141f504ccb5a4bea9e740afd17b81f4e.webp responded 200 in 4.3857 ms
+2026-09-02 17:19:52.724 +05:30 [INF] HTTP GET /uploads/products/c753410299e94353a91aa6cb493cfd32.webp responded 200 in 4.1979 ms
+2026-09-02 17:20:01.321 +05:30 [INF] HTTP PUT /api/products/4 responded 200 in 88.3356 ms
+2026-09-02 17:20:01.379 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 2.7559 ms
+2026-09-02 17:20:01.379 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 1.6808 ms
+2026-09-02 17:20:01.385 +05:30 [INF] HTTP GET /api/products responded 200 in 14.0154 ms
+2026-09-02 17:20:10.029 +05:30 [INF] HTTP GET /api/products responded 200 in 13.1814 ms
+2026-09-02 17:20:20.328 +05:30 [INF] HTTP GET /api/products responded 200 in 18.7178 ms
+2026-09-02 17:20:21.464 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.0387 ms
+2026-09-02 17:20:21.492 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 15.7872 ms
+2026-09-02 17:20:23.676 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 6.4613 ms
+2026-09-02 17:21:30.712 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1691.1737 ms
+2026-09-02 17:21:30.733 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 200 in 2.6248 ms
+2026-09-02 17:21:34.939 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 861.5355 ms
+2026-09-02 17:21:34.984 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 883.0088 ms
+2026-09-02 17:21:35.016 +05:30 [INF] HTTP GET /uploads/products/9dc13f3a5cd5442b92c3e1423d56de0e.webp responded 200 in 3.5291 ms
+2026-09-02 17:21:35.019 +05:30 [INF] HTTP GET /uploads/products/8b90420db2ea4f6ca674c95708c42da0.webp responded 200 in 3.1940 ms
+2026-09-02 17:21:38.717 +05:30 [INF] HTTP POST /api/products responded 200 in 197.0816 ms
+2026-09-02 17:21:38.761 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.3116 ms
+2026-09-02 17:21:38.763 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.3459 ms
+2026-09-02 17:21:38.763 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.1237 ms
+2026-09-02 17:21:38.779 +05:30 [INF] HTTP GET /api/products responded 200 in 12.5774 ms
+2026-09-02 17:21:42.344 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.4369 ms
+2026-09-02 17:21:42.361 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 5.5611 ms
+2026-09-02 17:21:54.666 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.5849 ms
+2026-09-02 17:22:43.277 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1765.4909 ms
+2026-09-02 17:22:43.349 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 200 in 3.2692 ms
+2026-09-02 17:22:46.297 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 753.9013 ms
+2026-09-02 17:22:46.349 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 788.5090 ms
+2026-09-02 17:22:46.387 +05:30 [INF] HTTP GET /uploads/products/9d83f58396564d7d91a15b7c1db1fe52.webp responded 200 in 3.3316 ms
+2026-09-02 17:22:46.391 +05:30 [INF] HTTP GET /uploads/products/39f2b60c4b494cdbb1851de91a41d5ad.webp responded 200 in 3.2852 ms
+2026-09-02 17:22:48.644 +05:30 [INF] HTTP POST /api/products responded 200 in 36.0211 ms
+2026-09-02 17:22:48.699 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 1.6337 ms
+2026-09-02 17:22:48.701 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 1.7302 ms
+2026-09-02 17:22:48.699 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 1.3367 ms
+2026-09-02 17:22:48.704 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 1.6265 ms
+2026-09-02 17:22:48.704 +05:30 [INF] HTTP GET /api/products responded 200 in 13.0928 ms
+2026-09-02 17:22:50.543 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.1656 ms
+2026-09-02 17:22:50.558 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.9700 ms
+2026-09-02 17:23:02.947 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.6212 ms
+2026-09-02 17:23:12.563 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.7172 ms
+2026-09-02 17:23:12.569 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 5.6723 ms
+2026-09-02 17:23:12.583 +05:30 [INF] HTTP GET /api/products responded 200 in 11.4803 ms
+2026-09-02 17:23:26.597 +05:30 [INF] HTTP GET /api/products responded 200 in 14.4440 ms
+2026-09-02 17:23:28.161 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 10.3097 ms
+2026-09-02 17:23:28.178 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.6122 ms
+2026-09-02 17:23:29.476 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.2193 ms
+2026-09-02 17:24:24.593 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1923.2390 ms
+2026-09-02 17:24:24.626 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 200 in 1.7947 ms
+2026-09-02 17:24:28.615 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1014.4442 ms
+2026-09-02 17:24:28.634 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1009.4995 ms
+2026-09-02 17:24:28.662 +05:30 [INF] HTTP GET /uploads/products/c22dda0c4eb147e1834506134889a124.webp responded 200 in 2.0520 ms
+2026-09-02 17:24:28.668 +05:30 [INF] HTTP GET /uploads/products/015b9ea978ac4a6e908b400ecc1bb7ea.webp responded 200 in 6.8060 ms
+2026-09-02 17:24:31.793 +05:30 [INF] HTTP POST /api/products responded 200 in 45.3174 ms
+2026-09-02 17:24:31.855 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.2281 ms
+2026-09-02 17:24:31.858 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.3127 ms
+2026-09-02 17:24:31.860 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 1.8640 ms
+2026-09-02 17:24:31.860 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 1.8638 ms
+2026-09-02 17:24:31.868 +05:30 [INF] HTTP GET /api/products responded 200 in 19.5979 ms
+2026-09-02 17:24:31.868 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 1.0854 ms
+2026-09-02 17:24:45.114 +05:30 [INF] HTTP GET /api/products responded 200 in 17.6587 ms
+2026-09-02 17:24:46.536 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 11.0415 ms
+2026-09-02 17:24:46.554 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.5088 ms
+2026-09-02 17:24:48.336 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 6.9202 ms
+2026-09-02 17:25:56.247 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 757.2550 ms
+2026-09-02 17:25:56.280 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 200 in 2.7913 ms
+2026-09-02 17:25:59.750 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 852.1309 ms
+2026-09-02 17:25:59.778 +05:30 [INF] HTTP GET /uploads/products/42595bded2ae488784f5576138686a46.webp responded 200 in 2.2791 ms
+2026-09-02 17:26:03.850 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1614.9775 ms
+2026-09-02 17:26:03.882 +05:30 [INF] HTTP GET /uploads/products/6c2cd6f7f4bf40498854b69165508b25.webp responded 200 in 2.2525 ms
+2026-09-02 17:26:12.572 +05:30 [INF] HTTP POST /api/products responded 200 in 38.9168 ms
+2026-09-02 17:26:12.644 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.1203 ms
+2026-09-02 17:26:12.644 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.1869 ms
+2026-09-02 17:26:12.644 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.1869 ms
+2026-09-02 17:26:12.646 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.4622 ms
+2026-09-02 17:26:12.644 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.1872 ms
+2026-09-02 17:26:12.646 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.1334 ms
+2026-09-02 17:26:12.679 +05:30 [INF] HTTP GET /api/products responded 200 in 30.4843 ms
+2026-09-02 17:26:22.883 +05:30 [INF] HTTP GET /api/products responded 200 in 17.8075 ms
+2026-09-02 17:26:23.930 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 8.9509 ms
+2026-09-02 17:26:23.947 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 7.8242 ms
+2026-09-02 17:26:25.814 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 7.9197 ms
+2026-09-02 17:28:03.497 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1220.7448 ms
+2026-09-02 17:28:03.519 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 200 in 2.7449 ms
+2026-09-02 17:28:16.347 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 526.4342 ms
+2026-09-02 17:28:16.501 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 637.8078 ms
+2026-09-02 17:28:16.536 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 686.9363 ms
+2026-09-02 17:28:16.585 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 739.7173 ms
+2026-09-02 17:28:16.619 +05:30 [INF] HTTP GET /uploads/products/3ae5e180ff7340e7877f0f0c95af1d40.webp responded 200 in 5.1116 ms
+2026-09-02 17:28:16.630 +05:30 [INF] HTTP GET /uploads/products/f6c2665dc6ea4623b3963b368b9771fa.webp responded 200 in 11.1186 ms
+2026-09-02 17:28:16.621 +05:30 [INF] HTTP GET /uploads/products/070d11f43df448208473816935e6d823.webp responded 200 in 9.6241 ms
+2026-09-02 17:28:16.619 +05:30 [INF] HTTP GET /uploads/products/870e0d5dabc24017a04b9137139e758f.webp responded 200 in 4.5733 ms
+2026-09-02 17:28:20.530 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 1.7149 ms
+2026-09-02 17:28:21.146 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 1.3760 ms
+2026-09-02 17:28:27.312 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 759.5238 ms
+2026-09-02 17:28:27.341 +05:30 [INF] HTTP GET /uploads/products/8ab71f2101394523b6f015a311356e74.webp responded 200 in 3.5068 ms
+2026-09-02 17:28:30.481 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 581.5056 ms
+2026-09-02 17:28:30.525 +05:30 [INF] HTTP GET /uploads/products/19fe3669232247eba213eb41c6fc7a2d.webp responded 200 in 2.6025 ms
+2026-09-02 17:28:36.021 +05:30 [INF] HTTP POST /api/products responded 200 in 43.7103 ms
+2026-09-02 17:28:36.087 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.1346 ms
+2026-09-02 17:28:36.087 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.1478 ms
+2026-09-02 17:28:36.087 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.1287 ms
+2026-09-02 17:28:36.089 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.1096 ms
+2026-09-02 17:28:36.091 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.1427 ms
+2026-09-02 17:28:36.089 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.3301 ms
+2026-09-02 17:28:36.089 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.1031 ms
+2026-09-02 17:28:36.103 +05:30 [INF] HTTP GET /api/products responded 200 in 13.1765 ms
+2026-09-02 17:28:43.689 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 7.8923 ms
+2026-09-02 17:28:43.707 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.6092 ms
+2026-09-02 17:29:03.529 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 8.9029 ms
+2026-09-02 17:30:12.335 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2148.2488 ms
+2026-09-02 17:30:12.375 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 200 in 3.4769 ms
+2026-09-02 17:30:15.338 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1653.4098 ms
+2026-09-02 17:30:15.362 +05:30 [INF] HTTP GET /uploads/products/b04e45da8ed5471782b2b262b55be953.webp responded 200 in 2.5942 ms
+2026-09-02 17:30:18.842 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 674.8612 ms
+2026-09-02 17:30:18.868 +05:30 [INF] HTTP GET /uploads/products/7ec6436b02964bb2bb45444072a2334b.webp responded 200 in 1.4048 ms
+2026-09-02 17:30:21.392 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 608.0958 ms
+2026-09-02 17:30:21.454 +05:30 [INF] HTTP GET /uploads/products/167a520335b049e996e4c46c37fe6a4e.webp responded 200 in 1.7089 ms
+2026-09-02 17:30:37.316 +05:30 [INF] HTTP POST /api/products responded 200 in 47.9951 ms
+2026-09-02 17:30:37.386 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.1196 ms
+2026-09-02 17:30:37.413 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.1571 ms
+2026-09-02 17:30:37.413 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.1944 ms
+2026-09-02 17:30:37.413 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.2487 ms
+2026-09-02 17:30:37.413 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.1702 ms
+2026-09-02 17:30:37.432 +05:30 [INF] HTTP GET /api/products responded 200 in 13.8261 ms
+2026-09-02 17:30:37.386 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.4121 ms
+2026-09-02 17:30:37.417 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.4692 ms
+2026-09-02 17:30:37.417 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.4601 ms
+2026-09-02 17:30:39.587 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.4894 ms
+2026-09-02 17:30:39.619 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 9.5309 ms
+2026-09-02 17:37:42.076 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 71.4891 ms
+2026-09-02 17:38:57.119 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5280.0871 ms
+2026-09-02 17:38:57.190 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 200 in 8.3824 ms
+2026-09-02 17:39:03.304 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1685.0092 ms
+2026-09-02 17:39:03.979 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2281.5748 ms
+2026-09-02 17:39:06.889 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5217.5714 ms
+2026-09-02 17:39:06.975 +05:30 [INF] HTTP GET /uploads/products/e6715e3167194caa97f77a6ee17492d6.webp responded 200 in 10.5650 ms
+2026-09-02 17:39:06.984 +05:30 [INF] HTTP GET /uploads/products/f0c545ec441841ad947c02ba0101dbd9.webp responded 200 in 2.8926 ms
+2026-09-02 17:39:06.990 +05:30 [INF] HTTP GET /uploads/products/2ae0869198cb4137b4c3b5495781dd57.webp responded 200 in 26.5333 ms
+2026-09-02 17:39:11.374 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 2.2712 ms
+2026-09-02 17:39:11.839 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 3.1070 ms
+2026-09-02 17:39:18.790 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1952.5895 ms
+2026-09-02 17:39:18.846 +05:30 [INF] HTTP GET /uploads/products/780d04d669a14582aef22acf0363d62e.webp responded 200 in 3.9239 ms
+2026-09-02 17:39:23.791 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1484.4888 ms
+2026-09-02 17:39:23.829 +05:30 [INF] HTTP GET /uploads/products/c72256ac5aef404aa05d599c951dfc13.webp responded 200 in 3.4308 ms
+2026-09-02 17:39:28.357 +05:30 [INF] HTTP POST /api/products responded 200 in 155.2758 ms
+2026-09-02 17:39:28.482 +05:30 [INF] HTTP GET /api/products responded 200 in 32.3987 ms
+2026-09-02 17:39:28.645 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 2.5444 ms
+2026-09-02 17:39:28.649 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 2.7544 ms
+2026-09-02 17:39:28.653 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.6520 ms
+2026-09-02 17:39:28.652 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 2.7407 ms
+2026-09-02 17:39:28.664 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.2009 ms
+2026-09-02 17:39:28.658 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.3195 ms
+2026-09-02 17:39:28.661 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.1886 ms
+2026-09-02 17:39:28.661 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.1911 ms
+2026-09-02 17:39:28.660 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 1.9709 ms
+2026-09-02 17:39:42.597 +05:30 [INF] HTTP GET /api/products responded 200 in 49.7291 ms
+2026-09-02 17:39:44.072 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.8453 ms
+2026-09-02 17:39:44.118 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 16.9832 ms
+2026-09-02 17:39:46.560 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 23.4533 ms
+2026-09-02 17:41:07.497 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1602.1136 ms
+2026-09-02 17:41:07.556 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 200 in 6.1761 ms
+2026-09-02 17:41:13.569 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1732.0564 ms
+2026-09-02 17:41:13.639 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1826.8903 ms
+2026-09-02 17:41:13.699 +05:30 [INF] HTTP GET /uploads/products/925d52af065643639a79c9714150110d.webp responded 200 in 5.6152 ms
+2026-09-02 17:41:13.702 +05:30 [INF] HTTP GET /uploads/products/a110d27497d745ea9342496289ce7d22.webp responded 200 in 4.5397 ms
+2026-09-02 17:41:17.127 +05:30 [INF] HTTP POST /api/products responded 200 in 145.7370 ms
+2026-09-02 17:41:17.316 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.3106 ms
+2026-09-02 17:41:17.316 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.3106 ms
+2026-09-02 17:41:17.346 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.8593 ms
+2026-09-02 17:41:17.317 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.3735 ms
+2026-09-02 17:41:17.357 +05:30 [INF] HTTP GET /api/products responded 200 in 31.8602 ms
+2026-09-02 17:41:17.323 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.3037 ms
+2026-09-02 17:41:17.338 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 1.3696 ms
+2026-09-02 17:41:17.327 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.3416 ms
+2026-09-02 17:41:47.593 +05:30 [INF] HTTP GET /api/products responded 200 in 32.9279 ms
+2026-09-02 17:41:49.681 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.3808 ms
+2026-09-02 17:41:49.718 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 15.3249 ms
+2026-09-02 17:41:51.421 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 20.4975 ms
+2026-09-02 17:43:04.197 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 892.4908 ms
+2026-09-02 17:43:04.279 +05:30 [INF] HTTP GET /uploads/products/47e4c91a717d45eea6bf730dc8904a03.webp responded 200 in 5.9024 ms
+2026-09-02 17:43:04.587 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5244.3307 ms
+2026-09-02 17:43:04.640 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 200 in 5.1136 ms
+2026-09-02 17:43:11.929 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 4338.7018 ms
+2026-09-02 17:43:11.990 +05:30 [INF] HTTP GET /uploads/products/c5dd7f79d4d9409f81ea6fc7c2806e07.webp responded 200 in 9.2816 ms
+2026-09-02 17:43:17.522 +05:30 [INF] HTTP POST /api/products responded 200 in 134.3764 ms
+2026-09-02 17:43:17.732 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.2237 ms
+2026-09-02 17:43:17.734 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 2.4787 ms
+2026-09-02 17:43:17.738 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.4298 ms
+2026-09-02 17:43:17.757 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.3065 ms
+2026-09-02 17:43:17.748 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.2757 ms
+2026-09-02 17:43:17.766 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.1556 ms
+2026-09-02 17:43:17.747 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.8273 ms
+2026-09-02 17:43:17.738 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.3467 ms
+2026-09-02 17:43:17.769 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.2798 ms
+2026-09-02 17:43:17.800 +05:30 [INF] HTTP GET /api/products responded 200 in 29.7738 ms
+2026-09-02 17:43:17.747 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.7851 ms
+2026-09-02 17:43:17.893 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.1858 ms
+2026-09-02 17:43:20.034 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.6896 ms
+2026-09-02 17:43:20.090 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 21.7691 ms
+2026-09-02 17:43:20.153 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 142.6130 ms
+2026-09-02 17:43:20.190 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 17.9924 ms
+2026-09-02 17:43:20.222 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 211.0692 ms
+2026-09-02 17:43:20.268 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 22.8320 ms
+2026-09-02 17:44:20.082 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 45.6129 ms
+2026-09-02 17:44:20.082 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 28.4049 ms
+2026-09-02 17:44:20.114 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 16.4854 ms
+2026-09-02 17:44:20.335 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 109.4311 ms
+2026-09-02 17:44:20.355 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 129.8763 ms
+2026-09-02 17:44:20.376 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 144.4366 ms
+2026-09-02 17:44:24.545 +05:30 [INF] HTTP GET /api/products responded 200 in 33.8208 ms
+2026-09-02 17:44:24.677 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.6310 ms
+2026-09-02 17:44:24.677 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.2380 ms
+2026-09-02 17:44:24.679 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.4069 ms
+2026-09-02 17:44:28.343 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 27.5402 ms
+2026-09-02 17:44:28.346 +05:30 [INF] HTTP GET /api/products/13 responded 200 in 33.5953 ms
+2026-09-02 17:44:28.380 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 15.4711 ms
+2026-09-02 17:44:28.399 +05:30 [INF] HTTP GET /api/products/13 responded 200 in 28.8948 ms
+2026-09-02 17:44:28.448 +05:30 [INF] HTTP GET /uploads/products/47e4c91a717d45eea6bf730dc8904a03.webp responded 304 in 0.3079 ms
+2026-09-02 17:44:28.454 +05:30 [INF] HTTP GET /uploads/products/c5dd7f79d4d9409f81ea6fc7c2806e07.webp responded 304 in 0.8125 ms
+2026-09-02 17:44:28.470 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 15.6038 ms
+2026-09-02 17:44:37.730 +05:30 [INF] HTTP GET /api/products responded 200 in 35.3112 ms
+2026-09-02 17:44:39.687 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.8256 ms
+2026-09-02 17:44:39.728 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 17.1809 ms
+2026-09-02 17:44:41.594 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.2795 ms
+2026-09-02 17:46:43.466 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 4535.9034 ms
+2026-09-02 17:46:43.541 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 200 in 8.1146 ms
+2026-09-02 17:46:43.691 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1214.1211 ms
+2026-09-02 17:46:43.742 +05:30 [INF] HTTP GET /uploads/products/c16957b53c69468a9c4df7ac92730f6c.webp responded 200 in 7.6208 ms
+2026-09-02 17:46:47.851 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 3.5070 ms
+2026-09-02 17:47:19.198 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1480.7955 ms
+2026-09-02 17:47:19.279 +05:30 [INF] HTTP GET /uploads/products/18d86f87654a4bb88d65c3819c83dc60.webp responded 200 in 6.3312 ms
+2026-09-02 17:47:26.842 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 4289.7321 ms
+2026-09-02 17:47:26.931 +05:30 [INF] HTTP GET /uploads/products/d71d9a15576a4432a9a279f558939af8.webp responded 200 in 11.2078 ms
+2026-09-02 17:47:28.902 +05:30 [INF] HTTP POST /api/products responded 200 in 148.8135 ms
+2026-09-02 17:47:29.090 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.3467 ms
+2026-09-02 17:47:29.100 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.3796 ms
+2026-09-02 17:47:29.112 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 1.0136 ms
+2026-09-02 17:47:29.115 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.1855 ms
+2026-09-02 17:47:29.131 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.7056 ms
+2026-09-02 17:47:29.101 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.1450 ms
+2026-09-02 17:47:29.101 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.2418 ms
+2026-09-02 17:47:29.101 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.0779 ms
+2026-09-02 17:47:29.121 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.3130 ms
+2026-09-02 17:47:29.121 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.3188 ms
+2026-09-02 17:47:29.207 +05:30 [INF] HTTP GET /api/products responded 200 in 72.6599 ms
+2026-09-02 17:47:37.452 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 37.8132 ms
+2026-09-02 17:47:37.453 +05:30 [INF] HTTP GET /api/products/13 responded 200 in 40.0296 ms
+2026-09-02 17:47:37.509 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 24.6339 ms
+2026-09-02 17:47:37.511 +05:30 [INF] HTTP GET /api/products/13 responded 200 in 29.2977 ms
+2026-09-02 17:47:37.562 +05:30 [INF] HTTP GET /uploads/products/c5dd7f79d4d9409f81ea6fc7c2806e07.webp responded 304 in 0.3191 ms
+2026-09-02 17:47:37.562 +05:30 [INF] HTTP GET /uploads/products/47e4c91a717d45eea6bf730dc8904a03.webp responded 304 in 0.3284 ms
+2026-09-02 17:47:37.583 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 19.4514 ms
+2026-09-02 17:47:42.671 +05:30 [INF] HTTP GET /api/products responded 200 in 37.3225 ms
+2026-09-02 17:47:44.221 +05:30 [INF] HTTP GET /api/products/14 responded 200 in 31.8569 ms
+2026-09-02 17:47:44.225 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 33.6381 ms
+2026-09-02 17:47:44.267 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.1915 ms
+2026-09-02 17:47:44.287 +05:30 [INF] HTTP GET /api/products/14 responded 200 in 25.2481 ms
+2026-09-02 17:47:44.331 +05:30 [INF] HTTP GET /uploads/products/d71d9a15576a4432a9a279f558939af8.webp responded 304 in 0.2470 ms
+2026-09-02 17:47:44.334 +05:30 [INF] HTTP GET /uploads/products/18d86f87654a4bb88d65c3819c83dc60.webp responded 304 in 0.2988 ms
+2026-09-02 17:47:44.353 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.0211 ms
+2026-09-02 17:47:51.477 +05:30 [INF] HTTP GET /api/products responded 200 in 35.1009 ms
+2026-09-02 17:47:53.102 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 110.8274 ms
+2026-09-02 17:47:53.138 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 13.4906 ms
+2026-09-02 17:48:07.182 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 20.8369 ms
+2026-09-02 17:49:34.522 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1224.5444 ms
+2026-09-02 17:49:34.615 +05:30 [INF] HTTP GET /uploads/products/336274656dcf4909ae6bd091e1577cc1.webp responded 200 in 7.9500 ms
+2026-09-02 17:49:37.363 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 8246.0331 ms
+2026-09-02 17:49:37.422 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 200 in 11.8757 ms
+2026-09-02 17:49:43.465 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5664.7231 ms
+2026-09-02 17:49:43.516 +05:30 [INF] HTTP GET /uploads/products/66b2c776c228410fb586841fb3115f41.webp responded 200 in 5.1058 ms
+2026-09-02 17:49:45.937 +05:30 [INF] HTTP POST /api/products responded 200 in 122.8228 ms
+2026-09-02 17:49:46.119 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.3512 ms
+2026-09-02 17:49:46.122 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.4026 ms
+2026-09-02 17:49:46.129 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.1591 ms
+2026-09-02 17:49:46.119 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2382 ms
+2026-09-02 17:49:46.131 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.2827 ms
+2026-09-02 17:49:46.176 +05:30 [INF] HTTP GET /api/products responded 200 in 35.8658 ms
+2026-09-02 17:49:46.129 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.5608 ms
+2026-09-02 17:49:46.135 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.9351 ms
+2026-09-02 17:50:09.709 +05:30 [INF] HTTP GET /api/products responded 200 in 41.6915 ms
+2026-09-02 17:50:11.443 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 15.4296 ms
+2026-09-02 17:50:11.474 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.1183 ms
+2026-09-02 17:50:14.164 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 21.3166 ms
+2026-09-02 17:51:20.838 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1110.0990 ms
+2026-09-02 17:51:20.939 +05:30 [INF] HTTP GET /uploads/products/1d548ad5c8cd4c4f93d91831dfb746b0.webp responded 200 in 11.6032 ms
+2026-09-02 17:51:23.438 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 6788.6481 ms
+2026-09-02 17:51:24.573 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 200 in 130.4345 ms
+2026-09-02 17:51:30.578 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 6648.1458 ms
+2026-09-02 17:51:30.633 +05:30 [INF] HTTP GET /uploads/products/fd9a0fe5567c4f00ba0f3b2b067ec42f.webp responded 200 in 4.1857 ms
+2026-09-02 17:51:33.072 +05:30 [INF] HTTP POST /api/products responded 200 in 166.7706 ms
+2026-09-02 17:51:33.228 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.1786 ms
+2026-09-02 17:51:33.233 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.2086 ms
+2026-09-02 17:51:33.237 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.1753 ms
+2026-09-02 17:51:33.237 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.1729 ms
+2026-09-02 17:51:33.237 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.1752 ms
+2026-09-02 17:51:33.240 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.2437 ms
+2026-09-02 17:51:33.233 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2134 ms
+2026-09-02 17:51:33.288 +05:30 [INF] HTTP GET /api/products responded 200 in 43.0844 ms
+2026-09-02 17:51:35.360 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.5756 ms
+2026-09-02 17:51:35.403 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 18.9310 ms
+2026-09-02 17:51:52.352 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 23.0517 ms
+2026-09-02 17:52:46.690 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1184.3361 ms
+2026-09-02 17:52:46.754 +05:30 [INF] HTTP GET /uploads/products/80e56a2205d349498b70e4fcda13f67e.webp responded 200 in 6.4510 ms
+2026-09-02 17:52:48.747 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 6961.9381 ms
+2026-09-02 17:52:50.596 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 200 in 10.3478 ms
+2026-09-02 17:52:59.830 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5877.8641 ms
+2026-09-02 17:52:59.877 +05:30 [INF] HTTP GET /uploads/products/ce2e710efaf943e090afc346030358b3.webp responded 200 in 5.3826 ms
+2026-09-02 17:53:01.573 +05:30 [INF] HTTP POST /api/products responded 200 in 158.3202 ms
+2026-09-02 17:53:01.722 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 2.0151 ms
+2026-09-02 17:53:01.727 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.1974 ms
+2026-09-02 17:53:01.728 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.2766 ms
+2026-09-02 17:53:01.741 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.3197 ms
+2026-09-02 17:53:01.738 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.2412 ms
+2026-09-02 17:53:01.775 +05:30 [INF] HTTP GET /api/products responded 200 in 29.4965 ms
+2026-09-02 17:53:01.738 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.2404 ms
+2026-09-02 17:53:01.729 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.2472 ms
+2026-09-02 17:53:01.727 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.3443 ms
+2026-09-02 17:53:01.727 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.3722 ms
+2026-09-02 17:53:04.902 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 15.9153 ms
+2026-09-02 17:53:04.949 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 17.9899 ms
+2026-09-02 17:53:24.706 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 21.8337 ms
+2026-09-02 17:54:48.493 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 4260.2780 ms
+2026-09-02 17:54:48.554 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 200 in 5.4241 ms
+2026-09-02 17:54:50.689 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1490.5180 ms
+2026-09-02 17:54:50.748 +05:30 [INF] HTTP GET /uploads/products/e26d7c8da45242fdb4863bca2b120125.webp responded 200 in 5.1111 ms
+2026-09-02 17:54:54.662 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1021.9300 ms
+2026-09-02 17:54:54.710 +05:30 [INF] HTTP GET /uploads/products/c93722cd6c9e457f9f63d6190efa5300.webp responded 200 in 3.8553 ms
+2026-09-02 17:55:00.091 +05:30 [INF] HTTP POST /api/products responded 200 in 126.0696 ms
+2026-09-02 17:55:00.220 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.1544 ms
+2026-09-02 17:55:00.222 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 2.4555 ms
+2026-09-02 17:55:00.220 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.2542 ms
+2026-09-02 17:55:00.220 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 0.2431 ms
+2026-09-02 17:55:00.227 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.4698 ms
+2026-09-02 17:55:00.229 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.3054 ms
+2026-09-02 17:55:00.256 +05:30 [INF] HTTP GET /api/products responded 200 in 27.0629 ms
+2026-09-02 17:55:00.230 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.1943 ms
+2026-09-02 17:55:19.458 +05:30 [INF] HTTP GET /api/products responded 200 in 30.3060 ms
+2026-09-02 17:55:21.249 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 17.0795 ms
+2026-09-02 17:55:21.288 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 17.0304 ms
+2026-09-02 17:55:23.649 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 20.6189 ms
+2026-09-02 17:56:16.489 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 4344.6996 ms
+2026-09-02 17:56:16.551 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 200 in 5.1881 ms
+2026-09-02 17:56:17.057 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1571.6484 ms
+2026-09-02 17:56:17.100 +05:30 [INF] HTTP GET /uploads/products/a938878eca56469585dde6765d2192a4.webp responded 200 in 3.8450 ms
+2026-09-02 17:56:20.750 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 925.2866 ms
+2026-09-02 17:56:20.801 +05:30 [INF] HTTP GET /uploads/products/d3d9412a5c064b8ea6be35db3b9fe6f4.webp responded 200 in 3.6320 ms
+2026-09-02 17:56:26.186 +05:30 [INF] HTTP POST /api/products responded 200 in 120.8472 ms
+2026-09-02 17:56:26.350 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.4770 ms
+2026-09-02 17:56:26.357 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.2799 ms
+2026-09-02 17:56:26.365 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 1.1320 ms
+2026-09-02 17:56:26.365 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.2521 ms
+2026-09-02 17:56:26.373 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 0.2952 ms
+2026-09-02 17:56:26.366 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.2304 ms
+2026-09-02 17:56:26.396 +05:30 [INF] HTTP GET /api/products responded 200 in 18.1622 ms
+2026-09-02 17:56:26.358 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.3557 ms
+2026-09-02 17:56:26.369 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.3206 ms
+2026-09-02 17:56:26.365 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2344 ms
+2026-09-02 17:56:35.931 +05:30 [INF] HTTP GET /api/products responded 200 in 29.7494 ms
+2026-09-02 17:56:40.962 +05:30 [INF] HTTP POST /api/products/19/duplicate responded 200 in 118.6341 ms
+2026-09-02 17:56:41.015 +05:30 [INF] HTTP GET /api/products responded 200 in 28.6232 ms
+2026-09-02 17:56:42.488 +05:30 [INF] HTTP POST /api/products/bulk-publish responded 200 in 37.3611 ms
+2026-09-02 17:56:42.542 +05:30 [INF] HTTP GET /api/products responded 200 in 26.9080 ms
+2026-09-02 17:56:43.537 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.0094 ms
+2026-09-02 17:56:43.566 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.2538 ms
+2026-09-02 17:56:43.599 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 82.5069 ms
+2026-09-02 17:56:43.636 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 17.8193 ms
+2026-09-02 17:56:43.668 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.5928 ms
+2026-09-02 17:56:51.792 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1627.4499 ms
+2026-09-02 17:56:51.839 +05:30 [INF] HTTP GET /uploads/products/0f2ca9f268334f3f81d5fd34e9da3eae.webp responded 200 in 4.4051 ms
+2026-09-02 17:56:56.211 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 975.1819 ms
+2026-09-02 17:56:56.267 +05:30 [INF] HTTP GET /uploads/products/7a74f488a72b4c56bc4b341faca821a0.webp responded 200 in 13.6452 ms
+2026-09-02 17:57:32.347 +05:30 [INF] HTTP PUT /api/products/20 responded 200 in 127.0406 ms
+2026-09-02 17:57:32.510 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2697 ms
+2026-09-02 17:57:32.510 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 0.2707 ms
+2026-09-02 17:57:32.535 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 2.9701 ms
+2026-09-02 17:57:32.512 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 2.3122 ms
+2026-09-02 17:57:32.510 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.2704 ms
+2026-09-02 17:57:32.510 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.2218 ms
+2026-09-02 17:57:32.555 +05:30 [INF] HTTP GET /api/products responded 200 in 45.4741 ms
+2026-09-02 17:57:43.128 +05:30 [INF] HTTP GET /api/products responded 200 in 44.5176 ms
+2026-09-02 18:05:08.104 +05:30 [INF] HTTP GET /api/products responded 200 in 77.9957 ms
+2026-09-02 18:05:09.621 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 10.7614 ms
+2026-09-02 18:05:09.649 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.7678 ms
+2026-09-02 18:05:11.629 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 17.3327 ms
+2026-09-02 18:06:07.514 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 28.0308 ms
+2026-09-02 18:06:07.560 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.1405 ms
+2026-09-02 18:06:07.560 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 72.5467 ms
+2026-09-02 18:06:07.570 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 74.6468 ms
+2026-09-02 18:06:07.594 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 14.1663 ms
+2026-09-02 18:06:07.608 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 14.3460 ms
+2026-09-02 18:06:18.143 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 20.2368 ms
+2026-09-02 18:06:18.163 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 38.4683 ms
+2026-09-02 18:06:21.410 +05:30 [INF] HTTP POST /api/specs/definitions responded 200 in 122.2794 ms
+2026-09-02 18:06:21.471 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 23.6204 ms
+2026-09-02 18:06:21.480 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 30.6981 ms
+2026-09-02 18:06:40.823 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 12.1936 ms
+2026-09-02 18:06:40.844 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 6.5196 ms
+2026-09-02 18:06:45.908 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 17.9587 ms
+2026-09-02 18:12:09.773 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 104.8388 ms
+2026-09-02 18:12:09.773 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 102.1532 ms
+2026-09-02 18:12:09.774 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 104.7057 ms
+2026-09-02 18:12:09.833 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 28.9409 ms
+2026-09-02 18:12:09.834 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 28.1448 ms
+2026-09-02 18:12:09.867 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 57.5777 ms
+2026-09-02 18:12:19.259 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 29.6833 ms
+2026-09-02 18:12:19.268 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 36.1808 ms
+2026-09-02 18:12:22.813 +05:30 [INF] HTTP POST /api/specs/definitions responded 200 in 67.8636 ms
+2026-09-02 18:12:22.875 +05:30 [INF] HTTP GET /api/specs/groups responded 200 in 21.4076 ms
+2026-09-02 18:12:22.891 +05:30 [INF] HTTP GET /api/specs/definitions responded 200 in 34.3767 ms
+2026-09-02 18:12:41.759 +05:30 [INF] HTTP GET /api/products responded 401 in 267.7036 ms
+2026-09-02 18:12:41.928 +05:30 [INF] HTTP POST /api/auth/refresh responded 200 in 129.4664 ms
+2026-09-02 18:12:41.983 +05:30 [INF] HTTP GET /api/products responded 200 in 28.8808 ms
+2026-09-02 18:12:42.147 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.3695 ms
+2026-09-02 18:12:42.163 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 0.3360 ms
+2026-09-02 18:12:42.169 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2466 ms
+2026-09-02 18:12:42.169 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.3237 ms
+2026-09-02 18:12:42.147 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 304 in 0.5832 ms
+2026-09-02 18:12:42.168 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.6840 ms
+2026-09-02 18:12:42.150 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.2982 ms
+2026-09-02 18:12:42.154 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.3419 ms
+2026-09-02 18:12:42.173 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.1861 ms
+2026-09-02 18:12:44.110 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 17.8026 ms
+2026-09-02 18:12:44.138 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 14.1683 ms
+2026-09-02 18:13:45.693 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 34.0939 ms
+2026-09-02 18:16:30.301 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 6552.1102 ms
+2026-09-02 18:16:30.490 +05:30 [INF] HTTP GET /uploads/products/9662cb2ad36a4c5caf12100b7a9849ed.webp responded 200 in 7.6459 ms
+2026-09-02 18:16:31.614 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2492.5744 ms
+2026-09-02 18:16:34.971 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5754.5541 ms
+2026-09-02 18:16:35.300 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 6141.2467 ms
+2026-09-02 18:16:35.370 +05:30 [INF] HTTP GET /uploads/products/1ba5e7d0f0b143938d1abb11802225ec.webp responded 200 in 3.2227 ms
+2026-09-02 18:16:35.380 +05:30 [INF] HTTP GET /uploads/products/de91bcaf05ca44bcaa7df20a9e7f24b9.webp responded 200 in 10.7000 ms
+2026-09-02 18:16:35.384 +05:30 [INF] HTTP GET /uploads/products/57cf0d64a4c04501bcf8fdeba9af0333.webp responded 200 in 12.9232 ms
+2026-09-02 18:18:26.757 +05:30 [INF] HTTP DELETE /api/uploads/image responded 200 in 5.9132 ms
+2026-09-02 18:18:34.396 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1678.5990 ms
+2026-09-02 18:18:34.475 +05:30 [INF] HTTP GET /uploads/products/bc341930dc4f4281a0934827f4ca4848.webp responded 200 in 6.7439 ms
+2026-09-02 18:18:40.165 +05:30 [INF] HTTP POST /api/products responded 200 in 184.4986 ms
+2026-09-02 18:18:40.291 +05:30 [INF] HTTP GET /api/products responded 200 in 29.3403 ms
+2026-09-02 18:18:40.453 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.2819 ms
+2026-09-02 18:18:40.454 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 0.2355 ms
+2026-09-02 18:18:40.458 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.3028 ms
+2026-09-02 18:18:40.465 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 1.9386 ms
+2026-09-02 18:18:40.453 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 304 in 0.2890 ms
+2026-09-02 18:18:40.471 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.9192 ms
+2026-09-02 18:18:40.464 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 0.2121 ms
+2026-09-02 18:18:40.477 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.2600 ms
+2026-09-02 18:30:05.803 +05:30 [INF] HTTP GET /api/products responded 200 in 137.0086 ms
+2026-09-02 18:30:08.665 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 7.3316 ms
+2026-09-02 18:30:08.666 +05:30 [INF] HTTP GET /api/products/21 responded 200 in 20.4219 ms
+2026-09-02 18:30:08.709 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 16.7148 ms
+2026-09-02 18:30:08.804 +05:30 [INF] HTTP GET /api/products/21 responded 200 in 109.0844 ms
+2026-09-02 18:30:08.817 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 14.3879 ms
+2026-09-02 18:34:50.807 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.3442 ms
+2026-09-02 18:34:50.807 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.5057 ms
+2026-09-02 18:34:50.810 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 0.4953 ms
+2026-09-02 18:34:50.835 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 3.3440 ms
+2026-09-02 18:34:50.807 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 304 in 0.5253 ms
+2026-09-02 18:34:50.813 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.3974 ms
+2026-09-02 18:34:50.835 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 2.9641 ms
+2026-09-02 18:34:50.847 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 1.2073 ms
+2026-09-02 18:34:50.991 +05:30 [INF] HTTP GET /api/products responded 200 in 142.5234 ms
+2026-09-02 18:35:08.622 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 37.3923 ms
+2026-09-02 18:35:08.665 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 19.2714 ms
+2026-09-02 18:35:08.678 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 89.1715 ms
+2026-09-02 18:35:08.758 +05:30 [INF] HTTP GET /uploads/products/0f2ca9f268334f3f81d5fd34e9da3eae.webp responded 304 in 0.1912 ms
+2026-09-02 18:35:08.771 +05:30 [INF] HTTP GET /uploads/products/7a74f488a72b4c56bc4b341faca821a0.webp responded 304 in 1.9003 ms
+2026-09-02 18:35:08.879 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 102.2181 ms
+2026-09-02 18:35:08.879 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 110.3028 ms
+2026-09-02 18:37:25.950 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 116.5436 ms
+2026-09-02 18:37:25.950 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 115.8535 ms
+2026-09-02 18:37:26.381 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 15.5673 ms
+2026-09-02 18:38:35.837 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 41.1987 ms
+2026-09-02 18:38:35.842 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 45.7205 ms
+2026-09-02 18:38:36.171 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 18.3239 ms
+2026-09-02 18:45:21.859 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 456.8830 ms
+2026-09-02 18:45:23.819 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 1668.2230 ms
+2026-09-02 18:47:59.644 +05:30 [INF] HTTP GET /api/public/categories responded 200 in 2774.9477 ms
+2026-09-02 18:48:00.114 +05:30 [INF] HTTP GET /api/dashboard/stats responded 200 in 806.0983 ms
+2026-09-02 18:48:02.355 +05:30 [INF] HTTP GET /api/products responded 200 in 640.1102 ms
+2026-09-02 18:48:03.161 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 304 in 152.2340 ms
+2026-09-02 18:48:03.222 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 63.6913 ms
+2026-09-02 18:48:03.375 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 1.7419 ms
+2026-09-02 18:48:03.372 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.4856 ms
+2026-09-02 18:48:03.161 +05:30 [INF] HTTP GET /uploads/products/9662cb2ad36a4c5caf12100b7a9849ed.webp responded 304 in 149.8179 ms
+2026-09-02 18:48:03.255 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.5071 ms
+2026-09-02 18:48:03.371 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 1.2168 ms
+2026-09-02 18:48:03.316 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 0.6151 ms
+2026-09-02 18:48:03.375 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.4377 ms
+2026-09-02 18:48:05.260 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 36.2190 ms
+2026-09-02 18:48:05.319 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 35.8853 ms
+2026-09-02 18:48:05.597 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-09-02 18:48:06.259 +05:30 [INF] HTTP GET /api/products/21 responded 200 in 1039.2227 ms
+2026-09-02 18:48:06.318 +05:30 [INF] HTTP GET /api/products/21 responded 200 in 29.7436 ms
+2026-09-02 18:48:06.369 +05:30 [INF] HTTP GET /uploads/products/bc341930dc4f4281a0934827f4ca4848.webp responded 304 in 5.0266 ms
+2026-09-02 18:48:06.372 +05:30 [INF] HTTP GET /uploads/products/57cf0d64a4c04501bcf8fdeba9af0333.webp responded 304 in 0.5021 ms
+2026-09-02 18:48:06.374 +05:30 [INF] HTTP GET /uploads/products/de91bcaf05ca44bcaa7df20a9e7f24b9.webp responded 304 in 0.4513 ms
+2026-09-02 18:48:06.551 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 167.5109 ms
+2026-09-02 18:48:09.735 +05:30 [INF] HTTP PUT /api/products/21/gallery-order responded 200 in 1038.2239 ms
+2026-09-02 18:48:09.959 +05:30 [INF] HTTP PUT /api/products/21/gallery-order responded 200 in 94.0978 ms
+2026-09-02 18:48:13.165 +05:30 [INF] HTTP GET /api/products responded 200 in 54.8019 ms
+2026-09-02 18:48:39.706 +05:30 [INF] HTTP GET /api/products responded 200 in 37.9540 ms
+2026-09-02 18:49:22.653 +05:30 [INF] HTTP GET /api/products responded 200 in 33.8875 ms
+2026-09-02 18:49:24.491 +05:30 [INF] HTTP POST /api/products/21/duplicate responded 200 in 298.4577 ms
+2026-09-02 18:49:24.562 +05:30 [INF] HTTP GET /api/products responded 200 in 36.0143 ms
+2026-09-02 18:49:26.953 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 28.6994 ms
+2026-09-02 18:49:26.993 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.8790 ms
+2026-09-02 18:49:27.025 +05:30 [INF] HTTP GET /api/products/22 responded 200 in 100.8206 ms
+2026-09-02 18:49:27.104 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 28.4228 ms
+2026-09-02 18:49:27.127 +05:30 [INF] HTTP GET /api/products/22 responded 200 in 81.7199 ms
+2026-09-02 18:49:44.777 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 5823.9751 ms
+2026-09-02 18:49:49.374 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 10392.0045 ms
+2026-09-02 18:49:50.032 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 11072.6332 ms
+2026-09-02 18:49:50.515 +05:30 [INF] HTTP GET /uploads/products/571ed113cff944c48743f1e781b64a0a.webp responded 200 in 156.4195 ms
+2026-09-02 18:49:50.515 +05:30 [INF] HTTP GET /uploads/products/2c19ab432afa4526b48f49267e227c28.webp responded 200 in 149.6500 ms
+2026-09-02 18:49:50.515 +05:30 [INF] HTTP GET /uploads/products/bb406223e4c14a0e8484c4f76baef12b.webp responded 200 in 144.6553 ms
+2026-09-02 18:49:53.536 +05:30 [INF] HTTP PUT /api/products/22/gallery-order responded 200 in 76.5192 ms
+2026-09-02 18:50:32.850 +05:30 [INF] HTTP PUT /api/products/22/gallery-order responded 200 in 76.2122 ms
+2026-09-02 18:50:33.214 +05:30 [INF] HTTP PUT /api/products/22 responded 200 in 331.2761 ms
+2026-09-02 18:50:33.404 +05:30 [INF] HTTP GET /api/products responded 200 in 47.2659 ms
+2026-09-02 18:50:34.613 +05:30 [INF] HTTP POST /api/products/bulk-publish responded 200 in 133.1129 ms
+2026-09-02 18:50:34.680 +05:30 [INF] HTTP GET /api/products responded 200 in 33.4131 ms
+2026-09-02 18:50:37.744 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.5445 ms
+2026-09-02 18:50:37.788 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 18.0477 ms
+2026-09-02 18:50:54.159 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 19.4891 ms
+2026-09-02 18:51:35.775 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 51.6644 ms
+2026-09-02 18:52:50.449 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1785.3040 ms
+2026-09-02 18:52:50.802 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 7897.8467 ms
+2026-09-02 18:52:50.864 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 200 in 7.8796 ms
+2026-09-02 18:52:50.957 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2272.4312 ms
+2026-09-02 18:52:56.223 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 7756.5757 ms
+2026-09-02 18:52:56.295 +05:30 [INF] HTTP GET /uploads/products/6b8116f8c0fc4cd38d8280f6122224a5.webp responded 200 in 3.4431 ms
+2026-09-02 18:52:56.305 +05:30 [INF] HTTP GET /uploads/products/abd2efab932842ca8ac0f6794ea6b4a5.webp responded 200 in 13.2894 ms
+2026-09-02 18:52:56.305 +05:30 [INF] HTTP GET /uploads/products/c60b3f066dfd496496ff9372da098cbe.webp responded 200 in 8.6078 ms
+2026-09-02 18:53:05.870 +05:30 [INF] HTTP POST /api/products responded 200 in 180.8747 ms
+2026-09-02 18:53:06.167 +05:30 [INF] HTTP GET /uploads/products/9662cb2ad36a4c5caf12100b7a9849ed.webp responded 304 in 0.2577 ms
+2026-09-02 18:53:06.262 +05:30 [INF] HTTP GET /api/products responded 200 in 82.4193 ms
+2026-09-02 18:53:09.023 +05:30 [INF] HTTP GET /api/products responded 200 in 63.0682 ms
+2026-09-02 18:53:15.037 +05:30 [INF] HTTP GET /api/products responded 200 in 23.9036 ms
+2026-09-02 18:53:20.708 +05:30 [INF] HTTP GET /api/products responded 200 in 38.9065 ms
+2026-09-02 18:53:21.936 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 20.4511 ms
+2026-09-02 18:53:22.000 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 37.3785 ms
+2026-09-02 18:53:24.108 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 18.0385 ms
+2026-09-02 18:54:16.891 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2452.0087 ms
+2026-09-02 18:54:17.028 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2570.1229 ms
+2026-09-02 18:54:18.376 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 8442.4585 ms
+2026-09-02 18:54:18.454 +05:30 [INF] HTTP GET /uploads/products/2d4ca5947c114e278d5bc191722a687b.webp responded 200 in 28.7916 ms
+2026-09-02 18:54:22.203 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 7679.4266 ms
+2026-09-02 18:54:22.269 +05:30 [INF] HTTP GET /uploads/products/1db9f73368264e5e9eff6c5853f097a9.webp responded 200 in 6.0231 ms
+2026-09-02 18:54:22.278 +05:30 [INF] HTTP GET /uploads/products/de799fa0584a4f4abf3fdd05df650a6d.webp responded 200 in 12.2761 ms
+2026-09-02 18:54:22.278 +05:30 [INF] HTTP GET /uploads/products/266369746fd6489a96e8794bc903dbe9.webp responded 200 in 9.9491 ms
+2026-09-02 18:54:27.844 +05:30 [INF] HTTP POST /api/products responded 200 in 167.7064 ms
+2026-09-02 18:54:27.969 +05:30 [INF] HTTP GET /uploads/products/f8908ecb64254d989103902704012663.webp responded 304 in 0.9475 ms
+2026-09-02 18:54:27.970 +05:30 [INF] HTTP GET /uploads/products/430078caab1a4aa28786e00333092cbc.webp responded 304 in 0.3967 ms
+2026-09-02 18:54:27.980 +05:30 [INF] HTTP GET /uploads/products/00cb29891b7347e0ba77d75face1c7d0.webp responded 304 in 2.4317 ms
+2026-09-02 18:54:27.997 +05:30 [INF] HTTP GET /api/products responded 200 in 38.2628 ms
+2026-09-02 18:54:27.971 +05:30 [INF] HTTP GET /uploads/products/50c4fa8c3ae041abb91e52f17160dfec.webp responded 304 in 0.5107 ms
+2026-09-02 18:54:27.982 +05:30 [INF] HTTP GET /uploads/products/74242a4326434c828cc345d5ffda0658.webp responded 304 in 2.0467 ms
+2026-09-02 18:54:27.986 +05:30 [INF] HTTP GET /uploads/products/d05585218fd34852942618ba8bd06329.webp responded 304 in 4.0875 ms
+2026-09-02 18:54:29.525 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 18.9523 ms
+2026-09-02 18:54:29.554 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 11.0985 ms
+2026-09-02 18:54:42.484 +05:30 [INF] HTTP GET /api/products responded 200 in 33.4206 ms
+2026-09-02 18:54:45.400 +05:30 [INF] HTTP POST /api/products/24/duplicate responded 200 in 280.9499 ms
+2026-09-02 18:54:45.544 +05:30 [INF] HTTP GET /api/products responded 200 in 51.8761 ms
+2026-09-02 18:54:51.313 +05:30 [INF] HTTP GET /api/products/22 responded 200 in 32.0837 ms
+2026-09-02 18:54:51.353 +05:30 [INF] HTTP GET /api/products/22 responded 200 in 18.3630 ms
+2026-09-02 18:54:51.369 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 87.9158 ms
+2026-09-02 18:54:51.446 +05:30 [INF] HTTP GET /uploads/products/571ed113cff944c48743f1e781b64a0a.webp responded 304 in 2.1590 ms
+2026-09-02 18:54:51.452 +05:30 [INF] HTTP GET /uploads/products/2c19ab432afa4526b48f49267e227c28.webp responded 304 in 4.5152 ms
+2026-09-02 18:54:51.456 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 19.5026 ms
+2026-09-02 18:54:51.456 +05:30 [INF] HTTP GET /uploads/products/bb406223e4c14a0e8484c4f76baef12b.webp responded 304 in 0.5170 ms
+2026-09-02 18:54:51.481 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 32.8991 ms
+2026-09-02 18:54:57.019 +05:30 [INF] HTTP PUT /api/products/22/gallery-order responded 200 in 85.3109 ms
+2026-09-02 18:54:57.217 +05:30 [INF] HTTP PUT /api/products/22 responded 200 in 164.1591 ms
+2026-09-02 18:54:57.364 +05:30 [INF] HTTP GET /api/products responded 200 in 30.5913 ms
+2026-09-02 18:54:59.644 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 37.8510 ms
+2026-09-02 18:54:59.644 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 35.0274 ms
+2026-09-02 18:54:59.702 +05:30 [INF] HTTP GET /api/products/20 responded 200 in 14.7822 ms
+2026-09-02 18:54:59.712 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 23.1282 ms
+2026-09-02 18:54:59.746 +05:30 [INF] HTTP GET /uploads/products/0f2ca9f268334f3f81d5fd34e9da3eae.webp responded 304 in 0.2541 ms
+2026-09-02 18:54:59.756 +05:30 [INF] HTTP GET /uploads/products/7a74f488a72b4c56bc4b341faca821a0.webp responded 304 in 1.7791 ms
+2026-09-02 18:54:59.764 +05:30 [INF] HTTP GET /api/specs/template/1 responded 200 in 19.9987 ms
+2026-09-02 18:55:04.982 +05:30 [INF] HTTP PUT /api/products/20/gallery-order responded 200 in 72.8723 ms
+2026-09-02 18:55:05.140 +05:30 [INF] HTTP PUT /api/products/20 responded 200 in 122.3173 ms
+2026-09-02 18:55:05.264 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 304 in 0.5339 ms
+2026-09-02 18:55:05.307 +05:30 [INF] HTTP GET /api/products responded 200 in 34.1248 ms
+2026-09-02 18:55:09.990 +05:30 [INF] HTTP GET /api/products responded 200 in 137.5515 ms
+2026-09-02 18:55:12.762 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 18.3668 ms
+2026-09-02 18:55:12.771 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 26.3618 ms
+2026-09-02 18:55:12.813 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 31.9496 ms
+2026-09-02 18:55:12.832 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 17.5041 ms
+2026-09-02 18:55:12.875 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 19.4621 ms
+2026-09-02 18:55:18.154 +05:30 [INF] HTTP PUT /api/products/25/gallery-order responded 200 in 74.6553 ms
+2026-09-02 18:55:18.321 +05:30 [INF] HTTP PUT /api/products/25 responded 200 in 131.9837 ms
+2026-09-02 18:55:18.477 +05:30 [INF] HTTP GET /api/products responded 200 in 43.7515 ms
+2026-09-02 18:55:21.217 +05:30 [INF] HTTP GET /api/products responded 200 in 44.7786 ms
+2026-09-02 18:55:21.339 +05:30 [INF] HTTP GET /uploads/products/97c5f78f6255480cb5456f84ec31a578.webp responded 304 in 0.2190 ms
+2026-09-02 18:55:21.347 +05:30 [INF] HTTP GET /uploads/products/e6600e75530e4e9a95e261dba9a8d498.webp responded 304 in 0.3257 ms
+2026-09-02 18:55:21.347 +05:30 [INF] HTTP GET /uploads/products/7582e64a0dfa4f0488b671591ff06ff4.webp responded 304 in 0.4631 ms
+2026-09-02 18:55:21.353 +05:30 [INF] HTTP GET /uploads/products/d3d428382452472c99111970d2c949cb.webp responded 304 in 0.8569 ms
+2026-09-02 18:55:21.355 +05:30 [INF] HTTP GET /uploads/products/21d73e504eec4611abd226a6fe49eca3.webp responded 304 in 0.3164 ms
+2026-09-02 18:55:21.358 +05:30 [INF] HTTP GET /uploads/products/de29cf4430d44286b27655962a78ceea.webp responded 304 in 0.3797 ms
+2026-09-02 18:55:21.339 +05:30 [INF] HTTP GET /uploads/products/2a30c8ccec3c4a43a50231430ee8ed13.webp responded 304 in 0.2524 ms
+2026-09-02 18:55:21.350 +05:30 [INF] HTTP GET /uploads/products/310c89b99372488abd41dd1b7441c732.webp responded 304 in 1.1215 ms
+2026-09-02 18:55:23.807 +05:30 [INF] HTTP GET /api/products responded 200 in 59.2777 ms
+2026-09-02 18:55:23.993 +05:30 [INF] HTTP GET /uploads/products/e73750cf0733446ab1442edd63e917a1.webp responded 304 in 0.6033 ms
+2026-09-02 18:55:23.997 +05:30 [INF] HTTP GET /uploads/products/5743642583bd482f978040d3e6b6ef56.webp responded 304 in 0.5185 ms
+2026-09-02 18:55:23.999 +05:30 [INF] HTTP GET /uploads/products/c7f3ff5898fb4df98eaae7843d140c80.webp responded 304 in 0.6040 ms
+2026-09-02 18:55:24.002 +05:30 [INF] HTTP GET /uploads/products/d4f1e860386a4f1f98ca2ffad0be93da.webp responded 304 in 0.1711 ms
+2026-09-02 18:55:24.007 +05:30 [INF] HTTP GET /uploads/products/e8123629f2dd47bf96b4b44b9a1def39.webp responded 304 in 0.3951 ms
+2026-09-02 18:55:33.418 +05:30 [INF] HTTP GET /api/products responded 200 in 58.4153 ms
+2026-09-02 18:55:35.917 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 304 in 2.6056 ms
+2026-09-02 18:55:35.926 +05:30 [INF] HTTP GET /api/products responded 200 in 24.0140 ms
+2026-09-02 18:55:49.533 +05:30 [INF] HTTP GET /api/products responded 200 in 45.3064 ms
+2026-09-02 18:55:52.539 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 15.9897 ms
+2026-09-02 18:55:52.561 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 22.7705 ms
+2026-09-02 18:55:52.604 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 16.9049 ms
+2026-09-02 18:55:52.583 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 22.7411 ms
+2026-09-02 18:55:52.667 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 20.9117 ms
+2026-09-02 18:56:01.531 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1909.2624 ms
+2026-09-02 18:56:01.694 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2016.1032 ms
+2026-09-02 18:56:07.102 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 7389.4480 ms
+2026-09-02 18:56:10.480 +05:30 [INF] HTTP GET /uploads/products/9dcc4a1002704661a655bd4e6e668071.webp responded 200 in 8.6973 ms
+2026-09-02 18:56:10.513 +05:30 [INF] HTTP GET /uploads/products/f623745da8c4484baa0c505dbce956ea.webp responded 200 in 47.0687 ms
+2026-09-02 18:56:10.480 +05:30 [INF] HTTP GET /uploads/products/be9e57af91e1418db9869f6496472ad0.webp responded 200 in 12.7597 ms
+2026-09-02 18:56:41.608 +05:30 [INF] HTTP PUT /api/products/25/gallery-order responded 200 in 63.8867 ms
+2026-09-02 18:56:42.172 +05:30 [INF] HTTP PUT /api/products/25/gallery-order responded 200 in 52.4946 ms
+2026-09-02 18:56:44.119 +05:30 [INF] HTTP PUT /api/products/25/gallery-order responded 200 in 74.4152 ms
+2026-09-02 18:56:44.263 +05:30 [INF] HTTP PUT /api/products/25 responded 200 in 114.8693 ms
+2026-09-02 18:56:44.339 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 304 in 0.4012 ms
+2026-09-02 18:56:44.385 +05:30 [INF] HTTP GET /api/products responded 200 in 19.1552 ms
+2026-09-02 18:56:55.929 +05:30 [INF] HTTP GET /api/products responded 200 in 29.6629 ms
+2026-09-02 18:56:58.234 +05:30 [INF] HTTP POST /api/products/25/duplicate responded 200 in 87.4203 ms
+2026-09-02 18:56:58.296 +05:30 [INF] HTTP GET /api/products responded 200 in 31.2291 ms
+2026-09-02 18:57:00.430 +05:30 [INF] HTTP POST /api/products/bulk-publish responded 200 in 60.2607 ms
+2026-09-02 18:57:00.500 +05:30 [INF] HTTP GET /api/products responded 200 in 34.1309 ms
+2026-09-02 18:57:01.574 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 13.6300 ms
+2026-09-02 18:57:01.594 +05:30 [INF] HTTP GET /api/products/26 responded 200 in 25.7119 ms
+2026-09-02 18:57:01.649 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 48.7719 ms
+2026-09-02 18:57:01.675 +05:30 [INF] HTTP GET /api/products/26 responded 200 in 25.1470 ms
+2026-09-02 18:57:01.727 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 18.8804 ms
+2026-09-02 18:57:37.463 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 1938.4980 ms
+2026-09-02 18:57:37.773 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 2204.1930 ms
+2026-09-02 18:57:42.966 +05:30 [INF] HTTP POST /api/uploads/image responded 200 in 7320.0622 ms
+2026-09-02 18:57:43.050 +05:30 [INF] HTTP GET /uploads/products/0e410d553edf4d4fa94eed98d091e8a1.webp responded 200 in 10.9218 ms
+2026-09-02 18:57:43.055 +05:30 [INF] HTTP GET /uploads/products/398654763ab841b5b22e9c1ccfec048f.webp responded 200 in 21.5785 ms
+2026-09-02 18:57:43.053 +05:30 [INF] HTTP GET /uploads/products/cf565851418746e0baa2d54e6252a437.webp responded 200 in 14.0431 ms
+2026-09-02 18:57:44.426 +05:30 [INF] HTTP PUT /api/products/26/gallery-order responded 200 in 65.3821 ms
+2026-09-02 18:57:45.990 +05:30 [INF] HTTP PUT /api/products/26/gallery-order responded 200 in 85.6806 ms
+2026-09-02 18:57:51.753 +05:30 [INF] HTTP PUT /api/products/26/gallery-order responded 200 in 87.1151 ms
+2026-09-02 18:57:51.905 +05:30 [INF] HTTP PUT /api/products/26 responded 200 in 120.7604 ms
+2026-09-02 18:57:52.019 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 304 in 0.3051 ms
+2026-09-02 18:57:52.020 +05:30 [INF] HTTP GET /uploads/products/9662cb2ad36a4c5caf12100b7a9849ed.webp responded 304 in 0.1492 ms
+2026-09-02 18:57:52.097 +05:30 [INF] HTTP GET /api/products responded 200 in 64.9252 ms
+2026-09-02 18:58:22.368 +05:30 [INF] HTTP GET /api/products responded 200 in 45.5010 ms
+2026-09-02 18:58:24.319 +05:30 [INF] HTTP GET /api/products/26 responded 200 in 39.8754 ms
+2026-09-02 18:58:24.385 +05:30 [INF] HTTP GET /api/products/26 responded 200 in 24.4117 ms
+2026-09-02 18:58:24.391 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 109.0407 ms
+2026-09-02 18:58:24.432 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 22.7143 ms
+2026-09-02 18:58:24.457 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 16.3845 ms
+2026-09-02 18:58:28.815 +05:30 [INF] HTTP PUT /api/products/26/gallery-order responded 200 in 61.6321 ms
+2026-09-02 18:58:29.024 +05:30 [INF] HTTP PUT /api/products/26 responded 200 in 136.1010 ms
+2026-09-02 18:58:29.211 +05:30 [INF] HTTP GET /api/products responded 200 in 68.2182 ms
+2026-09-02 18:58:31.510 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 80.7403 ms
+2026-09-02 18:58:31.511 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 90.1454 ms
+2026-09-02 18:58:31.549 +05:30 [INF] HTTP GET /api/products/categories responded 200 in 13.5331 ms
+2026-09-02 18:58:31.585 +05:30 [INF] HTTP GET /api/products/25 responded 200 in 40.9320 ms
+2026-09-02 18:58:31.601 +05:30 [INF] HTTP GET /uploads/products/9dcc4a1002704661a655bd4e6e668071.webp responded 304 in 0.2595 ms
+2026-09-02 18:58:31.601 +05:30 [INF] HTTP GET /uploads/products/f623745da8c4484baa0c505dbce956ea.webp responded 304 in 0.3520 ms
+2026-09-02 18:58:31.621 +05:30 [INF] HTTP GET /api/specs/template/2 responded 200 in 20.4702 ms
+2026-09-02 18:58:31.604 +05:30 [INF] HTTP GET /uploads/products/be9e57af91e1418db9869f6496472ad0.webp responded 304 in 0.3515 ms
+2026-09-02 18:58:47.517 +05:30 [INF] HTTP PUT /api/products/25/gallery-order responded 200 in 87.8539 ms
+2026-09-02 18:58:47.662 +05:30 [INF] HTTP PUT /api/products/25 responded 200 in 116.0498 ms
+2026-09-02 18:58:47.774 +05:30 [INF] HTTP GET /uploads/products/b971a23bf2de44dfa29337f7bd174b3c.webp responded 304 in 0.3553 ms
+2026-09-02 18:58:47.828 +05:30 [INF] HTTP GET /api/products responded 200 in 47.2745 ms
+2026-09-02 18:58:49.272 +05:30 [INF] HTTP GET /api/products responded 200 in 30.7050 ms
+2026-09-02 23:02:56.571 +05:30 [INF] HTTP GET /api/products responded 401 in 1045.9640 ms
+2026-09-02 23:02:57.897 +05:30 [INF] HTTP POST /api/auth/refresh responded 200 in 605.0223 ms
+2026-09-02 23:02:58.398 +05:30 [INF] HTTP GET /api/products responded 200 in 44.7182 ms

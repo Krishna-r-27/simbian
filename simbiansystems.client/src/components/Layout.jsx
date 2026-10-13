@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import CatalogSeo from "./CatalogSeo";
 
 export default function Layout({ handleOpenGeneralQuote }) {
     const navigate = useNavigate();
@@ -56,6 +57,7 @@ export default function Layout({ handleOpenGeneralQuote }) {
 
     return (
         <div className="min-h-screen flex flex-col">
+            <CatalogSeo />
             <Navbar
                 activeSection={location.pathname}
                 onNavigate={handleScrollToSection}
